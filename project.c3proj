@@ -84,7 +84,11 @@
 			"Bullet",
 			"Mouse",
 			"Keyboard",
-			"Platform"
+			"Platform",
+			"Enemy",
+			"WalkPoint",
+			"Background",
+			"MovingPlatform"
 		],
 		"subfolders": []
 	},
@@ -92,14 +96,14 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"AimLines"
+			"AimLines",
+			"Platforms"
 		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
-			"Layout 2"
+			"Game"
 		],
 		"subfolders": []
 	},

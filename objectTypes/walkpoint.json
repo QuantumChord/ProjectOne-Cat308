@@ -1,7 +1,7 @@
 {
-	"name": "Platform",
+	"name": "WalkPoint",
 	"plugin-id": "Sprite",
-	"sid": 245179990141517,
+	"sid": 846965608680888,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 128,
-						"height": 256,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5523088,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.9921875,
-								0,
-								0.9921875,
-								0.5,
-								0.9921875,
-								0.99609375,
-								0.5,
-								0.99609375,
-								0,
-								0.99609375,
-								0,
-								0.5
-							]
-						},
+						"imageSpriteId": 7019475,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 228328301906224,
+				"sid": 781470444625240,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

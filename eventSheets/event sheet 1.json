@@ -98,6 +98,15 @@
 								"comparison": 0,
 								"value": "1"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 488018594628192,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -119,6 +128,23 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "45"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 220382004479896,
+							"parameters": {
+								"angle": "45"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 716789902468094,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
 							}
 						}
 					],
@@ -153,6 +179,15 @@
 								"comparison": 0,
 								"value": "2"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 767872888381488,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -174,6 +209,23 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 136053206337783,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 849530829443715,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
 							}
 						}
 					],
@@ -208,6 +260,15 @@
 								"comparison": 0,
 								"value": "3"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 142911246563382,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -229,6 +290,23 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "315"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 154169991056544,
+							"parameters": {
+								"angle": "315"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 768980658099737,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
 							}
 						}
 					],
@@ -263,6 +341,15 @@
 								"comparison": 0,
 								"value": "4"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 288346910972762,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -284,6 +371,23 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "135"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 772053713143361,
+							"parameters": {
+								"angle": "135"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 548804162979681,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
 							}
 						}
 					],
@@ -318,6 +422,15 @@
 								"comparison": 0,
 								"value": "5"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 222397723879388,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -339,6 +452,23 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "180"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 528845518517017,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 159531834344266,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
 							}
 						}
 					],
@@ -373,6 +503,15 @@
 								"comparison": 0,
 								"value": "6"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 338833299812256,
+							"parameters": {
+								"instance-variable": "Fired"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -395,31 +534,62 @@
 							"parameters": {
 								"angle": "225"
 							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Bullet",
+							"sid": 988588204381347,
+							"parameters": {
+								"angle": "225"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 594457008656728,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "true"
+							}
 						}
 					],
 					"sid": 786884295615416
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 698451669280038,
+							"parameters": {
+								"instance-variable": "Fired"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 339465469702506,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 155284672626613,
+							"parameters": {
+								"instance-variable": "Fired",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 915600912105399
 				}
 			],
 			"sid": 356621830874712
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-on-screen",
-					"objectClass": "Bullet",
-					"sid": 930508476248567,
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Bullet",
-					"sid": 657806235899462
-				}
-			],
-			"sid": 204088844001999
 		},
 		{
 			"eventType": "group",
@@ -441,14 +611,14 @@
 						{
 							"id": "add-child",
 							"objectClass": "Player",
-							"sid": 868413152736799,
+							"sid": 427883685463776,
 							"parameters": {
 								"child": "AimLines",
 								"transform-x": true,
 								"transform-y": true,
-								"transform-w": true,
-								"transform-h": true,
-								"transform-a": true,
+								"transform-w": false,
+								"transform-h": false,
+								"transform-a": false,
 								"transform-z-elevation": true,
 								"destroy-with-parent": false
 							}
@@ -477,6 +647,23 @@
 							"parameters": {
 								"control": "right"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 449267767308868,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 597667163288017,
+							"parameters": {
+								"state": "not-mirrored"
+							}
 						}
 					],
 					"sid": 166472862258776
@@ -501,6 +688,23 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "left"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 672039712636003,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 954353146480040,
+							"parameters": {
+								"state": "mirrored"
 							}
 						}
 					],
@@ -530,9 +734,317 @@
 						}
 					],
 					"sid": 559583532418735
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 258276351613324
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 573356496535607,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 371137612581667
 				}
 			],
 			"sid": 289945159721035
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemy Script",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 981500564543193
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 940017458515575,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 469315151785008,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 617212289015735,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 859601245038085
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 417173792291175,
+							"parameters": {
+								"object": "WalkPoint"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-instvar",
+							"objectClass": "Enemy",
+							"sid": 166167159143390,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"sid": 213959474150244
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 638420306711868,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 434836567627260,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 344344996786781,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 146895713343723
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 153006505163845,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 353256395795613,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 663797877162787,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 668437881983314
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 500651751180686,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 534329166986686,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 523378684300093,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 256285870079505,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						}
+					],
+					"sid": 319715285035666
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Enemy",
+							"sid": 495892640699799,
+							"parameters": {
+								"animation": "\"Pain\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 250517585886565
+						}
+					],
+					"sid": 430968460312152
+				}
+			],
+			"sid": 980559730493021
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bullet Script",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-screen",
+							"objectClass": "Bullet",
+							"sid": 187351446212772,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 541816411304265
+						}
+					],
+					"sid": 406540647602779
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bullet",
+							"sid": 695753250221035,
+							"parameters": {
+								"object": "Enemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 393104639736942,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 219565354678862
+						}
+					],
+					"sid": 515600370510508
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bullet",
+							"sid": 198432719917714,
+							"parameters": {
+								"object": "Platforms"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 231862342101880
+						}
+					],
+					"sid": 474126500488742
+				}
+			],
+			"sid": 397982896872665
 		}
 	],
 	"sid": 899970392297185
