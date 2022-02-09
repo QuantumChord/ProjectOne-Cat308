@@ -1,5 +1,539 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Aim Check",
+			"description": "Temporary check to see if mouse is over a certain degree around Player.",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 106879203009043,
+							"parameters": {
+								"object": "AimLines"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "AimLines",
+							"sid": 697885939087554,
+							"parameters": {
+								"animation": "\"Active\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 399289124180570
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 187575066426624,
+							"parameters": {
+								"object": "AimLines"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "AimLines",
+							"sid": 992985554782442,
+							"parameters": {
+								"animation": "\"Inactive\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 855280170937404
+				}
+			],
+			"sid": 995686621851512
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Aim Fire",
+			"description": "Fires Bullet in specific angle",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 549359589202755,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 803018275758603,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 937561895568555,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 950184017752407,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 746343862604151,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "45"
+							}
+						}
+					],
+					"sid": 571385165330640
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 584619182632826,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 736669639570970,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 640928415535560,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 778798210180351,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 563648805992201,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "0"
+							}
+						}
+					],
+					"sid": 103660042040974
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 380330862550380,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 138674083009754,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 223320684351232,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 621294500152512,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 301284879772594,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "315"
+							}
+						}
+					],
+					"sid": 305172513190334
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 239301359465801,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 363688114719189,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 689896345830295,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 578666847780871,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 747450486604278,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "135"
+							}
+						}
+					],
+					"sid": 841730361362161
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 489854885788933,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 365009791783887,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 618664857841149,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 220574327424310,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 258490150119708,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "180"
+							}
+						}
+					],
+					"sid": 977132771246263
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 507429601375171,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 763644414568340,
+							"parameters": {
+								"object": "AimLines"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "AimLines",
+							"sid": 229409964092811,
+							"parameters": {
+								"instance-variable": "FireAngle",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 211672806553708,
+							"parameters": {
+								"object": "Bullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Bullet",
+							"sid": 791520474133883,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "225"
+							}
+						}
+					],
+					"sid": 786884295615416
+				}
+			],
+			"sid": 356621830874712
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-screen",
+					"objectClass": "Bullet",
+					"sid": 930508476248567,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 657806235899462
+				}
+			],
+			"sid": 204088844001999
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "PlayerScript",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "Player",
+							"sid": 354456859354086
+						}
+					],
+					"actions": [
+						{
+							"id": "add-child",
+							"objectClass": "Player",
+							"sid": 868413152736799,
+							"parameters": {
+								"child": "AimLines",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": false
+							}
+						}
+					],
+					"sid": 519831073541604
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 507070611392805,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 614766828752446,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						}
+					],
+					"sid": 166472862258776
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 587977552170691,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 778021375025289,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 967461344135112
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 244949636792172,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 371172887357938,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 559583532418735
+				}
+			],
+			"sid": 289945159721035
+		}
+	],
 	"sid": 899970392297185
 }

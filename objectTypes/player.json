@@ -1,10 +1,16 @@
 {
-	"name": "SaveSpriteDeleteAfterMakingEdits",
+	"name": "Player",
 	"plugin-id": "Sprite",
-	"sid": 352615576291454,
+	"sid": 262026111978840,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 450350172462190
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4427460,
+						"imageSpriteId": 6279913,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 103517472277070,
+				"sid": 604319724542087,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

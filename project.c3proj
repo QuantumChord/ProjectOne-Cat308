@@ -13,19 +13,62 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
 	"objectTypes": {
 		"items": [
-			"SaveSpriteDeleteAfterMakingEdits"
+			"Player",
+			"AimLineDownRight",
+			"AimLineMiddleRight",
+			"AimLineUpRight",
+			"AimLineDownLeft",
+			"AimLineMiddleLeft",
+			"AimLineUpLeft",
+			"Bullet",
+			"Mouse",
+			"Keyboard"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"AimLines"
+		],
 		"subfolders": []
 	},
 	"layouts": {
