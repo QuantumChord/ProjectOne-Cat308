@@ -1,19 +1,19 @@
 {
-	"name": "Player",
+	"name": "Platform",
 	"plugin-id": "Sprite",
-	"sid": 262026111978840,
+	"sid": 245179990141517,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 450350172462190
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 855207718692852
 		},
 		{
-			"behaviorId": "scrollto",
-			"name": "ScrollTo",
-			"sid": 826539615603373
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 313825648831497
 		}
 	],
 	"effectTypes": [],
@@ -29,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6279913,
+						"imageSpriteId": 5576121,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 604319724542087,
+				"sid": 228328301906224,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

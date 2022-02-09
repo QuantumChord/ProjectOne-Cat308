@@ -31,6 +31,11 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"world": {
