@@ -1,0 +1,48 @@
+{
+	"name": "box",
+	"plugin-id": "Sprite",
+	"sid": 215611660795731,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 965075722650148
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 948499821285186
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 119,
+						"height": 117,
+						"originX": 0.42016806722689076,
+						"originY": 0.38461538461538464,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4746377,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 677407023715784,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

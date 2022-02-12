@@ -1,0 +1,287 @@
+{
+	"name": "AnthonTest",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "PlayerScript2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "Player",
+							"sid": 137155768428723
+						}
+					],
+					"actions": [
+						{
+							"id": "add-child",
+							"objectClass": "Player",
+							"sid": 232054345728239,
+							"parameters": {
+								"child": "AimLines",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": false,
+								"transform-h": false,
+								"transform-a": false,
+								"transform-z-elevation": true,
+								"destroy-with-parent": false
+							}
+						}
+					],
+					"sid": 529104767769511
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 598452189842219,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 187118193104026,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 555928837262293,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 909832057850192,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 697444920555076
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 991913114681159,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 690486658163216,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 909109625671817,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Player",
+							"sid": 584174142463504,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 196373847415549
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 200781246725522,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 780687631225784,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						}
+					],
+					"sid": 260351369727634
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 969337017924209
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 187016323079143,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 415359854058643
+				}
+			],
+			"sid": 505920878808600
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "360aim",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 672670490057389
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "aimbot",
+							"sid": 988832072968341,
+							"parameters": {
+								"x": "Mouse.AbsoluteX",
+								"y": "Mouse.AbsoluteY"
+							}
+						},
+						{
+							"id": "set-cursor-style",
+							"objectClass": "Mouse",
+							"sid": 337614845374051,
+							"parameters": {
+								"cursor-style": "crosshair"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "aimbot",
+							"sid": 742642107432150,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.y"
+							}
+						}
+					],
+					"sid": 963637237834805
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 255019957538195,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "aimbot",
+							"sid": 881985101766460,
+							"parameters": {
+								"object": "Sprite",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "move-forward",
+							"objectClass": "Sprite",
+							"sid": 761597328864992,
+							"parameters": {
+								"distance": "20"
+							}
+						}
+					],
+					"sid": 787229671408979
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 142711826469741,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "box"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "box",
+							"sid": 202917113915253,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 287858191058770
+				}
+			],
+			"sid": 426153881333408
+		}
+	],
+	"sid": 179419170792639
+}

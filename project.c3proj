@@ -69,6 +69,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
@@ -88,7 +96,10 @@
 			"Enemy",
 			"WalkPoint",
 			"Background",
-			"MovingPlatform"
+			"MovingPlatform",
+			"aimbot",
+			"Sprite",
+			"box"
 		],
 		"subfolders": []
 	},
@@ -103,13 +114,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Game"
+			"Game",
+			"devroom"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"AnthonTest"
 		],
 		"subfolders": []
 	},
