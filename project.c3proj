@@ -99,7 +99,8 @@
 			"MovingPlatform",
 			"aimbot",
 			"Sprite",
-			"box"
+			"box",
+			"Goal"
 		],
 		"subfolders": []
 	},
@@ -115,7 +116,8 @@
 	"layouts": {
 		"items": [
 			"Game",
-			"devroom"
+			"devroom",
+			"Game2"
 		],
 		"subfolders": []
 	},

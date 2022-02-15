@@ -1045,6 +1045,30 @@
 				}
 			],
 			"sid": 397982896872665
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 238314709618104,
+					"parameters": {
+						"object": "Goal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 201302523503579,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 796513784217799
 		}
 	],
 	"sid": 899970392297185
