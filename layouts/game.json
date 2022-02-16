@@ -69,192 +69,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "AimLineDownRight",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {
-						"FireAngle": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 203.2909312114001,
-						"y": 772.2909312114001,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.7853981633974483,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AimLineMiddleRight",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {
-						"FireAngle": 2
-					},
-					"behaviors": {},
-					"world": {
-						"x": 235.65305133228148,
-						"y": 692.1460340399719,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AimLineUpRight",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 15,
-					"instanceVariables": {
-						"FireAngle": 3
-					},
-					"behaviors": {},
-					"world": {
-						"x": 198.68472253635002,
-						"y": 608.8843143529808,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 5.497787143782138,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AimLineDownRight",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"instanceVariables": {
-						"FireAngle": 4
-					},
-					"behaviors": {},
-					"world": {
-						"x": 40.709068788599886,
-						"y": 775.2909312114001,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 2.356194490192345,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AimLineMiddleLeft",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {
-						"FireAngle": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 3,
-						"y": 692,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AimLineUpRight",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Inactive",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 18,
-					"instanceVariables": {
-						"FireAngle": 6
-					},
-					"behaviors": {},
-					"world": {
-						"x": 37.03271343736889,
-						"y": 613.4937084498154,
-						"width": 228.1034636562186,
-						"height": 39.071067811865476,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 3.9269908169872414,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -1018,6 +832,41 @@
 							1,
 							1
 						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "aimbot",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 119,
+						"y": 716,
+						"width": 3,
+						"height": 4,
+						"originX": 0.3333333333333333,
+						"originY": 0.75,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

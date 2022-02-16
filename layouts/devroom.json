@@ -104,14 +104,20 @@
 					},
 					"uid": 26,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 255,
 						"y": 154,
 						"width": 3,
 						"height": 4,
-						"originX": 0.6666666666666666,
-						"originY": 0.5,
+						"originX": 0.3333333333333333,
+						"originY": 0.75,
 						"color": [
 							1,
 							1,

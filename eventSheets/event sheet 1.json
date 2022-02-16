@@ -3,68 +3,7 @@
 	"events": [
 		{
 			"eventType": "group",
-			"disabled": false,
-			"title": "Aim Check",
-			"description": "Temporary check to see if mouse is over a certain degree around Player.",
-			"isActiveOnStart": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 106879203009043,
-							"parameters": {
-								"object": "AimLines"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "AimLines",
-							"sid": 697885939087554,
-							"parameters": {
-								"animation": "\"Active\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 399289124180570
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 187575066426624,
-							"parameters": {
-								"object": "AimLines"
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "AimLines",
-							"sid": 992985554782442,
-							"parameters": {
-								"animation": "\"Inactive\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 855280170937404
-				}
-			],
-			"sid": 995686621851512
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
+			"disabled": true,
 			"title": "Aim Fire",
 			"description": "Fires Bullet in specific angle",
 			"isActiveOnStart": true,
@@ -79,24 +18,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 803018275758603,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 937561895568555,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "1"
 							}
 						},
 						{
@@ -148,7 +69,8 @@
 							}
 						}
 					],
-					"sid": 571385165330640
+					"sid": 571385165330640,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -160,24 +82,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 736669639570970,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 640928415535560,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "2"
 							}
 						},
 						{
@@ -229,7 +133,8 @@
 							}
 						}
 					],
-					"sid": 103660042040974
+					"sid": 103660042040974,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -241,24 +146,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 138674083009754,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 223320684351232,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "3"
 							}
 						},
 						{
@@ -310,7 +197,8 @@
 							}
 						}
 					],
-					"sid": 305172513190334
+					"sid": 305172513190334,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -322,24 +210,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 363688114719189,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 689896345830295,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "4"
 							}
 						},
 						{
@@ -391,7 +261,8 @@
 							}
 						}
 					],
-					"sid": 841730361362161
+					"sid": 841730361362161,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -403,24 +274,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 365009791783887,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 618664857841149,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "5"
 							}
 						},
 						{
@@ -472,7 +325,8 @@
 							}
 						}
 					],
-					"sid": 977132771246263
+					"sid": 977132771246263,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -484,24 +338,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 763644414568340,
-							"parameters": {
-								"object": "AimLines"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "AimLines",
-							"sid": 229409964092811,
-							"parameters": {
-								"instance-variable": "FireAngle",
-								"comparison": 0,
-								"value": "6"
 							}
 						},
 						{
@@ -553,7 +389,8 @@
 							}
 						}
 					],
-					"sid": 786884295615416
+					"sid": 786884295615416,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -586,7 +423,8 @@
 							}
 						}
 					],
-					"sid": 915600912105399
+					"sid": 915600912105399,
+					"disabled": true
 				}
 			],
 			"sid": 356621830874712
@@ -607,23 +445,7 @@
 							"sid": 354456859354086
 						}
 					],
-					"actions": [
-						{
-							"id": "add-child",
-							"objectClass": "Player",
-							"sid": 427883685463776,
-							"parameters": {
-								"child": "AimLines",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": false,
-								"transform-h": false,
-								"transform-a": false,
-								"transform-z-elevation": true,
-								"destroy-with-parent": false
-							}
-						}
-					],
+					"actions": [],
 					"sid": 519831073541604
 				},
 				{
@@ -1069,6 +891,137 @@
 				}
 			],
 			"sid": 796513784217799
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "360aim2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 530822804825911
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "aimbot",
+							"sid": 363983743014974,
+							"parameters": {
+								"x": "Mouse.X",
+								"y": "Mouse.Y"
+							}
+						},
+						{
+							"id": "set-cursor-style",
+							"objectClass": "Mouse",
+							"sid": 420670383046801,
+							"parameters": {
+								"cursor-style": "crosshair"
+							}
+						}
+					],
+					"sid": 308030611845833
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 364850612365993,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "aimbot",
+							"sid": 181741173719453,
+							"parameters": {
+								"object": "Sprite",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "move-forward",
+							"objectClass": "Sprite",
+							"sid": 176037615920841,
+							"parameters": {
+								"distance": "20"
+							}
+						}
+					],
+					"sid": 155947716391232
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 111895353819831,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "box"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "box",
+							"sid": 619765310750826,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 490667712638553
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 617052192564557
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "aimbot",
+							"sid": 557222056591903,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 753481339201630
+				}
+			],
+			"sid": 207141634756619
 		}
 	],
 	"sid": 899970392297185

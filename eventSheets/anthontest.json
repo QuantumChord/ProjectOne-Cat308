@@ -17,23 +17,7 @@
 							"sid": 137155768428723
 						}
 					],
-					"actions": [
-						{
-							"id": "add-child",
-							"objectClass": "Player",
-							"sid": 232054345728239,
-							"parameters": {
-								"child": "AimLines",
-								"transform-x": true,
-								"transform-y": true,
-								"transform-w": false,
-								"transform-h": false,
-								"transform-a": false,
-								"transform-z-elevation": true,
-								"destroy-with-parent": false
-							}
-						}
-					],
+					"actions": [],
 					"sid": 529104767769511
 				},
 				{

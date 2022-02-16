@@ -80,6 +80,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Drag & Drop",
 			"author": "Scirra",
@@ -91,12 +99,6 @@
 	"objectTypes": {
 		"items": [
 			"Player",
-			"AimLineDownRight",
-			"AimLineMiddleRight",
-			"AimLineUpRight",
-			"AimLineDownLeft",
-			"AimLineMiddleLeft",
-			"AimLineUpLeft",
 			"Bullet",
 			"Mouse",
 			"Keyboard",
@@ -117,7 +119,6 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"AimLines",
 			"Platforms"
 		],
 		"subfolders": []
