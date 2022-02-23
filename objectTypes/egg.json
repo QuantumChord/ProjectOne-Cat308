@@ -1,0 +1,37 @@
+{
+	"name": "egg",
+	"plugin-id": "Sprite",
+	"sid": 875829272713883,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 92,
+						"height": 107,
+						"originX": 0.6304347826086957,
+						"originY": 0.7850467289719626,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3849743,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 913041733361331,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

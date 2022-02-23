@@ -1,0 +1,37 @@
+{
+	"name": "rednose",
+	"plugin-id": "Sprite",
+	"sid": 525683467142223,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 59,
+						"height": 61,
+						"originX": 1.3559322033898304,
+						"originY": 1.5081967213114753,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9646162,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 741378623488707,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "EasterEggs",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 602089744216166
+		},
+		{
 			"eventType": "group",
 			"disabled": true,
 			"title": "Aim Fire",
@@ -935,9 +945,9 @@
 						{
 							"id": "on-click",
 							"objectClass": "Mouse",
-							"sid": 364850612365993,
+							"sid": 950603268426615,
 							"parameters": {
-								"mouse-button": "right",
+								"mouse-button": "left",
 								"click-type": "clicked"
 							}
 						}
@@ -990,7 +1000,8 @@
 							}
 						}
 					],
-					"sid": 490667712638553
+					"sid": 490667712638553,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1022,6 +1033,145 @@
 				}
 			],
 			"sid": 207141634756619
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "NarrativeSlides",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 558107881997342,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "rednose"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 490009764373667,
+							"parameters": {
+								"layout": "Game"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 564773833584322,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						}
+					],
+					"sid": 371991629441021
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 205601610872479
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 820750543705239,
+							"parameters": {
+								"audio-file": "509857__mrthenoronha__easter-theme-loop-1",
+								"loop": "looping",
+								"volume": "-9",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 776644655645794
+				}
+			],
+			"sid": 184204186812285
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "hazzards",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 357018033621006,
+							"parameters": {
+								"object": "cielingspike"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 885978040209171
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 957982320188376
+						}
+					],
+					"sid": 899139710238096
+				}
+			],
+			"sid": 715473841842573
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Eggs",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 480568612224198,
+							"parameters": {
+								"object": "egg"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 613518915309891,
+							"parameters": {
+								"variable": "EasterEggs",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 350483578702770
+				}
+			],
+			"sid": 159231010222654
 		}
 	],
 	"sid": 899970392297185

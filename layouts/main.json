@@ -1,0 +1,261 @@
+{
+	"name": "Main",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "cbbteryubetkgfim65st",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 474,
+						"y": 242,
+						"width": 976.9999999999999,
+						"height": 490,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "rednose",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 743,
+						"y": 290,
+						"width": 59,
+						"height": 61,
+						"originX": 1.3559322033898304,
+						"originY": 1.5081967213114753,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "scrolltinyantiquewhiteclipartatclker",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 255,
+						"y": 242,
+						"width": 552,
+						"height": 484,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Our story begins in a land far beyond our reach, where this land's inhabitants remain undisturbed from human civilization. Man slowly regress back into they're primal roots and become one with Nature.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 9,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 150,
+						"y": 89,
+						"width": 266.71599377782576,
+						"height": 152.84703431570472,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.13497483109553454,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text2",
+					"properties": {
+						"text": "Following Eric Philip bunkin Jones, an Ex-Navy seals, Ex-NYPD cop, Ex-Boxer; down on his luck to find a place for himself in this world may have finally found that purpose he was looking for.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 10,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 100,
+						"y": 181,
+						"width": 301.93749969631506,
+						"height": 153.51450778620637,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.13274047533015287,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "\"EASTER BUNNY WANTED\" the ad aired on iTunes radio app, Like the sun its self, a light bulb appear in his head. Eric daunted the suit and sprung for action. He needs to collect the Easter eggs while protecting himself in this dangerous environment.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 10,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 36,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 55,
+						"y": 263,
+						"width": 301.93749969631506,
+						"height": 153.51450778620637,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.13274047533015287,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 427179576800060,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 515276163569848,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Event sheet 1"
+}
