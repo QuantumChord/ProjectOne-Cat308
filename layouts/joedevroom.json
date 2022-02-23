@@ -1,5 +1,5 @@
 {
-	"name": "devroom",
+	"name": "JoeDevRoom",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Platform",
+					"type": "box",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,9 +15,15 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 24,
+					"uid": 102,
 					"instanceVariables": {},
 					"behaviors": {
+						"DragDrop": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						},
 						"Solid": {
 							"properties": {
 								"enabled": true,
@@ -26,12 +32,12 @@
 						}
 					},
 					"world": {
-						"x": 422,
-						"y": 580,
-						"width": 763.6,
-						"height": 407.992,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 473.3781512605042,
+						"y": 466,
+						"width": 1152,
+						"height": 117,
+						"originX": 0.42016806722689076,
+						"originY": 0.38461538461538464,
 						"color": [
 							1,
 							1,
@@ -51,10 +57,10 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 25,
+					"uid": 103,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"GunVariant": 1
 					},
 					"behaviors": {
 						"Platform": {
@@ -78,8 +84,8 @@
 						}
 					},
 					"world": {
-						"x": 411,
-						"y": 247,
+						"x": 331,
+						"y": 299,
 						"width": 69.632,
 						"height": 152.832,
 						"originX": 0.5735294117647058,
@@ -103,7 +109,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 26,
+					"uid": 104,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -113,8 +119,8 @@
 						}
 					},
 					"world": {
-						"x": 255,
-						"y": 154,
+						"x": 332,
+						"y": 316,
 						"width": 3,
 						"height": 4,
 						"originX": 0.3333333333333333,
@@ -130,7 +136,7 @@
 					}
 				},
 				{
-					"type": "Bullet",
+					"type": "ShockBullet",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -138,7 +144,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 27,
+					"uid": 105,
 					"instanceVariables": {},
 					"behaviors": {
 						"Bullet": {
@@ -154,12 +160,12 @@
 						}
 					},
 					"world": {
-						"x": 582,
-						"y": -223,
-						"width": 32,
-						"height": 16,
-						"originX": 0.5625,
-						"originY": 0.4375,
+						"x": -298,
+						"y": 467,
+						"width": 51.99999999999999,
+						"height": 8,
+						"originX": 0.5591397849462365,
+						"originY": 1.105263157894737,
 						"color": [
 							1,
 							1,
@@ -171,61 +177,32 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Walk",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 28,
-					"instanceVariables": {},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
+					"uid": 106,
+					"instanceVariables": {
+						"IsWalkingLeft": false,
+						"Health": 3,
+						"Shock": false
 					},
-					"world": {
-						"x": 601,
-						"y": -116,
-						"width": 21,
-						"height": 3,
-						"originX": 0.42857142857142855,
-						"originY": 4.666666666666667,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "box",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 30,
-					"instanceVariables": {},
 					"behaviors": {
-						"DragDrop": {
+						"Platform": {
 							"properties": {
-								"axes": "both",
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
 								"enabled": true
 							}
 						},
@@ -237,12 +214,70 @@
 						}
 					},
 					"world": {
-						"x": 644,
-						"y": 190,
-						"width": 119,
-						"height": 117,
-						"originX": 0.42016806722689076,
-						"originY": 0.38461538461538464,
+						"x": 634,
+						"y": 317,
+						"width": 96,
+						"height": 127.99999999999999,
+						"originX": 0.33371559633027525,
+						"originY": 0.40835030549898166,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WalkPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 107,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 907,
+						"y": 357,
+						"width": 32,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WalkPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 108,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 518,
+						"y": 357,
+						"width": 32,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -254,7 +289,7 @@
 					}
 				}
 			],
-			"sid": 983719508784517,
+			"sid": 721708184547485,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -264,9 +299,9 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
-				1,
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
 				1
 			],
 			"isTransparent": false,
@@ -282,7 +317,7 @@
 			"global": false
 		}
 	],
-	"sid": 545686558173442,
+	"sid": 707962190041938,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -291,5 +326,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "AnthonTest"
+	"eventSheet": "Joe Dev Room"
 }

@@ -96,7 +96,8 @@
 					},
 					"uid": 40,
 					"instanceVariables": {
-						"Fired": false
+						"Fired": false,
+						"GunVariant": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -1211,7 +1212,8 @@
 					"uid": 97,
 					"instanceVariables": {
 						"IsWalkingLeft": false,
-						"Health": 3
+						"Health": 3,
+						"Shock": false
 					},
 					"behaviors": {
 						"Platform": {

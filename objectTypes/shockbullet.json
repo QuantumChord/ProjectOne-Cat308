@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "ShockBullet",
 	"plugin-id": "Sprite",
-	"sid": 581620102325029,
+	"sid": 257442257492411,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 21,
-						"height": 3,
-						"originX": 0.42857142857142855,
-						"originY": 4.666666666666667,
+						"width": 186,
+						"height": 38,
+						"originX": 0.5591397849462365,
+						"originY": 1.105263157894737,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3495371,
+						"imageSpriteId": 8066454,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 595645918397005,
+				"sid": 799894362692958,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

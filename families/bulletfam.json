@@ -1,0 +1,19 @@
+{
+	"name": "BulletFam",
+	"plugin-id": "Sprite",
+	"sid": 592990988766601,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 533921320901934
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"Sprite",
+		"ShockBullet",
+		"Bullet"
+	]
+}

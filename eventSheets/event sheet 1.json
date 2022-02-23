@@ -53,15 +53,6 @@
 							}
 						},
 						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 746343862604151,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "45"
-							}
-						},
-						{
 							"id": "set-angle",
 							"objectClass": "Bullet",
 							"sid": 220382004479896,
@@ -114,15 +105,6 @@
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 563648805992201,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "0"
 							}
 						},
 						{
@@ -181,15 +163,6 @@
 							}
 						},
 						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 301284879772594,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "315"
-							}
-						},
-						{
 							"id": "set-angle",
 							"objectClass": "Bullet",
 							"sid": 154169991056544,
@@ -242,15 +215,6 @@
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 747450486604278,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "135"
 							}
 						},
 						{
@@ -309,15 +273,6 @@
 							}
 						},
 						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 258490150119708,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "180"
-							}
-						},
-						{
 							"id": "set-angle",
 							"objectClass": "Bullet",
 							"sid": 528845518517017,
@@ -370,15 +325,6 @@
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-angle-of-motion",
-							"objectClass": "Bullet",
-							"sid": 791520474133883,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"angle": "225"
 							}
 						},
 						{

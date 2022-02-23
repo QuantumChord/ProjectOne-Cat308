@@ -79,7 +79,8 @@
 					},
 					"uid": 12,
 					"instanceVariables": {
-						"Fired": false
+						"Fired": false,
+						"GunVariant": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -137,7 +138,7 @@
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
-								"set-angle": false,
+								"set-angle": true,
 								"step": false,
 								"enabled": true
 							}
@@ -316,7 +317,8 @@
 					"uid": 32,
 					"instanceVariables": {
 						"IsWalkingLeft": false,
-						"Health": 3
+						"Health": 3,
+						"Shock": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -477,7 +479,8 @@
 					"uid": 2,
 					"instanceVariables": {
 						"IsWalkingLeft": false,
-						"Health": 3
+						"Health": 3,
+						"Shock": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -688,7 +691,8 @@
 					"uid": 7,
 					"instanceVariables": {
 						"IsWalkingLeft": false,
-						"Health": 3
+						"Health": 3,
+						"Shock": false
 					},
 					"behaviors": {
 						"Platform": {

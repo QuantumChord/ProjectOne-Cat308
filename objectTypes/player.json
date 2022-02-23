@@ -9,6 +9,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 194193272370810
+		},
+		{
+			"name": "GunVariant",
+			"type": "number",
+			"desc": "",
+			"sid": 796294967913328
 		}
 	],
 	"behaviorTypes": [

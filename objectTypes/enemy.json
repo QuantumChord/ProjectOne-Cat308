@@ -15,6 +15,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 331020652685290
+		},
+		{
+			"name": "Shock",
+			"type": "boolean",
+			"desc": "",
+			"sid": 338366913538653
 		}
 	],
 	"behaviorTypes": [

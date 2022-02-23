@@ -72,14 +72,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -109,6 +101,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
@@ -128,7 +128,8 @@
 			"Goal",
 			"bg",
 			"straw_waffer",
-			"Audio"
+			"Audio",
+			"ShockBullet"
 		],
 		"subfolders": [
 			{
@@ -174,7 +175,8 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"Platforms"
+			"Platforms",
+			"BulletFam"
 		],
 		"subfolders": []
 	},
@@ -185,14 +187,16 @@
 			"devroom",
 			"Game2",
 			"GameOver",
-			"LevelbyAnthony"
+			"LevelbyAnthony",
+			"JoeDevRoom"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"AnthonTest"
+			"AnthonTest",
+			"Joe Dev Room"
 		],
 		"subfolders": []
 	},
