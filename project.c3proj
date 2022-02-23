@@ -129,7 +129,11 @@
 			"bg",
 			"straw_waffer",
 			"Audio",
-			"ShockBullet"
+			"ShockBullet",
+			"Strawberry",
+			"lolipop",
+			"donut",
+			"candycane"
 		],
 		"subfolders": [
 			{

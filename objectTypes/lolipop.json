@@ -1,0 +1,57 @@
+{
+	"name": "lolipop",
+	"plugin-id": "Sprite",
+	"sid": 659804172821302,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 372,
+						"height": 1002,
+						"originX": 0.48655913978494625,
+						"originY": 0.5199600798403193,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5786821,
+						"collisionPoly": {
+							"points": [
+								0.4596774193548387,
+								0.5099800399201597,
+								0.48655913978494625,
+								0.000998003992015968,
+								0.5645161290322581,
+								0.49001996007984033,
+								0.5645161290322581,
+								0.5199600798403193,
+								0.5645161290322581,
+								0.5489021956087824,
+								0.48655913978494625,
+								0.998003992015968,
+								0.4596774193548387,
+								0.5289421157684631,
+								0.4596774193548387,
+								0.5199600798403193
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 584260304734133,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "candycane",
+	"plugin-id": "Sprite",
+	"sid": 647522469918861,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 412,
+						"height": 972,
+						"originX": 0.8762135922330098,
+						"originY": 0.4742798353909465,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2710457,
+						"collisionPoly": {
+							"points": [
+								0.050970873786407765,
+								0.12448559670781893,
+								0.8762135922330098,
+								0.06275720164609054,
+								0.9951456310679612,
+								0.4228395061728395,
+								0.9951456310679612,
+								0.4742798353909465,
+								0.9951456310679612,
+								0.5246913580246914,
+								0.8762135922330098,
+								0.9979423868312757,
+								0.779126213592233,
+								0.51440329218107,
+								0.779126213592233,
+								0.4742798353909465
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 435474491165753,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
