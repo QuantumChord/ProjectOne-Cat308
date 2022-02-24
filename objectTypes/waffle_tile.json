@@ -1,26 +1,26 @@
 {
-	"name": "Strawberry",
+	"name": "Waffle_Tile",
 	"plugin-id": "Tilemap",
-	"sid": 515615532148419,
+	"sid": 168175630619176,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 964019422902121
+			"sid": 115799636411089
 		}
 	],
 	"effectTypes": [],
 	"image": {
-		"width": 1282,
-		"height": 642,
+		"width": 1280,
+		"height": 1280,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8431108,
+		"imageSpriteId": 2357830,
 		"useCollisionPoly": true
 	},
 	"tile-collision-polys": {}

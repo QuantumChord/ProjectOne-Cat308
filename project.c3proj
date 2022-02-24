@@ -133,7 +133,9 @@
 			"Strawberry",
 			"lolipop",
 			"donut",
-			"candycane"
+			"candycane",
+			"Waffle_Tile",
+			"Waffle_BG"
 		],
 		"subfolders": [
 			{
@@ -192,7 +194,8 @@
 			"Game2",
 			"GameOver",
 			"LevelbyAnthony",
-			"JoeDevRoom"
+			"JoeDevRoom",
+			"Game3"
 		],
 		"subfolders": []
 	},
