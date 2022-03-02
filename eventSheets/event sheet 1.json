@@ -859,6 +859,16 @@
 								"mouse-button": "left",
 								"click-type": "clicked"
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 339647565266086,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
@@ -890,6 +900,15 @@
 								"loop": "not-looping",
 								"volume": "-1",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 613654736853072,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "1"
 							}
 						}
 					],
@@ -950,6 +969,50 @@
 						}
 					],
 					"sid": 753481339201630
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 132206136279153,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 646993654961486,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 916615134122934,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 714338932771216,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "6"
+							}
+						}
+					],
+					"sid": 820187535866954
 				}
 			],
 			"sid": 207141634756619
@@ -1326,27 +1389,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 778514076451591,
-					"parameters": {
-						"key": 82
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 642640207564360
-				}
-			],
-			"sid": 446788700662268
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
 					"sid": 982425011225626,
@@ -1356,6 +1398,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 103870223311526
+				},
 				{
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",

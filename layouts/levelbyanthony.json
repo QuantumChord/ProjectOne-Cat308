@@ -2366,7 +2366,8 @@
 					"instanceVariables": {
 						"Fired": false,
 						"IsDead": false,
-						"Health": 3
+						"Health": 3,
+						"Ammo": 6
 					},
 					"behaviors": {
 						"Platform": {

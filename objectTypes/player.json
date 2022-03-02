@@ -21,6 +21,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 658144544870870
+		},
+		{
+			"name": "Ammo",
+			"type": "number",
+			"desc": "",
+			"sid": 147483194540477
 		}
 	],
 	"behaviorTypes": [

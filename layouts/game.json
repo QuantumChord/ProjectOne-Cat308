@@ -210,7 +210,8 @@
 					"instanceVariables": {
 						"Fired": false,
 						"IsDead": false,
-						"Health": 3
+						"Health": 3,
+						"Ammo": 6
 					},
 					"behaviors": {
 						"Platform": {
@@ -234,8 +235,8 @@
 						}
 					},
 					"world": {
-						"x": 4529,
-						"y": 195,
+						"x": 89,
+						"y": 645,
 						"width": 69.632,
 						"height": 152.832,
 						"originX": 0.5735294117647058,
@@ -943,8 +944,8 @@
 						}
 					},
 					"world": {
-						"x": 119,
-						"y": 716,
+						"x": 88.19407538763201,
+						"y": 662.8589120878237,
 						"width": 3,
 						"height": 4,
 						"originX": 0.3333333333333333,
