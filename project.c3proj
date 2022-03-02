@@ -8,16 +8,16 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Sprite",
+			"name": "Sprite",
 			"author": "Scirra",
 			"version": "r285",
 			"bundled": false
@@ -165,7 +165,9 @@
 			"BulletEnemy",
 			"F_255539586_Y3Hti5Pyr7zZZIJ3RQXt7gwULrU8AfwY",
 			"Sprite3",
-			"Sprite6"
+			"Sprite6",
+			"HvpyGFBJSIg7rALQDFW_LLzvb16Wb6tcb3PXq8BOho",
+			"oTIMESSQUAREfacebook"
 		],
 		"subfolders": [
 			{
@@ -198,6 +200,18 @@
 						"items": [],
 						"subfolders": [],
 						"name": "GameOverQuoute"
+					},
+					{
+						"items": [
+							"Text9",
+							"Text10",
+							"Text11",
+							"Text12",
+							"Text13",
+							"Text14"
+						],
+						"subfolders": [],
+						"name": "story"
 					}
 				],
 				"name": "Narativestuff"
@@ -233,7 +247,9 @@
 		"items": [
 			"Main",
 			"Game",
+			"s1",
 			"Game2",
+			"s2",
 			"Game3",
 			"LevelbyAnthony",
 			"GameOver",

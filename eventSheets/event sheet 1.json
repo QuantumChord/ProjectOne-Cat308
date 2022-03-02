@@ -1001,6 +1001,40 @@
 						{
 							"id": "on-object-clicked",
 							"objectClass": "Mouse",
+							"sid": 790264072541454,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "nextLayout"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 132324375504789,
+							"parameters": {
+								"which": "next"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 813477194551650,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						}
+					],
+					"sid": 790377802176503
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
 							"sid": 287090653808212,
 							"parameters": {
 								"mouse-button": "left",
