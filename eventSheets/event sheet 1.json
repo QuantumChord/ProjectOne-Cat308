@@ -902,9 +902,9 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "aimbot",
-							"sid": 181741173719453,
+							"sid": 548371614426727,
 							"parameters": {
-								"object": "Sprite",
+								"object": "Bullet",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
@@ -912,8 +912,8 @@
 						},
 						{
 							"id": "move-forward",
-							"objectClass": "Sprite",
-							"sid": 176037615920841,
+							"objectClass": "Bullet",
+							"sid": 827697713211480,
 							"parameters": {
 								"distance": "20"
 							}
