@@ -14,6 +14,7 @@
 	"members": [
 		"Sprite",
 		"ShockBullet",
-		"Bullet"
+		"Bullet",
+		"BulletEnemy"
 	]
 }

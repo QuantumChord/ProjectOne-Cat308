@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 27602,
+	"savedWithRelease": 28500,
 	"name": "Project1Prototype3",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,15 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -83,7 +91,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -91,7 +99,7 @@
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -99,7 +107,7 @@
 			"id": "DragnDrop",
 			"name": "Drag & Drop",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -107,7 +115,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		}
 	],
@@ -136,7 +144,9 @@
 			"candycane",
 			"Waffle_Tile",
 			"Waffle_BG",
-			"Cake_Tile"
+			"Cake_Tile",
+			"Killpoint",
+			"BulletEnemy"
 		],
 		"subfolders": [
 			{
@@ -320,6 +330,8 @@
 		"authorWebsite": "https://quantum-chord.itch.io/",
 		"appId": "",
 		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
@@ -359,7 +371,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
 	"firstLayout": "Main"
 }

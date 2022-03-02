@@ -39,6 +39,7 @@
 			"sid": 274559669505868,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -80,7 +81,8 @@
 					"uid": 21,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"IsDead": false,
+						"Health": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -195,6 +197,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -357,6 +372,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -569,6 +597,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -790,6 +831,19 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -843,6 +897,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -925,6 +992,7 @@
 			"sid": 749223114345244,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -1013,6 +1081,7 @@
 			"sid": 939323625331578,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

@@ -39,6 +39,7 @@
 			"sid": 321931047159093,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -159,6 +160,7 @@
 			"sid": 384843289422531,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -200,7 +202,8 @@
 					"uid": 12,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"IsDead": false,
+						"Health": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -351,6 +354,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 500,
+								"rate-of-fire": 1,
+								"rotate": false,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -513,6 +529,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 500,
+								"rate-of-fire": 1,
+								"rotate": false,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -726,6 +755,19 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 500,
+								"rate-of-fire": 1,
+								"rotate": false,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -854,7 +896,7 @@
 				{
 					"type": "aimbot",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -885,11 +927,53 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "BulletEnemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 124,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -231,
+						"y": 876,
+						"width": 32,
+						"height": 16,
+						"originX": 0.5625,
+						"originY": 0.4375,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 260302564838741,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -973,11 +1057,41 @@
 						],
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Killpoint",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 122,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 24,
+						"y": 976,
+						"width": 61,
+						"height": 61,
+						"originX": 0.5081967213114754,
+						"originY": 0.5081967213114754,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 236714955400646,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

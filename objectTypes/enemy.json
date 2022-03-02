@@ -33,6 +33,11 @@
 			"behaviorId": "solid",
 			"name": "Solid",
 			"sid": 476895253946379
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 773179390849322
 		}
 	],
 	"effectTypes": [],
@@ -68,6 +73,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9873853211009175,
+								"y": 0.37780040733197556
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -98,6 +110,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9919724770642202,
+								"y": 0.3775720164609053
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -128,6 +147,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9873853211009175,
+								"y": 0.37551440329218105
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -158,6 +184,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9873853211009175,
+								"y": 0.37962962962962965
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -199,6 +232,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9919724770642202,
+								"y": 0.3757637474541752
+							}
+						],
 						"duration": 1
 					}
 				],

@@ -39,6 +39,7 @@
 			"sid": 242216968740328,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -80,7 +81,8 @@
 					"uid": 42,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"IsDead": false,
+						"Health": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -195,6 +197,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -357,6 +372,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -569,6 +597,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
 							}
 						}
 					},
@@ -830,6 +871,7 @@
 			"sid": 359770316383460,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -918,6 +960,7 @@
 			"sid": 610523811671341,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

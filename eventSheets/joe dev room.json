@@ -284,16 +284,6 @@
 							}
 						},
 						{
-							"id": "compare-instance-variable",
-							"objectClass": "Player",
-							"sid": 177999451961041,
-							"parameters": {
-								"instance-variable": "GunVariant",
-								"comparison": 0,
-								"value": "0"
-							}
-						},
-						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Player",
 							"sid": 312521555023155,
@@ -345,16 +335,6 @@
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Player",
-							"sid": 608980400473760,
-							"parameters": {
-								"instance-variable": "GunVariant",
-								"comparison": 0,
-								"value": "1"
 							}
 						},
 						{

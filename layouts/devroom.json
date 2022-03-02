@@ -54,7 +54,8 @@
 					"uid": 25,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"IsDead": false,
+						"Health": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -257,6 +258,7 @@
 			"sid": 983719508784517,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

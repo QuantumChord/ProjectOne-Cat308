@@ -97,7 +97,8 @@
 					"uid": 40,
 					"instanceVariables": {
 						"Fired": false,
-						"GunVariant": 0
+						"IsDead": false,
+						"Health": 3
 					},
 					"behaviors": {
 						"Platform": {
@@ -1235,6 +1236,19 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -1334,6 +1348,7 @@
 			"sid": 226249620950357,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -1366,6 +1381,7 @@
 			"sid": 912359611445523,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
