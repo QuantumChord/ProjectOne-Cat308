@@ -112,7 +112,7 @@
 					"behaviors": {
 						"Solid": {
 							"properties": {
-								"enabled": true,
+								"enabled": false,
 								"tags": ""
 							}
 						}
@@ -367,13 +367,21 @@
 							"properties": {
 								"range": 500,
 								"rate-of-fire": 1,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
 								"projectile-speed": 500,
 								"use-collision-cells": true,
 								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 400,
+								"cone-of-view": 360,
+								"use-collision-cells": true
 							}
 						}
 					},
@@ -542,13 +550,21 @@
 							"properties": {
 								"range": 500,
 								"rate-of-fire": 1,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
 								"projectile-speed": 500,
 								"use-collision-cells": true,
 								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 400,
+								"cone-of-view": 360,
+								"use-collision-cells": true
 							}
 						}
 					},
@@ -767,13 +783,21 @@
 							"properties": {
 								"range": 500,
 								"rate-of-fire": 1,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
 								"projectile-speed": 500,
 								"use-collision-cells": true,
 								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 400,
+								"cone-of-view": 360,
+								"use-collision-cells": true
 							}
 						}
 					},
@@ -1113,6 +1137,35 @@
 						"height": 61,
 						"originX": 0.5081967213114754,
 						"originY": 0.5081967213114754,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WalkPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 208,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 4447,
+						"y": 402,
+						"width": 32,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

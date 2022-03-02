@@ -221,9 +221,9 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 565283142067518,
+							"sid": 348859708141976,
 							"parameters": {
-								"object": "BulletEnemy"
+								"object": "Enemy"
 							}
 						}
 					],
@@ -616,15 +616,6 @@
 							"parameters": {
 								"predictive-aim": "enabled"
 							}
-						},
-						{
-							"id": "acquire-target",
-							"objectClass": "Enemy",
-							"sid": 625253289066374,
-							"behaviorType": "Turret",
-							"parameters": {
-								"target": "Player"
-							}
 						}
 					],
 					"sid": 430232174501639
@@ -633,119 +624,109 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-target-acquired",
+							"id": "has-los-to-object",
 							"objectClass": "Enemy",
-							"sid": 912600287894249,
-							"behaviorType": "Turret"
-						},
-						{
-							"id": "compare-x",
-							"objectClass": "Player",
-							"sid": 773927656984547,
+							"sid": 691128083169123,
+							"behaviorType": "LineOfSight",
 							"parameters": {
-								"comparison": 2,
-								"x-co-ordinate": "Enemy.X"
+								"object": "Player",
+								"image-point": "0"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-enabled",
+							"id": "acquire-target",
 							"objectClass": "Enemy",
-							"sid": 885681317193531,
-							"behaviorType": "Platform",
+							"sid": 285479117662476,
+							"behaviorType": "Turret",
 							"parameters": {
-								"state": "disabled"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Enemy",
-							"sid": 315624602749115,
-							"parameters": {
-								"state": "not-mirrored"
+								"target": "Player"
 							}
 						}
 					],
-					"sid": 973006245009749
+					"sid": 332975964166704
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-target-acquired",
+							"id": "has-target",
 							"objectClass": "Enemy",
-							"sid": 224166456603007,
+							"sid": 140697329253542,
 							"behaviorType": "Turret"
-						},
-						{
-							"id": "compare-x",
-							"objectClass": "Player",
-							"sid": 448604467028260,
-							"parameters": {
-								"comparison": 4,
-								"x-co-ordinate": "Enemy.X"
-							}
 						}
 					],
 					"actions": [
 						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 978086786281795,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						},
+						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 479153007747666,
+							"sid": 541262996514395,
 							"behaviorType": "Platform",
 							"parameters": {
 								"state": "disabled"
 							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Enemy",
-							"sid": 984945071207325,
-							"parameters": {
-								"state": "mirrored"
-							}
 						}
 					],
-					"sid": 941710777664812
+					"sid": 680110655417967,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-shoot",
+									"objectClass": "Enemy",
+									"sid": 534276010833182,
+									"behaviorType": "Turret"
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Enemy",
+									"sid": 744778313884226,
+									"parameters": {
+										"object": "BulletEnemy",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 621375314106181
+						}
+					]
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-shoot",
-							"objectClass": "Enemy",
-							"sid": 536080105593152,
-							"behaviorType": "Turret"
-						},
-						{
-							"id": "is-mirrored",
-							"objectClass": "Enemy",
-							"sid": 822353298785923
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Enemy",
-							"sid": 795965445574067,
-							"parameters": {
-								"object": "BulletEnemy",
-								"layer": "0",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-mirrored",
+							"id": "on-collision-with-another-object",
 							"objectClass": "BulletEnemy",
-							"sid": 459882502022602,
+							"sid": 943307130671474,
 							"parameters": {
-								"state": "mirrored"
+								"object": "Player"
 							}
 						}
 					],
-					"sid": 998375596831366
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "BulletEnemy",
+							"sid": 298632510081035
+						}
+					],
+					"sid": 787909436805813,
+					"isOrBlock": true
 				}
 			],
 			"sid": 980559730493021

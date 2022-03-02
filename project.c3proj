@@ -96,6 +96,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
@@ -156,7 +164,8 @@
 			"Killpoint",
 			"BulletEnemy",
 			"F_255539586_Y3Hti5Pyr7zZZIJ3RQXt7gwULrU8AfwY",
-			"Sprite3"
+			"Sprite3",
+			"Sprite6"
 		],
 		"subfolders": [
 			{
@@ -224,8 +233,8 @@
 		"items": [
 			"Main",
 			"Game",
-			"Game3",
 			"Game2",
+			"Game3",
 			"LevelbyAnthony",
 			"GameOver",
 			"End",
