@@ -19,10 +19,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 474,
-						"y": 242,
-						"width": 976.9999999999999,
-						"height": 490,
+						"x": 635,
+						"y": 362,
+						"width": 1299,
+						"height": 730,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -48,8 +48,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 743,
-						"y": 290,
+						"x": 967,
+						"y": 395,
 						"width": 59,
 						"height": 61,
 						"originX": 1.3559322033898304,
@@ -77,10 +77,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 255,
-						"y": 242,
-						"width": 552,
-						"height": 484,
+						"x": 289,
+						"y": 356.5,
+						"width": 620,
+						"height": 713,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -99,7 +99,7 @@
 						"text": "Our story begins in a land far beyond our reach, where this land's inhabitants remain undisturbed from human civilization. Man slowly regress back into they're primal roots and become one with Nature.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 9,
+						"size": 13,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -119,9 +119,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 150,
-						"y": 89,
-						"width": 266.71599377782576,
+						"x": 159,
+						"y": 117,
+						"width": 363.9102744293291,
 						"height": 152.84703431570472,
 						"originX": 0,
 						"originY": 0,
@@ -141,7 +141,7 @@
 						"text": "Following Eric Philip bunkin Jones, an Ex-Navy seals, Ex-NYPD cop, Ex-Boxer; down on his luck to find a place for himself in this world may have finally found that purpose he was looking for.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 10,
+						"size": 13,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -161,9 +161,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 100,
-						"y": 181,
-						"width": 301.93749969631506,
+						"x": 134,
+						"y": 226,
+						"width": 353.1506032033486,
 						"height": 153.51450778620637,
 						"originX": 0,
 						"originY": 0,
@@ -180,10 +180,10 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "\"EASTER BUNNY WANTED\" the ad aired on iTunes radio app, Like the sun its self, a light bulb appear in his head. Eric daunted the suit and sprung for action. He needs to collect the Easter eggs while protecting himself in this dangerous environment.",
+						"text": "\"EASTER BUNNY WANTED\" the ad aired on iTunes radio app, Like the sun its self, a light bulb appear in his head. Eric daunted the suit and sprung for action. He needs to head to his interview while protecting himself in this dangerous environment.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 10,
+						"size": 13,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -203,10 +203,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 55,
-						"y": 263,
-						"width": 301.93749969631506,
-						"height": 153.51450778620637,
+						"x": 84,
+						"y": 348,
+						"width": 364.2609427684513,
+						"height": 157.87923240910263,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -215,7 +215,78 @@
 							1,
 							1
 						],
-						"angle": 0.13274047533015287,
+						"angle": 0.1156548564558737,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text6",
+					"properties": {
+						"text": "PRESS THE RED NOSE TO START",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 136,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 49,
+						"y": 523,
+						"width": 330.1924121676234,
+						"height": 28.578550317221016,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.16761758455415116,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "secretlevel",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 171,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1213,
+						"y": 72,
+						"width": 177.22943463352385,
+						"height": 151.5574632187282,
+						"originX": 0.5544554455445545,
+						"originY": 0.46703296703296704,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.04694534826140773,
 						"zElevation": 0
 					}
 				}

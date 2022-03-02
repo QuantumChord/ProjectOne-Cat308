@@ -135,6 +135,17 @@
 							"parameters": {
 								"control": "jump"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 346952521647828,
+							"parameters": {
+								"audio-file": "386647__jalastram__sfx-jump-15",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 559583532418735
@@ -342,17 +353,31 @@
 							"sid": 441326067540871
 						},
 						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 316724054220141,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 439339328559224,
 							"parameters": {
-								"seconds": "3"
+								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						},
 						{
-							"id": "restart-layout",
+							"id": "wait",
 							"objectClass": "System",
-							"sid": 863353408791785
+							"sid": 534475380639336,
+							"parameters": {
+								"seconds": "3.8"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 419644879287468,
+							"parameters": {
+								"layout": "GameOver"
+							}
 						}
 					],
 					"sid": 131649889747043
@@ -806,30 +831,6 @@
 			"sid": 397982896872665
 		},
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 238314709618104,
-					"parameters": {
-						"object": "Goal"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-nextprevious-layout",
-					"objectClass": "System",
-					"sid": 201302523503579,
-					"parameters": {
-						"which": "next"
-					}
-				}
-			],
-			"sid": 796513784217799
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "360aim2",
@@ -897,6 +898,17 @@
 							"sid": 827697713211480,
 							"parameters": {
 								"distance": "20"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 678507243973630,
+							"parameters": {
+								"audio-file": "481584__malatestinic-com__gun-2",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -1006,6 +1018,74 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 287090653808212,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 712380825136074,
+							"parameters": {
+								"layout": "Game"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 494737743815087,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						}
+					],
+					"sid": 520237398695813
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 661723378235321,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "secretlevel"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 832546992038591,
+							"parameters": {
+								"layout": "LevelbyAnthony"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 436643160467085,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						}
+					],
+					"sid": 785684358361992
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-start-of-layout",
 							"objectClass": "System",
 							"sid": 205601610872479
@@ -1025,6 +1105,30 @@
 						}
 					],
 					"sid": 776644655645794
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 177822802068313,
+							"parameters": {
+								"object": "Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 115867786344233,
+							"parameters": {
+								"layout": "End"
+							}
+						}
+					],
+					"sid": 141273330489818
 				}
 			],
 			"sid": 184204186812285
@@ -1050,17 +1154,111 @@
 					],
 					"actions": [
 						{
-							"id": "restart-layout",
+							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 885978040209171
+							"sid": 289025509687738,
+							"parameters": {
+								"layout": "GameOver"
+							}
 						},
 						{
 							"id": "stop-all",
 							"objectClass": "Audio",
 							"sid": 957982320188376
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 485044317439166,
+							"parameters": {
+								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 899139710238096
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 470719385954265,
+							"parameters": {
+								"object": "ground"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 798772804696926,
+							"parameters": {
+								"layout": "GameOver"
+							}
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 940444878081812
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 323528167354712,
+							"parameters": {
+								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 735006978492227
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 574758944012977,
+							"parameters": {
+								"object": "wall"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 118593895868527,
+							"parameters": {
+								"layout": "GameOver"
+							}
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 607114663273397
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 806044274103383,
+							"parameters": {
+								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 828169118729752
 				}
 			],
 			"sid": 715473841842573
@@ -1129,6 +1327,61 @@
 				}
 			],
 			"sid": 446788700662268
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 982425011225626,
+					"parameters": {
+						"object": "Goal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 579422709586820,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 984445035773163
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "AudioStuffbyAnthony",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 408098332830358,
+							"parameters": {
+								"object": "killaudio"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 903883952303337
+						}
+					],
+					"sid": 865619113203501
+				}
+			],
+			"sid": 954013017299990
 		}
 	],
 	"sid": 899970392297185

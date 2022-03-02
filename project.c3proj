@@ -24,6 +24,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -146,7 +154,9 @@
 			"Waffle_BG",
 			"Cake_Tile",
 			"Killpoint",
-			"BulletEnemy"
+			"BulletEnemy",
+			"F_255539586_Y3Hti5Pyr7zZZIJ3RQXt7gwULrU8AfwY",
+			"Sprite3"
 		],
 		"subfolders": [
 			{
@@ -159,7 +169,20 @@
 					"Text3",
 					"cbbteryubetkgfim65st2",
 					"grave",
-					"FreeIndustrialZoneTilesetPixelArt5720x"
+					"FreeIndustrialZoneTilesetPixelArt5720x",
+					"Redo",
+					"Text4",
+					"Text5",
+					"Text6",
+					"killaudio",
+					"secretlevel",
+					"Sprite2",
+					"TiledBackground",
+					"Sprite4",
+					"Text7",
+					"Text8",
+					"Sprite5",
+					"nextLayout"
 				],
 				"subfolders": [
 					{
@@ -201,12 +224,12 @@
 		"items": [
 			"Main",
 			"Game",
-			"devroom",
+			"Game3",
 			"Game2",
-			"GameOver",
 			"LevelbyAnthony",
-			"JoeDevRoom",
-			"Game3"
+			"GameOver",
+			"End",
+			"JoeDevRoom"
 		],
 		"subfolders": []
 	},
@@ -229,6 +252,21 @@
 					"name": "509857__mrthenoronha__easter-theme-loop-1.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 220430681743136
+				},
+				{
+					"name": "481584__malatestinic-com__gun-2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 147837119163756
+				},
+				{
+					"name": "386647__jalastram__sfx-jump-15.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 835229770959021
+				},
+				{
+					"name": "533034__evretro__8-bit-game-over-sound-tune.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 429060704765832
 				}
 			],
 			"subfolders": []
