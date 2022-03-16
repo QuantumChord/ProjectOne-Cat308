@@ -397,8 +397,8 @@
 						}
 					},
 					"world": {
-						"x": 930,
-						"y": 752,
+						"x": 924,
+						"y": 769,
 						"width": 96,
 						"height": 127.99999999999999,
 						"originX": 0.6594036697247706,
@@ -580,8 +580,8 @@
 						}
 					},
 					"world": {
-						"x": 1653,
-						"y": 698,
+						"x": 1655,
+						"y": 718,
 						"width": 96,
 						"height": 127.99999999999999,
 						"originX": 0.6594036697247706,
@@ -1438,8 +1438,8 @@
 						}
 					},
 					"world": {
-						"x": 157,
-						"y": 529,
+						"x": 547,
+						"y": 962,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -1502,76 +1502,6 @@
 						"height": 107,
 						"originX": 0.6304347826086957,
 						"originY": 0.7850467289719626,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cam",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 250,
-					"instanceVariables": {},
-					"behaviors": {
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 549,
-						"y": 979,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cam",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 251,
-					"instanceVariables": {},
-					"behaviors": {
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 580,
-						"y": 980,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

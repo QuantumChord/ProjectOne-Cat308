@@ -709,6 +709,26 @@
 					],
 					"actions": [
 						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 523651478200282,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy",
+							"sid": 956462513673280,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
 							"id": "set-angle",
 							"objectClass": "Gun",
 							"sid": 162891490847593,
@@ -723,26 +743,6 @@
 							"parameters": {
 								"x": "Player.X",
 								"y": "Player.Y"
-							}
-						},
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Enemy",
-							"sid": 555185262725820,
-							"parameters": {
-								"object": "Gun",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 250554604920698,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "disabled"
 							}
 						}
 					],
@@ -785,6 +785,61 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 365647445352968,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 804243805694459
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 524174986327173,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 641433977734747,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 886216665310398,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 799894549557229
+						}
+					],
+					"sid": 385763029385581
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "BulletEnemy",
 							"sid": 943307130671474,
@@ -807,56 +862,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-instance-variable",
-							"objectClass": "Enemy",
-							"sid": 741513192760628,
-							"parameters": {
-								"instance-variable": "Health",
-								"comparison": 3,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 847112033344811,
-							"behaviorType": "Solid",
-							"parameters": {
-								"state": "disabled"
-							}
-						},
-						{
-							"id": "set-ignoring-input",
-							"objectClass": "Enemy",
-							"sid": 952297670618982,
-							"behaviorType": "Platform",
-							"parameters": {
-								"input": "start-ignoring"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Enemy",
-							"sid": 535487752607326,
-							"parameters": {
-								"animation": "\"Pain\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait-for-previous-actions",
-							"objectClass": "System",
-							"sid": 442184432645520
-						}
-					],
-					"sid": 652343499263454
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "has-los-to-object",
 							"objectClass": "Enemy",
 							"sid": 978441011065349,
@@ -869,9 +874,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 381470922379971,
+							"sid": 206870958280985,
 							"parameters": {
-								"interval-seconds": ".5"
+								"interval-seconds": "1"
 							}
 						}
 					],
@@ -1519,10 +1524,44 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Eggs",
+			"title": "Goal and collectibles",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 398016742888287,
+							"parameters": {
+								"object": "Goal"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 831508664462035
+						},
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 920900909264064,
+							"parameters": {
+								"which": "next"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 407789377210423
+						}
+					],
+					"sid": 624222919450040
+				},
 				{
 					"eventType": "block",
 					"conditions": [
@@ -1564,40 +1603,6 @@
 				}
 			],
 			"sid": 159231010222654
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 982425011225626,
-					"parameters": {
-						"object": "Goal"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 103870223311526
-				},
-				{
-					"id": "go-to-nextprevious-layout",
-					"objectClass": "System",
-					"sid": 579422709586820,
-					"parameters": {
-						"which": "next"
-					}
-				},
-				{
-					"id": "reset-global-variables",
-					"objectClass": "System",
-					"sid": 406843926461166
-				}
-			],
-			"sid": 984445035773163
 		},
 		{
 			"eventType": "group",
