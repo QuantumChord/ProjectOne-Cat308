@@ -12,6 +12,26 @@
 			"sid": 602089744216166
 		},
 		{
+			"eventType": "variable",
+			"name": "PHP",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 896848295869751
+		},
+		{
+			"eventType": "variable",
+			"name": "CP",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 981147248755704
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "PlayerScript",
@@ -140,6 +160,7 @@
 							"id": "play",
 							"objectClass": "Audio",
 							"sid": 346952521647828,
+							"disabled": true,
 							"parameters": {
 								"audio-file": "386647__jalastram__sfx-jump-15",
 								"loop": "not-looping",
@@ -222,6 +243,7 @@
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
 							"sid": 348859708141976,
+							"disabled": true,
 							"parameters": {
 								"object": "Enemy"
 							}
@@ -234,6 +256,15 @@
 							"sid": 450521627315240,
 							"parameters": {
 								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 503727081717359,
+							"parameters": {
+								"variable": "PHP",
 								"value": "1"
 							}
 						}
@@ -306,14 +337,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-instance-variable",
-							"objectClass": "Player",
-							"sid": 826968479799441,
-							"parameters": {
-								"instance-variable": "Health",
-								"comparison": 4,
-								"value": "3"
-							}
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 149375341821722
 						}
 					],
 					"actions": [
@@ -378,12 +404,67 @@
 							"parameters": {
 								"layout": "GameOver"
 							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 743371936472872
 						}
 					],
 					"sid": 131649889747043
 				}
 			],
 			"sid": 289945159721035
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bullet Script",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-screen",
+							"objectClass": "BulletFam",
+							"sid": 148653840016447,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "BulletFam",
+							"sid": 848510983681051
+						}
+					],
+					"sid": 257862109838771
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BulletFam",
+							"sid": 893546561381123,
+							"parameters": {
+								"object": "Platforms"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "BulletFam",
+							"sid": 835739773217948
+						}
+					],
+					"sid": 725638549536829
+				}
+			],
+			"sid": 459120929830982
 		},
 		{
 			"eventType": "group",
@@ -426,6 +507,15 @@
 							"sid": 617212289015735,
 							"parameters": {
 								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 602409540063510,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
 							}
 						}
 					],
@@ -526,21 +616,29 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-instance-variable",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Enemy",
-							"sid": 500651751180686,
+							"sid": 855208593844476,
 							"parameters": {
-								"instance-variable": "Health",
-								"comparison": 3,
-								"value": "0"
+								"object": "Bullet"
 							}
 						}
 					],
 					"actions": [
 						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 447188677212398,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Enemy",
 							"sid": 534329166986686,
+							"disabled": true,
 							"parameters": {
 								"animation": "\"Pain\"",
 								"from": "beginning"
@@ -549,7 +647,8 @@
 						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 523378684300093,
+							"sid": 101632724642016,
+							"disabled": true,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
@@ -559,10 +658,16 @@
 							"id": "set-ignoring-input",
 							"objectClass": "Enemy",
 							"sid": 256285870079505,
+							"disabled": true,
 							"behaviorType": "Platform",
 							"parameters": {
 								"input": "start-ignoring"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 982941034224070
 						}
 					],
 					"sid": 319715285035666
@@ -583,42 +688,10 @@
 						{
 							"id": "destroy",
 							"objectClass": "Enemy",
-							"sid": 250517585886565
+							"sid": 672355782028923
 						}
 					],
 					"sid": 430968460312152
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-enabled",
-							"objectClass": "Enemy",
-							"sid": 576284180419208,
-							"behaviorType": "Turret"
-						}
-					],
-					"actions": [
-						{
-							"id": "set-rate-of-fire",
-							"objectClass": "Enemy",
-							"sid": 932607089362071,
-							"behaviorType": "Turret",
-							"parameters": {
-								"rate-of-fire": "5"
-							}
-						},
-						{
-							"id": "set-predictive-aim",
-							"objectClass": "Enemy",
-							"sid": 667047719613642,
-							"behaviorType": "Turret",
-							"parameters": {
-								"predictive-aim": "enabled"
-							}
-						}
-					],
-					"sid": 430232174501639
 				},
 				{
 					"eventType": "block",
@@ -636,12 +709,40 @@
 					],
 					"actions": [
 						{
-							"id": "acquire-target",
-							"objectClass": "Enemy",
-							"sid": 285479117662476,
-							"behaviorType": "Turret",
+							"id": "set-angle",
+							"objectClass": "Gun",
+							"sid": 162891490847593,
 							"parameters": {
-								"target": "Player"
+								"angle": "clamp(Gun.Angle,90,270)"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Gun",
+							"sid": 669997071635458,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy",
+							"sid": 555185262725820,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 250554604920698,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
 							}
 						}
 					],
@@ -651,60 +752,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "has-target",
+							"id": "has-los-to-object",
 							"objectClass": "Enemy",
-							"sid": 140697329253542,
-							"behaviorType": "Turret"
+							"sid": 860168371631554,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "Enemy",
-							"sid": 978086786281795,
-							"parameters": {
-								"animation": "\"Idle\"",
-								"from": "beginning"
-							}
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 234722210333478
 						},
 						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 541262996514395,
+							"sid": 208710140222666,
 							"behaviorType": "Platform",
 							"parameters": {
-								"state": "disabled"
+								"state": "enabled"
 							}
 						}
 					],
-					"sid": 680110655417967,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-shoot",
-									"objectClass": "Enemy",
-									"sid": 534276010833182,
-									"behaviorType": "Turret"
-								}
-							],
-							"actions": [
-								{
-									"id": "spawn-another-object",
-									"objectClass": "Enemy",
-									"sid": 744778313884226,
-									"parameters": {
-										"object": "BulletEnemy",
-										"layer": "0",
-										"image-point": "0",
-										"create-hierarchy": false
-									}
-								}
-							],
-							"sid": 621375314106181
-						}
-					]
+					"sid": 614604784549056
 				},
 				{
 					"eventType": "block",
@@ -727,89 +802,96 @@
 					],
 					"sid": 787909436805813,
 					"isOrBlock": true
-				}
-			],
-			"sid": 980559730493021
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "Bullet Script",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-on-screen",
-							"objectClass": "BulletFam",
-							"sid": 184994427423265,
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "BulletFam",
-							"sid": 638581542103693
-						}
-					],
-					"sid": 406540647602779
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 695753250221035,
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 741513192760628,
 							"parameters": {
-								"object": "Enemy"
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "subtract-from-instvar",
+							"id": "set-enabled",
 							"objectClass": "Enemy",
-							"sid": 393104639736942,
+							"sid": 847112033344811,
+							"behaviorType": "Solid",
 							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
+								"state": "disabled"
 							}
 						},
 						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 219565354678862
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 952297670618982,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 535487752607326,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 442184432645520
 						}
 					],
-					"sid": 515600370510508
+					"sid": 652343499263454
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "BulletFam",
-							"sid": 989464452912861,
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 978441011065349,
+							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Platforms"
+								"object": "Player",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 381470922379971,
+							"parameters": {
+								"interval-seconds": ".5"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "destroy",
-							"objectClass": "BulletFam",
-							"sid": 156237780862010
+							"id": "spawn-another-object",
+							"objectClass": "Gun",
+							"sid": 149886777467154,
+							"parameters": {
+								"object": "BulletEnemy",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
 						}
 					],
-					"sid": 474126500488742
+					"sid": 906832774708987
 				}
 			],
-			"sid": 397982896872665
+			"sid": 980559730493021
 		},
 		{
 			"eventType": "group",
@@ -843,6 +925,15 @@
 							"sid": 420670383046801,
 							"parameters": {
 								"cursor-style": "crosshair"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "aimbot",
+							"sid": 497828246238493,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.y"
 							}
 						}
 					],
@@ -997,22 +1088,38 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 916615134122934,
+							"sid": 472582635789401,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "5"
 							}
-						},
+						}
+					],
+					"sid": 820187535866954
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 297299642521625,
+							"parameters": {
+								"key": 82
+							}
+						}
+					],
+					"actions": [
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Player",
-							"sid": 714338932771216,
+							"sid": 310017848385578,
 							"parameters": {
 								"instance-variable": "Ammo",
 								"value": "6"
 							}
 						}
 					],
-					"sid": 820187535866954
+					"sid": 367583989015116
 				}
 			],
 			"sid": 207141634756619
@@ -1098,7 +1205,7 @@
 						{
 							"id": "on-object-clicked",
 							"objectClass": "Mouse",
-							"sid": 287090653808212,
+							"sid": 698628537689592,
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked",
@@ -1108,23 +1215,91 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 712380825136074,
-							"parameters": {
-								"layout": "Game"
-							}
-						},
-						{
 							"id": "stop",
 							"objectClass": "Audio",
-							"sid": 494737743815087,
+							"sid": 923048913171105,
 							"parameters": {
 								"tag": "\"1\""
 							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 310416813911178,
+							"parameters": {
+								"layout": "Game"
+							}
 						}
 					],
-					"sid": 520237398695813
+					"sid": 681246523733467
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 929353346438854,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 686604215092443,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 965502487664353,
+							"parameters": {
+								"layout": "Game2"
+							}
+						}
+					],
+					"sid": 529929825860549
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 729762978702269,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 774643706703714,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 401033172661655,
+							"parameters": {
+								"layout": "Game3"
+							}
+						}
+					],
+					"sid": 704258030228112
 				},
 				{
 					"eventType": "block",
@@ -1378,6 +1553,11 @@
 								"instance-variable": "Health",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "egg",
+							"sid": 992634027196630
 						}
 					],
 					"sid": 350483578702770
@@ -1410,6 +1590,11 @@
 					"parameters": {
 						"which": "next"
 					}
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 406843926461166
 				}
 			],
 			"sid": 984445035773163
@@ -1444,6 +1629,333 @@
 				}
 			],
 			"sid": 954013017299990
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Camera",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 395785591401311
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "Cam",
+							"sid": 920903196077051,
+							"parameters": {
+								"x": "lerp(Self.X, Player.X, 0.03)",
+								"y": "lerp(Self.Y, Player.Y-150, 0.03)"
+							}
+						}
+					],
+					"sid": 569156254638263
+				}
+			],
+			"sid": 706210700781908
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "UI",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 802532382120464
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Health",
+							"sid": 483533602085211,
+							"parameters": {
+								"text": "Player.Health"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "EGGs",
+							"sid": 817178162922190,
+							"parameters": {
+								"text": "EasterEggs"
+							}
+						}
+					],
+					"sid": 479189062484402
+				}
+			],
+			"sid": 711572916003009
+		},
+		{
+			"eventType": "group",
+			"disabled": true,
+			"title": "Player.CP",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 763411569889270,
+							"parameters": {
+								"object": "CP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "CP",
+							"sid": 326355583454525
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 873692245119214,
+							"parameters": {
+								"variable": "CP",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 777245832679162,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 349710355510818,
+							"parameters": {
+								"object": "CP2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "CP2",
+							"sid": 407456942817049
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 764998693106697,
+							"parameters": {
+								"variable": "CP",
+								"value": "2"
+							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 588722354016703,
+							"parameters": {
+								"variable": "CP",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 502299925957152,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 195385511014058,
+							"parameters": {
+								"object": "CP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "CP3",
+							"sid": 385682887691663
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 279203073141904,
+							"parameters": {
+								"variable": "CP",
+								"value": "3"
+							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 586716386879987,
+							"parameters": {
+								"variable": "CP",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 273163014568351,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 852710998849768,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 101407195037288,
+							"parameters": {
+								"first-value": "CP",
+								"comparison": 0,
+								"second-value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 309296827508599,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 596808453921431,
+							"parameters": {
+								"layout": "Game"
+							}
+						}
+					],
+					"sid": 716686600942366,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 125870806621764,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 350430118306042,
+							"parameters": {
+								"first-value": "CP",
+								"comparison": 0,
+								"second-value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 603324976952645,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 605605323190176,
+							"parameters": {
+								"layout": "Game2"
+							}
+						}
+					],
+					"sid": 440435670369900,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 282353334931789,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 382471294943454,
+							"parameters": {
+								"first-value": "CP",
+								"comparison": 0,
+								"second-value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 573846348805533,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 565582200490291,
+							"parameters": {
+								"layout": "Game3"
+							}
+						}
+					],
+					"sid": 343111494810882,
+					"disabled": true
+				}
+			],
+			"sid": 242502331556940
 		}
 	],
 	"sid": 899970392297185

@@ -64,8 +64,24 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
 			"author": "Scirra",
 			"version": "r285",
 			"bundled": false
@@ -80,8 +96,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r285",
 			"bundled": false
@@ -112,22 +128,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
-			"author": "Scirra",
-			"version": "r285",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Drag & Drop",
-			"author": "Scirra",
-			"version": "r285",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
@@ -144,11 +144,8 @@
 			"Keyboard",
 			"Platform",
 			"Enemy",
-			"WalkPoint",
 			"MovingPlatform",
-			"aimbot",
 			"Sprite",
-			"box",
 			"Goal",
 			"bg",
 			"straw_waffer",
@@ -172,7 +169,8 @@
 			"Sprite8",
 			"Sprite9",
 			"Sprite10",
-			"Sprite11"
+			"Sprite11",
+			"Gun"
 		],
 		"subfolders": [
 			{
@@ -198,7 +196,9 @@
 					"Text7",
 					"Text8",
 					"Sprite5",
-					"nextLayout"
+					"nextLayout",
+					"Redo2",
+					"Redo3"
 				],
 				"subfolders": [
 					{
@@ -236,6 +236,27 @@
 				],
 				"subfolders": [],
 				"name": "collectibles"
+			},
+			{
+				"items": [
+					"aimbot",
+					"box",
+					"Cam",
+					"CP",
+					"CP2",
+					"CP3",
+					"WalkPoint"
+				],
+				"subfolders": [],
+				"name": "functional"
+			},
+			{
+				"items": [
+					"EGGs",
+					"Health"
+				],
+				"subfolders": [],
+				"name": "UI"
 			}
 		]
 	},

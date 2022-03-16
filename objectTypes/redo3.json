@@ -1,7 +1,7 @@
 {
-	"name": "Redo",
+	"name": "Redo3",
 	"plugin-id": "Sprite",
-	"sid": 386585189723026,
+	"sid": 720408238199251,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6155202,
+						"imageSpriteId": 3448496,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 882623481715045,
+				"sid": 708407440957766,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,7 +1,7 @@
 {
-	"name": "Redo",
+	"name": "Gun",
 	"plugin-id": "Sprite",
-	"sid": 386585189723026,
+	"sid": 536189975974140,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
+						"width": 379,
+						"height": 372,
+						"originX": 0.5013192612137203,
+						"originY": 0.4771505376344086,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6155202,
+						"imageSpriteId": 6919120,
+						"collisionPoly": {
+							"points": [
+								0.0026385224274406704,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.0026385224274406704,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 882623481715045,
+				"sid": 234292232232581,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,29 +1,35 @@
 {
-	"name": "Redo",
+	"name": "Cam",
 	"plugin-id": "Sprite",
-	"sid": 386585189723026,
+	"sid": 943484298156333,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 625587852246938
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6155202,
+						"imageSpriteId": 9990998,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 882623481715045,
+				"sid": 788028151120061,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
