@@ -412,6 +412,56 @@
 						}
 					],
 					"sid": 131649889747043
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 552057366366725,
+							"parameters": {
+								"key": 49
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 504847703067395,
+							"parameters": {
+								"instance-variable": "Gun",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 177833331048371
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 969268238222331,
+							"parameters": {
+								"key": 50
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 731069183097586,
+							"parameters": {
+								"instance-variable": "Gun",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 759834715072694
 				}
 			],
 			"sid": 289945159721035
@@ -894,6 +944,31 @@
 						}
 					],
 					"sid": 906832774708987
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 414093833005893,
+							"parameters": {
+								"object": "ShockBullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 429757886679199,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 177629200382184
 				}
 			],
 			"sid": 980559730493021
@@ -964,6 +1039,16 @@
 								"instance-variable": "Ammo",
 								"comparison": 4,
 								"value": "0"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 438950170807167,
+							"parameters": {
+								"instance-variable": "Gun",
+								"comparison": 0,
+								"value": "1"
 							}
 						}
 					],
@@ -1128,6 +1213,228 @@
 				}
 			],
 			"sid": 207141634756619
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "360 elctric",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 262626465985325
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "aimbot",
+							"sid": 442966665890102,
+							"parameters": {
+								"x": "Mouse.X",
+								"y": "Mouse.Y"
+							}
+						},
+						{
+							"id": "set-cursor-style",
+							"objectClass": "Mouse",
+							"sid": 139484032792221,
+							"parameters": {
+								"cursor-style": "crosshair"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "aimbot",
+							"sid": 513774255494399,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.y"
+							}
+						}
+					],
+					"sid": 191264347293269
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 129979942381828,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 576846166979572,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 4,
+								"value": "0"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 786740771075888,
+							"parameters": {
+								"instance-variable": "Gun",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "aimbot",
+							"sid": 217141090483440,
+							"parameters": {
+								"object": "ShockBullet",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 722983471661342,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 848597221018713
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 612780000035313,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "box"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "box",
+							"sid": 345655996322210,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 192424287990175,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 846374386667889
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "aimbot",
+							"sid": 683092527471319,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						}
+					],
+					"sid": 373778686187834
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 207828924959086,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 940881282928701,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 841886805991019,
+							"parameters": {
+								"seconds": "5"
+							}
+						}
+					],
+					"sid": 678206367343602
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 769931536262967,
+							"parameters": {
+								"key": 82
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 756628279869966,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "6"
+							}
+						}
+					],
+					"sid": 562559109224822
+				}
+			],
+			"sid": 975256653768747
 		},
 		{
 			"eventType": "group",
@@ -1699,6 +2006,24 @@
 							"parameters": {
 								"text": "EasterEggs"
 							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Health",
+							"sid": 802931048099964,
+							"parameters": {
+								"object": "Cam",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EGGs",
+							"sid": 397068904634252,
+							"parameters": {
+								"object": "Cam",
+								"image-point-optional": "0"
+							}
 						}
 					],
 					"sid": 479189062484402
@@ -1961,6 +2286,50 @@
 				}
 			],
 			"sid": 242502331556940
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Functional objects",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "ShockBullet",
+							"sid": 392376736704180,
+							"parameters": {
+								"object": "nbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "door",
+							"sid": 635598237940957,
+							"parameters": {
+								"animation": "\"open\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "nbutton",
+							"sid": 225714991710089,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 561588078239685
+				}
+			],
+			"sid": 808606313618351
 		}
 	],
 	"sid": 899970392297185

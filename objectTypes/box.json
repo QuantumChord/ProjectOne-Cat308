@@ -6,11 +6,6 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "DragnDrop",
-			"name": "DragDrop",
-			"sid": 965075722650148
-		},
-		{
 			"behaviorId": "solid",
 			"name": "Solid",
 			"sid": 948499821285186

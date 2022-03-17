@@ -233,7 +233,8 @@
 						"Fired": false,
 						"IsDead": false,
 						"Health": 3,
-						"Ammo": 6
+						"Ammo": 6,
+						"Gun": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -1310,8 +1311,8 @@
 						"y": 934,
 						"width": 250,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.04,
+						"originY": 0.04,
 						"color": [
 							1,
 							1,

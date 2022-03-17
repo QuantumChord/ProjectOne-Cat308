@@ -27,6 +27,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 147483194540477
+		},
+		{
+			"name": "Gun",
+			"type": "number",
+			"desc": "",
+			"sid": 851893873464058
 		}
 	],
 	"behaviorTypes": [
