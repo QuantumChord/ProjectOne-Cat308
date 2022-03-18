@@ -1083,11 +1083,11 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 490919487724501,
+							"sid": 985756447728759,
 							"parameters": {
 								"instance-variable": "Gun",
 								"comparison": 0,
-								"value": "0"
+								"value": "1"
 							}
 						}
 					],
@@ -1324,11 +1324,11 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 972186891590673,
+							"sid": 945010407421339,
 							"parameters": {
 								"instance-variable": "Gun",
 								"comparison": 0,
-								"value": "1"
+								"value": "2"
 							}
 						}
 					],
@@ -1347,10 +1347,10 @@
 						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
-							"sid": 722983471661342,
+							"sid": 705659187803768,
 							"parameters": {
 								"instance-variable": "Ammo",
-								"value": "1"
+								"value": "6"
 							}
 						}
 					],
@@ -1463,10 +1463,10 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Player",
-							"sid": 398976786935952,
+							"sid": 968889930106702,
 							"parameters": {
 								"instance-variable": "Ammo",
-								"value": "1"
+								"value": "6"
 							}
 						}
 					],
@@ -2066,12 +2066,29 @@
 							}
 						},
 						{
+							"id": "set-text",
+							"objectClass": "ammo",
+							"sid": 721543481984293,
+							"parameters": {
+								"text": "Player.Ammo"
+							}
+						},
+						{
 							"id": "set-position-to-another-object",
 							"objectClass": "Health",
 							"sid": 250278561300223,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "1"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "ammo",
+							"sid": 110096832236496,
+							"parameters": {
+								"object": "Player",
+								"image-point-optional": "\"ammo\""
 							}
 						},
 						{

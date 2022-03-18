@@ -270,7 +270,8 @@
 			{
 				"items": [
 					"EGGs",
-					"Health"
+					"Health",
+					"ammo"
 				],
 				"subfolders": [],
 				"name": "UI"
