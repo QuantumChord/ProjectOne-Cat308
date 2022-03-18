@@ -1,0 +1,108 @@
+{
+	"name": "breakablewall",
+	"plugin-id": "Sprite",
+	"sid": 540416345628429,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 126,
+						"height": 252,
+						"originX": 0.48412698412698413,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3204243,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.003968253968253968,
+								1,
+								0.003968253968253968,
+								1,
+								0.996031746031746,
+								0,
+								0.996031746031746
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 218005027639908,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 126,
+						"height": 252,
+						"originX": 0.48412698412698413,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4414090,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.003968253968253968,
+								1,
+								0.003968253968253968,
+								1,
+								0.996031746031746,
+								0,
+								0.996031746031746
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 126,
+						"height": 252,
+						"originX": 0.48412698412698413,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7903512,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.003968253968253968,
+								1,
+								0.003968253968253968,
+								1,
+								0,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 588613858826676,
+				"name": "break",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

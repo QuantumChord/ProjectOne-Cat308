@@ -2,36 +2,6 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
-			"eventType": "variable",
-			"name": "EasterEggs",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 602089744216166
-		},
-		{
-			"eventType": "variable",
-			"name": "PHP",
-			"type": "number",
-			"initialValue": "3",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 896848295869751
-		},
-		{
-			"eventType": "variable",
-			"name": "CP",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 981147248755704
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "PlayerScript",
@@ -258,15 +228,6 @@
 								"instance-variable": "Health",
 								"value": "1"
 							}
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 503727081717359,
-							"parameters": {
-								"variable": "PHP",
-								"value": "1"
-							}
 						}
 					],
 					"sid": 675444640426845,
@@ -404,11 +365,6 @@
 							"parameters": {
 								"layout": "GameOver"
 							}
-						},
-						{
-							"id": "reset-global-variables",
-							"objectClass": "System",
-							"sid": 743371936472872
 						}
 					],
 					"sid": 131649889747043
@@ -433,6 +389,15 @@
 							"parameters": {
 								"instance-variable": "Gun",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 632525695280199,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "0"
 							}
 						}
 					],
@@ -459,9 +424,58 @@
 								"instance-variable": "Gun",
 								"value": "2"
 							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 594496274017211,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"value": "0"
+							}
 						}
 					],
 					"sid": 759834715072694
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 362023625093702,
+							"parameters": {
+								"key": 69
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 179862883651644,
+							"parameters": {
+								"object": "boxingGlove",
+								"layer": "0",
+								"image-point": "2",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 865274611515027,
+							"parameters": {
+								"seconds": ".3"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "boxingGlove",
+							"sid": 775522103255372
+						}
+					],
+					"sid": 895188883936440
 				}
 			],
 			"sid": 289945159721035
@@ -969,6 +983,31 @@
 						}
 					],
 					"sid": 177629200382184
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 347975078293804,
+							"parameters": {
+								"object": "boxingGlove"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 926909497492080,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 304213551983694
 				}
 			],
 			"sid": 980559730493021
@@ -1044,11 +1083,11 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 438950170807167,
+							"sid": 490919487724501,
 							"parameters": {
 								"instance-variable": "Gun",
 								"comparison": 0,
-								"value": "1"
+								"value": "0"
 							}
 						}
 					],
@@ -1285,11 +1324,11 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 786740771075888,
+							"sid": 972186891590673,
 							"parameters": {
 								"instance-variable": "Gun",
 								"comparison": 0,
-								"value": "2"
+								"value": "1"
 							}
 						}
 					],
@@ -1424,10 +1463,10 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Player",
-							"sid": 756628279869966,
+							"sid": 398976786935952,
 							"parameters": {
 								"instance-variable": "Ammo",
-								"value": "6"
+								"value": "1"
 							}
 						}
 					],
@@ -1719,27 +1758,12 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 289025509687738,
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 793376612488041,
 							"parameters": {
-								"layout": "GameOver"
-							}
-						},
-						{
-							"id": "stop-all",
-							"objectClass": "Audio",
-							"sid": 957982320188376
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 485044317439166,
-							"parameters": {
-								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"\""
+								"instance-variable": "Health",
+								"value": "10"
 							}
 						}
 					],
@@ -1759,27 +1783,12 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 798772804696926,
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 989462602486609,
 							"parameters": {
-								"layout": "GameOver"
-							}
-						},
-						{
-							"id": "stop-all",
-							"objectClass": "Audio",
-							"sid": 940444878081812
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 323528167354712,
-							"parameters": {
-								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"\""
+								"instance-variable": "Health",
+								"value": "10"
 							}
 						}
 					],
@@ -1799,31 +1808,84 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 118593895868527,
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 660347922055024,
 							"parameters": {
-								"layout": "GameOver"
-							}
-						},
-						{
-							"id": "stop-all",
-							"objectClass": "Audio",
-							"sid": 607114663273397
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 806044274103383,
-							"parameters": {
-								"audio-file": "533034__evretro__8-bit-game-over-sound-tune",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"\""
+								"instance-variable": "Health",
+								"value": "10"
 							}
 						}
 					],
 					"sid": 828169118729752
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 439839522436644,
+							"parameters": {
+								"object": "fadingplat"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 794505740785579,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "fadingplat",
+							"sid": 398115323528773,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "fadingplat",
+							"sid": 247598189989454,
+							"parameters": {
+								"animation": "\"fade\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 248089392317570,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "fadingplat",
+							"sid": 440030700870745,
+							"parameters": {
+								"animation": "\"1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "fadingplat",
+							"sid": 648235985146114,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 508518347249233
 				}
 			],
 			"sid": 715473841842573
@@ -1862,9 +1924,13 @@
 							}
 						},
 						{
-							"id": "reset-global-variables",
-							"objectClass": "System",
-							"sid": 407789377210423
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 213382093424540,
+							"parameters": {
+								"instance-variable": "CP",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 624222919450040
@@ -1883,20 +1949,11 @@
 					],
 					"actions": [
 						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 613518915309891,
-							"parameters": {
-								"variable": "EasterEggs",
-								"value": "1"
-							}
-						},
-						{
 							"id": "add-to-instvar",
 							"objectClass": "Player",
-							"sid": 209205380063853,
+							"sid": 686580598877341,
 							"parameters": {
-								"instance-variable": "Health",
+								"instance-variable": "Eggs",
 								"value": "1"
 							}
 						},
@@ -1904,6 +1961,15 @@
 							"id": "destroy",
 							"objectClass": "egg",
 							"sid": 992634027196630
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 211234350284898,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 350483578702770
@@ -2000,20 +2066,12 @@
 							}
 						},
 						{
-							"id": "set-text",
-							"objectClass": "EGGs",
-							"sid": 817178162922190,
-							"parameters": {
-								"text": "EasterEggs"
-							}
-						},
-						{
 							"id": "set-position-to-another-object",
 							"objectClass": "Health",
-							"sid": 802931048099964,
+							"sid": 250278561300223,
 							"parameters": {
-								"object": "Cam",
-								"image-point-optional": "0"
+								"object": "Player",
+								"image-point-optional": "1"
 							}
 						},
 						{
@@ -2033,122 +2091,11 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": true,
+			"disabled": false,
 			"title": "Player.CP",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 763411569889270,
-							"parameters": {
-								"object": "CP"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "CP",
-							"sid": 326355583454525
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 873692245119214,
-							"parameters": {
-								"variable": "CP",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 777245832679162,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 349710355510818,
-							"parameters": {
-								"object": "CP2"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "CP2",
-							"sid": 407456942817049
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 764998693106697,
-							"parameters": {
-								"variable": "CP",
-								"value": "2"
-							}
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 588722354016703,
-							"parameters": {
-								"variable": "CP",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 502299925957152,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 195385511014058,
-							"parameters": {
-								"object": "CP"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "CP3",
-							"sid": 385682887691663
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 279203073141904,
-							"parameters": {
-								"variable": "CP",
-								"value": "3"
-							}
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 586716386879987,
-							"parameters": {
-								"variable": "CP",
-								"value": "2"
-							}
-						}
-					],
-					"sid": 273163014568351,
-					"disabled": true
-				},
 				{
 					"eventType": "block",
 					"conditions": [
@@ -2160,16 +2107,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "Redo"
-							}
-						},
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 101407195037288,
-							"parameters": {
-								"first-value": "CP",
-								"comparison": 0,
-								"second-value": "1"
 							}
 						}
 					],
@@ -2191,8 +2128,7 @@
 							}
 						}
 					],
-					"sid": 716686600942366,
-					"disabled": true
+					"sid": 716686600942366
 				},
 				{
 					"eventType": "block",
@@ -2208,13 +2144,13 @@
 							}
 						},
 						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 350430118306042,
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 470853849785089,
 							"parameters": {
-								"first-value": "CP",
+								"instance-variable": "CP",
 								"comparison": 0,
-								"second-value": "2"
+								"value": "1"
 							}
 						}
 					],
@@ -2236,8 +2172,7 @@
 							}
 						}
 					],
-					"sid": 440435670369900,
-					"disabled": true
+					"sid": 440435670369900
 				},
 				{
 					"eventType": "block",
@@ -2250,16 +2185,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "Redo"
-							}
-						},
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 382471294943454,
-							"parameters": {
-								"first-value": "CP",
-								"comparison": 0,
-								"second-value": "3"
 							}
 						}
 					],
@@ -2281,8 +2206,7 @@
 							}
 						}
 					],
-					"sid": 343111494810882,
-					"disabled": true
+					"sid": 343111494810882
 				}
 			],
 			"sid": 242502331556940
@@ -2327,6 +2251,31 @@
 						}
 					],
 					"sid": 561588078239685
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "boxingGlove",
+							"sid": 913446767652012,
+							"parameters": {
+								"object": "breakablewall"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "breakablewall",
+							"sid": 408157402813683,
+							"parameters": {
+								"animation": "\"break\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 730449223468862
 				}
 			],
 			"sid": 808606313618351

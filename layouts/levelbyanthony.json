@@ -2304,7 +2304,9 @@
 						"IsDead": false,
 						"Health": 3,
 						"Ammo": 6,
-						"Gun": 0
+						"Gun": 0,
+						"CP": 0,
+						"Eggs": 0
 					},
 					"behaviors": {
 						"Platform": {

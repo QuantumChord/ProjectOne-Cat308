@@ -33,6 +33,18 @@
 			"type": "number",
 			"desc": "",
 			"sid": 851893873464058
+		},
+		{
+			"name": "CP",
+			"type": "number",
+			"desc": "",
+			"sid": 320383483011808
+		},
+		{
+			"name": "Eggs",
+			"type": "number",
+			"desc": "",
+			"sid": 495988315025258
 		}
 	],
 	"behaviorTypes": [
@@ -86,6 +98,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.8051470588235294,
+								"y": -0.0016750418760469012
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.3014705882352942,
+								"y": 0.5745393634840871
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -133,6 +157,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.7977941176470589,
+								"y": -0.005025125628140704
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.2426470588235294,
+								"y": 0.5728643216080402
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -169,6 +205,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.7977941176470589,
+								"y": 0
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.25,
+								"y": 0.5745393634840871
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -205,6 +253,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.25,
+								"y": 0.5778894472361809
+							}
+						],
 						"duration": 1
 					},
 					{
@@ -237,6 +297,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.2463235294117647,
+								"y": 0.5745393634840871
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -272,6 +344,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.6727941176470589,
+								"y": -0.006700167504187605
+							}
+						],
 						"duration": 1
 					},
 					{

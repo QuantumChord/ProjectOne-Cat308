@@ -234,7 +234,9 @@
 						"IsDead": false,
 						"Health": 3,
 						"Ammo": 6,
-						"Gun": 0
+						"Gun": 0,
+						"CP": 0,
+						"Eggs": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -1054,7 +1056,22 @@
 					},
 					"uid": 245,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 276,
 						"y": 761,
@@ -1083,7 +1100,22 @@
 					},
 					"uid": 247,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 3577,
 						"y": 701,

@@ -72,8 +72,24 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -104,6 +120,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Turret",
 			"name": "Turret",
 			"author": "Scirra",
@@ -117,40 +141,20 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
-			"author": "Scirra",
-			"version": "r285.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r285.3",
-			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
 	"objectTypes": {
 		"items": [
-			"Player",
-			"Bullet",
 			"Mouse",
 			"Keyboard",
 			"Platform",
 			"Enemy",
 			"MovingPlatform",
-			"Sprite",
 			"Goal",
 			"bg",
 			"straw_waffer",
 			"Audio",
-			"ShockBullet",
 			"Strawberry",
 			"lolipop",
 			"donut",
@@ -253,7 +257,9 @@
 					{
 						"items": [
 							"door",
-							"nbutton"
+							"nbutton",
+							"breakablewall",
+							"fadingplat"
 						],
 						"subfolders": [],
 						"name": "Interactble objects"
@@ -268,6 +274,17 @@
 				],
 				"subfolders": [],
 				"name": "UI"
+			},
+			{
+				"items": [
+					"Bullet",
+					"Player",
+					"ShockBullet",
+					"Sprite",
+					"boxingGlove"
+				],
+				"subfolders": [],
+				"name": "Player"
 			}
 		]
 	},
