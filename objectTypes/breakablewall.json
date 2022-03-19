@@ -4,7 +4,13 @@
 	"sid": 540416345628429,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 712333853812893
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -60,10 +66,10 @@
 								0.003968253968253968,
 								1,
 								0.003968253968253968,
-								1,
-								0.996031746031746,
-								0,
-								0.996031746031746
+								0.9841272263299852,
+								0.05555575234549383,
+								0.007936386835007428,
+								0.06746048397488054
 							]
 						},
 						"useCollisionPoly": true,

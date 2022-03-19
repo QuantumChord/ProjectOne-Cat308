@@ -1205,6 +1205,90 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Health",
+					"properties": {
+						"text": "HP: \"\"",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 267,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 12,
+						"y": 567,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ammo",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 268,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 164,
+						"y": 556,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 749223114345244,
@@ -1441,8 +1525,8 @@
 						}
 					},
 					"world": {
-						"x": 547,
-						"y": 962,
+						"x": 446,
+						"y": 967,
 						"width": 250,
 						"height": 250,
 						"originX": 0.04,
