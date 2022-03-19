@@ -1052,9 +1052,9 @@
 						}
 					},
 					"world": {
-						"x": 244,
+						"x": 245,
 						"y": 296,
-						"width": 3,
+						"width": 6,
 						"height": 4,
 						"originX": 0.3333333333333333,
 						"originY": 0.75,
@@ -1350,6 +1350,41 @@
 						"height": 96,
 						"originX": 0.5911330049261084,
 						"originY": 0.3958333333333333,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "aimbot",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 276,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 140,
+						"y": 185,
+						"width": 3,
+						"height": 4,
+						"originX": 0.3333333333333333,
+						"originY": 0.75,
 						"color": [
 							1,
 							1,
