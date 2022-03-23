@@ -44,35 +44,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 227,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 819,
-						"y": 793,
-						"width": -42,
-						"height": 257,
-						"originX": 0.4305555555555556,
-						"originY": 0.7411575562700965,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite9",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 228,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -89,7 +60,7 @@
 							1,
 							1
 						],
-						"angle": 0.3305569376346905,
+						"angle": 0.00399699639061446,
 						"zElevation": 0
 					}
 				},
@@ -106,8 +77,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 4357,
-						"y": 254,
+						"x": 4419.809917355372,
+						"y": 241.6033057851239,
 						"width": 191,
 						"height": 266,
 						"originX": 0.5520833333333334,
@@ -118,36 +89,7 @@
 							1,
 							1
 						],
-						"angle": 0.14485908878271692,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite10",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 230,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 186,
-						"y": 761,
-						"width": 191,
-						"height": 266,
-						"originX": 0.5520833333333334,
-						"originY": 0.5160944206008584,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.085782409890505,
+						"angle": 0.0833240026245956,
 						"zElevation": 0
 					}
 				},
@@ -181,7 +123,36 @@
 					}
 				},
 				{
-					"type": "Sprite11",
+					"type": "hotpinkPocky",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 230,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 137,
+						"y": 677,
+						"width": 30,
+						"height": 458,
+						"originX": 0.4305555555555556,
+						"originY": 0.5101832993890021,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.5452370263069647,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pinkCandle",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -193,19 +164,19 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 5467,
-						"y": 242,
-						"width": 175,
-						"height": 217,
-						"originX": 0.47512437810945274,
-						"originY": 0.47549019607843135,
+						"x": 983.9853995134042,
+						"y": 785.6357694377917,
+						"width": -42,
+						"height": 257,
+						"originX": 0.4305555555555556,
+						"originY": 0.7411575562700965,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0.07522028933273639,
+						"angle": 0.15943297919943378,
 						"zElevation": 0
 					}
 				}
@@ -1324,41 +1295,7 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				}
-			],
-			"sid": 749223114345244,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Tile_Set",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
+				},
 				{
 					"type": "Cake_Tile",
 					"properties": {
@@ -1413,7 +1350,41 @@
 						],
 						"zElevation": 0
 					}
-				},
+				}
+			],
+			"sid": 749223114345244,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Tile_Set",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
 				{
 					"type": "Sprite2",
 					"properties": {

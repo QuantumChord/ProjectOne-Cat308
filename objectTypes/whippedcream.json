@@ -1,0 +1,57 @@
+{
+	"name": "whippedCream",
+	"plugin-id": "Sprite",
+	"sid": 486070656753193,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 742,
+						"height": 732,
+						"originX": 0.5673854447439353,
+						"originY": 0.5887978142076503,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6469739,
+						"collisionPoly": {
+							"points": [
+								0.3113207547169811,
+								0.3292349726775956,
+								0.5673854447439353,
+								0.16530054644808742,
+								0.7412398921832885,
+								0.41120218579234974,
+								0.9164420485175202,
+								0.5887978142076503,
+								0.9299191374663073,
+								0.9562841530054644,
+								0.5673854447439353,
+								0.9972677595628415,
+								0.19002695417789758,
+								0.9699453551912568,
+								0.02830188679245283,
+								0.5887978142076503
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 774012664873723,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

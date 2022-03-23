@@ -1,0 +1,57 @@
+{
+	"name": "wafflePocky",
+	"plugin-id": "Sprite",
+	"sid": 587466991008423,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 692,
+						"height": 692,
+						"originX": 0.47832369942196534,
+						"originY": 0.5361271676300579,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7696786,
+						"collisionPoly": {
+							"points": [
+								0.001445086705202312,
+								0.059248554913294796,
+								0.47832369942196534,
+								0.42052023121387283,
+								0.5346820809248555,
+								0.47832369942196534,
+								0.6069364161849711,
+								0.5361271676300579,
+								0.9393063583815029,
+								0.9971098265895953,
+								0.47832369942196534,
+								0.5491329479768786,
+								0.47832369942196534,
+								0.5346820809248555,
+								0.47832369942196534,
+								0.5361271676300579
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 338067210737809,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

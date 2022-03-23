@@ -174,7 +174,12 @@
 			"Sprite10",
 			"Sprite11",
 			"Gun",
-			"Particles"
+			"Particles",
+			"Sprite13",
+			"wafflePocky",
+			"whippedCream",
+			"hotpinkPocky",
+			"pinkCandle"
 		],
 		"subfolders": [
 			{
