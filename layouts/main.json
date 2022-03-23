@@ -260,35 +260,6 @@
 						"angle": 0.16761758455415116,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "secretlevel",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 171,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1213,
-						"y": 72,
-						"width": 177.22943463352385,
-						"height": 151.5574632187282,
-						"originX": 0.5544554455445545,
-						"originY": 0.46703296703296704,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.04694534826140773,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 427179576800060,

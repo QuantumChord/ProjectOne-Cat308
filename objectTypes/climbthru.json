@@ -1,0 +1,63 @@
+{
+	"name": "Climbthru",
+	"plugin-id": "Sprite",
+	"sid": 526171156499623,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 956630486982009
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 412,
+						"height": 972,
+						"originX": 0.8762135922330098,
+						"originY": 0.4742798353909465,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4846511,
+						"collisionPoly": {
+							"points": [
+								0.12864033226827973,
+								0.0792180912975421,
+								0.8762135922330098,
+								0.06275720164609054,
+								0.9951456310679612,
+								0.4228395061728395,
+								0.9951456310679612,
+								0.4742798353909465,
+								0.9951456310679612,
+								0.5246913580246914,
+								0.8665050025125153,
+								1,
+								0.8567964127920203,
+								0.18930058420440293,
+								0.14805825242718443,
+								0.17798374317310472
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 778927737332343,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

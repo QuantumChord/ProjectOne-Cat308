@@ -128,6 +128,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "jumpthru",
+			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Turret",
 			"name": "Turret",
 			"author": "Scirra",
@@ -141,6 +157,14 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
@@ -149,9 +173,6 @@
 			"Mouse",
 			"Keyboard",
 			"Platform",
-			"Enemy",
-			"MovingPlatform",
-			"Goal",
 			"bg",
 			"straw_waffer",
 			"Audio",
@@ -162,7 +183,6 @@
 			"Waffle_Tile",
 			"Waffle_BG",
 			"Cake_Tile",
-			"BulletEnemy",
 			"F_255539586_Y3Hti5Pyr7zZZIJ3RQXt7gwULrU8AfwY",
 			"Sprite3",
 			"Sprite6",
@@ -175,11 +195,11 @@
 			"Sprite11",
 			"Gun",
 			"Particles",
-			"Sprite13",
 			"wafflePocky",
 			"whippedCream",
 			"hotpinkPocky",
-			"pinkCandle"
+			"pinkCandle",
+			"TiledBackground2"
 		],
 		"subfolders": [
 			{
@@ -251,9 +271,6 @@
 					"aimbot",
 					"box",
 					"Cam",
-					"CP",
-					"CP2",
-					"CP3",
 					"WalkPoint",
 					"Sprite12",
 					"Killpoint"
@@ -264,7 +281,8 @@
 							"door",
 							"nbutton",
 							"breakablewall",
-							"fadingplat"
+							"fadingplat",
+							"breakablewall2"
 						],
 						"subfolders": [],
 						"name": "Interactble objects"
@@ -276,7 +294,8 @@
 				"items": [
 					"EGGs",
 					"Health",
-					"ammo"
+					"ammo",
+					"Sprite13"
 				],
 				"subfolders": [],
 				"name": "UI"
@@ -291,6 +310,60 @@
 				],
 				"subfolders": [],
 				"name": "Player"
+			},
+			{
+				"items": [
+					"Climbthru",
+					"TiledBackground3",
+					"MovingPlatform",
+					"staticplat",
+					"hidden"
+				],
+				"subfolders": [],
+				"name": "platforms"
+			},
+			{
+				"items": [
+					"tip1"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"TiledBackground4"
+						],
+						"subfolders": [],
+						"name": "docs"
+					}
+				],
+				"name": "Tips"
+			},
+			{
+				"items": [
+					"CP",
+					"Goal",
+					"Goal2",
+					"Goal3",
+					"Goal4"
+				],
+				"subfolders": [],
+				"name": "alevelmarker"
+			},
+			{
+				"items": [
+					"Enemy",
+					"Sprite14"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"BulletEnemy",
+							"Sprite15"
+						],
+						"subfolders": [],
+						"name": "projectile"
+					}
+				],
+				"name": "Enemies"
 			}
 		]
 	},
@@ -299,24 +372,39 @@
 	"families": {
 		"items": [
 			"Platforms",
-			"BulletFam"
+			"BulletFam",
+			"hiddenpaths"
 		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
-			"Main",
-			"Game",
-			"s1",
 			"Game2",
-			"s2",
 			"Game3",
 			"LevelbyAnthony",
-			"GameOver",
-			"End",
 			"JoeDevRoom"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"Layout 1",
+					"s1",
+					"Game"
+				],
+				"subfolders": [],
+				"name": "Updated levels"
+			},
+			{
+				"items": [
+					"s2",
+					"GameOver",
+					"End",
+					"Main"
+				],
+				"subfolders": [],
+				"name": "Story slides"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [

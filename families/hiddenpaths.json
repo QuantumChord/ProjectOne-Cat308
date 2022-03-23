@@ -1,0 +1,11 @@
+{
+	"name": "hiddenpaths",
+	"plugin-id": "TiledBg",
+	"sid": 195422151125382,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"hidden"
+	]
+}

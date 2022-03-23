@@ -252,6 +252,92 @@
 						"angle": 0.21324133211564367,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 239,
+					"instanceVariables": {
+						"Fired": false,
+						"IsDead": false,
+						"Health": 3,
+						"Ammo": 6,
+						"Gun": 0,
+						"level": 0,
+						"Eggs": 0
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": false
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 617,
+						"y": 500,
+						"width": 69.632,
+						"height": 152.832,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Killpoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 344,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -47,
+						"y": 1072,
+						"width": 61,
+						"height": 61,
+						"originX": 0.5081967213114754,
+						"originY": 0.5081967213114754,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 935209259408975,

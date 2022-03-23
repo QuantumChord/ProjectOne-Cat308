@@ -1,7 +1,7 @@
 {
-	"name": "CP2",
+	"name": "Goal4",
 	"plugin-id": "Sprite",
-	"sid": 126361293999334,
+	"sid": 859063177136971,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,26 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2525384,
+						"imageSpriteId": 8303064,
+						"collisionPoly": {
+							"points": [
+								0.15199981689453135,
+								0.44399993896484374,
+								0.5059999084472656,
+								0.1540000534057617,
+								0.8120001220703124,
+								0.4319998931884766,
+								0.7160000610351561,
+								0.8159999084472654,
+								0.3280001831054687,
+								0.8319999694824217
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 418179656205478,
+				"sid": 981553657328412,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

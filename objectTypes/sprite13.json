@@ -1,7 +1,7 @@
 {
 	"name": "Sprite13",
 	"plugin-id": "Sprite",
-	"sid": 808263773339247,
+	"sid": 918227966939264,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,21 +11,81 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 249,
+						"height": 131,
+						"originX": 0.4939759036144578,
+						"originY": 0.7938931297709924,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2869063,
+						"imageSpriteId": 1695502,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9959839357429718,
+								0,
+								0.9959839357429718,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 249,
+						"height": 131,
+						"originX": 0.4939759036144578,
+						"originY": 0.7938931297709924,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 628669,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9959839357429718,
+								0,
+								0.9959839357429718,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 249,
+						"height": 131,
+						"originX": 0.4939759036144578,
+						"originY": 0.7938931297709924,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4679550,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9959839357429718,
+								0,
+								0.9959839357429718,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 548959453226774,
+				"sid": 788676993690700,
 				"name": "Animation 1",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

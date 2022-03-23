@@ -1,27 +1,26 @@
 {
-	"name": "Cake_Tile",
-	"plugin-id": "Tilemap",
-	"sid": 732005850868651,
+	"name": "TiledBackground3",
+	"plugin-id": "TiledBg",
+	"sid": 415550044817043,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 787260154921187
+			"sid": 259858629397153
 		}
 	],
 	"effectTypes": [],
 	"image": {
-		"width": 606,
-		"height": 606,
+		"width": 249,
+		"height": 226,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6292035,
+		"imageSpriteId": 1547289,
 		"useCollisionPoly": true
-	},
-	"tile-collision-polys": {}
+	}
 }

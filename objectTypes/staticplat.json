@@ -1,0 +1,67 @@
+{
+	"name": "staticplat",
+	"plugin-id": "Sprite",
+	"sid": 464363557720074,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 590750285692184
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 203,
+						"height": 96,
+						"originX": 0.5911330049261084,
+						"originY": 0.3958333333333333,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2462552,
+						"collisionPoly": {
+							"points": [
+								0.527585560465094,
+								0.27677083333333335,
+								0.6538788493239428,
+								0.27677083333333335,
+								0.8124670269845541,
+								0.27350468105740033,
+								0.9389187416615352,
+								0.27677083333333335,
+								1,
+								0.539116965399848,
+								0.9326765439388984,
+								0.8194445504082574,
+								0.45073891625615775,
+								0.9947916799121431,
+								0.06403943392247793,
+								0.8368055290646021,
+								0,
+								0.2767956124411689,
+								0.18817186277292436,
+								0.27677083333333335
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 463318875431749,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

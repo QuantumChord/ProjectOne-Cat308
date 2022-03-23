@@ -19,10 +19,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2591.519345731283,
-						"y": 621,
-						"width": 5119.115368496746,
-						"height": 785.3437037037037,
+						"x": 2554.019345731283,
+						"y": 455,
+						"width": 5193.967812815964,
+						"height": 1109.3343388341004,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1308,10 +1308,9 @@
 					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -2305,7 +2304,7 @@
 						"Health": 3,
 						"Ammo": 6,
 						"Gun": 0,
-						"CP": 0,
+						"level": 0,
 						"Eggs": 0
 					},
 					"behaviors": {
@@ -3198,10 +3197,9 @@
 					"uid": 201,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},

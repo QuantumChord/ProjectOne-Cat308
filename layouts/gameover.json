@@ -65,35 +65,6 @@
 					}
 				},
 				{
-					"type": "Redo",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 125,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1145,
-						"y": 84,
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 5.955260883258266,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Text4",
 					"properties": {
 						"text": "Well, it ain't all bad. You didn't obviously get the job but may instead have fallen into spikes, gun down by others. At least it ain't all bad. You could have been left at a dumpster but at least I found a nice picture of what could have been your grave.",
@@ -178,64 +149,6 @@
 					}
 				},
 				{
-					"type": "Redo2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 239,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1158,
-						"y": 211,
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 5.955260883258266,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Redo3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 244,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1167,
-						"y": 334,
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 5.955260883258266,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "secretlevel",
 					"properties": {
 						"initially-visible": true,
@@ -261,6 +174,121 @@
 							1
 						],
 						"angle": 0.04694534826140773,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Redo",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 63,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1009,
+						"y": 115,
+						"width": 255.67007797074749,
+						"height": 229.08714042899055,
+						"originX": 0.5286624203821656,
+						"originY": 0.6397058823529411,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.538621382767628,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": false,
+						"live-preview": false
+					},
+					"uid": 244,
+					"instanceVariables": {
+						"Fired": false,
+						"IsDead": false,
+						"Health": 3,
+						"Ammo": 6,
+						"Gun": 0,
+						"level": 0,
+						"Eggs": 0
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": false
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 405,
+						"y": 90,
+						"width": 69.632,
+						"height": 152.832,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Killpoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 339,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -47,
+						"y": 883,
+						"width": 61,
+						"height": 61,
+						"originX": 0.5081967213114754,
+						"originY": 0.5081967213114754,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
@@ -302,6 +330,6 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"projection": "orthographic",
+	"projection": "perspective",
 	"eventSheet": "Event sheet 1"
 }

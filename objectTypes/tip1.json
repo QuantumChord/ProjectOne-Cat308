@@ -1,7 +1,7 @@
 {
-	"name": "Redo2",
+	"name": "tip1",
 	"plugin-id": "Sprite",
-	"sid": 682642520656750,
+	"sid": 454893317145625,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 157,
-						"height": 136,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4172910,
+						"imageSpriteId": 9184442,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 915823264404107,
+				"sid": 978402871331175,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
