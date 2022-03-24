@@ -1,0 +1,80 @@
+{
+	"name": "bubblemachine",
+	"plugin-id": "Sprite",
+	"sid": 739650448665916,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 76,
+						"height": 125,
+						"originX": 0.3026315789473684,
+						"originY": 0.488,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 372306,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "bublespawn",
+								"x": 0.4868421052631579,
+								"y": -0.344
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 76,
+						"height": 141,
+						"originX": 0.3026315789473684,
+						"originY": 0.5460992907801419,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8460809,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 76,
+						"height": 167,
+						"originX": 0.3026315789473684,
+						"originY": 0.6167664670658682,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2184274,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 76,
+						"height": 161,
+						"originX": 0.3026315789473684,
+						"originY": 0.6024844720496895,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2984739,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 163391924894116,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

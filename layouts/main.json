@@ -94,48 +94,6 @@
 					}
 				},
 				{
-					"type": "Text",
-					"properties": {
-						"text": "Our story begins in a land far beyond our reach, where this land's inhabitants remain undisturbed from human civilization. Man slowly regress back into they're primal roots and become one with Nature.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 13,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 159,
-						"y": 117,
-						"width": 363.9102744293291,
-						"height": 152.84703431570472,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.13497483109553454,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Text2",
 					"properties": {
 						"text": "Following Eric Philip bunkin Jones, an Ex-Navy seals, Ex-NYPD cop, Ex-Boxer; down on his luck to find a place for himself in this world may have finally found that purpose he was looking for.",
@@ -161,10 +119,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 134,
-						"y": 226,
+						"x": 154,
+						"y": 183,
 						"width": 353.1506032033486,
-						"height": 153.51450778620637,
+						"height": 180.87685475412238,
 						"originX": 0,
 						"originY": 0,
 						"color": [

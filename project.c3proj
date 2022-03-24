@@ -284,7 +284,16 @@
 							"fadingplat",
 							"breakablewall2"
 						],
-						"subfolders": [],
+						"subfolders": [
+							{
+								"items": [
+									"BubbleShield",
+									"bubblemachine"
+								],
+								"subfolders": [],
+								"name": "Bubblelift"
+							}
+						],
 						"name": "Interactble objects"
 					}
 				],

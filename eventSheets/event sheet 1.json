@@ -1088,6 +1088,501 @@
 		},
 		{
 			"eventType": "group",
+			"disabled": true,
+			"title": "Enemy wolves",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 635293098433906
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 854799483516326,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 457493012593957,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 123772674021910,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 883830890952765,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 735725898099018,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 154441967607644,
+							"parameters": {
+								"object": "WalkPoint"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-instvar",
+							"objectClass": "Enemy",
+							"sid": 689885434048582,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"sid": 561427455096154,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 641136451093052,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 904924352515129,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 156327873697340,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 455127491890326,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 712881305354655,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy",
+							"sid": 317504941025713,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy",
+							"sid": 368663477504337,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 529682862420779,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 996302569672808,
+							"parameters": {
+								"object": "Bullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 751105673104193,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 133487354745781,
+							"disabled": true,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 577870446956985,
+							"disabled": true,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 208152954178119,
+							"disabled": true,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 596278601323659
+						}
+					],
+					"sid": 143609999210547,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Enemy",
+							"sid": 627957905446140,
+							"parameters": {
+								"animation": "\"Pain\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 958619099287356
+						}
+					],
+					"sid": 650970287546517,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 261936066147097,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 738756143589475,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy",
+							"sid": 620331006631712,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Gun",
+							"sid": 950946400471922,
+							"parameters": {
+								"angle": "clamp(Gun.Angle,90,270)"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Gun",
+							"sid": 127577363824215,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"sid": 135758075429205,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 434965100940358,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 136839054877580
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 816119025145745,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 924032586733642,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 382177508007475,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 587538056278910
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 180573385798913,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 308527811861782,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 661553452641484,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 475730160882200
+						}
+					],
+					"sid": 271127562008113,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BulletEnemy",
+							"sid": 700001070091825,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "BulletEnemy",
+							"sid": 423564978961526
+						}
+					],
+					"sid": 722470481107833,
+					"disabled": true,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 639429921282878,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 189441625845173,
+							"parameters": {
+								"interval-seconds": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Gun",
+							"sid": 715858289408818,
+							"parameters": {
+								"object": "BulletEnemy",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 169714057393510,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 727544048349258,
+							"parameters": {
+								"object": "ShockBullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 786523580676646,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 665842938657835,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 938329768348497,
+							"parameters": {
+								"object": "boxingGlove"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 799371704659135,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 393512467606423,
+					"disabled": true
+				}
+			],
+			"sid": 214424940830738
+		},
+		{
+			"eventType": "group",
 			"disabled": false,
 			"title": "360aim2",
 			"description": "",
@@ -2512,6 +3007,33 @@
 						}
 					],
 					"sid": 183738815770329
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 938366464627934,
+							"parameters": {
+								"key": 81
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bubblemachine",
+							"sid": 784368614295202,
+							"parameters": {
+								"object": "BubbleShield",
+								"layer": "2",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 565605904818451
 				}
 			],
 			"sid": 808606313618351
