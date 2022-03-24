@@ -218,15 +218,6 @@
 							"parameters": {
 								"object": "BulletEnemy"
 							}
-						},
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 348859708141976,
-							"disabled": true,
-							"parameters": {
-								"object": "Enemy"
-							}
 						}
 					],
 					"actions": [
@@ -241,6 +232,32 @@
 						}
 					],
 					"sid": 675444640426845,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 806663122146256,
+							"parameters": {
+								"object": "Sprite15"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 453054573043527,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 436778305629493,
 					"isOrBlock": true
 				},
 				{
