@@ -157,14 +157,6 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "TileMovement",
-			"name": "Tile movement",
-			"author": "Scirra",
-			"version": "r285.3",
-			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
@@ -326,7 +318,8 @@
 					"TiledBackground3",
 					"MovingPlatform",
 					"staticplat",
-					"hidden"
+					"hidden",
+					"Sprite14"
 				],
 				"subfolders": [],
 				"name": "platforms"
@@ -349,10 +342,7 @@
 			{
 				"items": [
 					"CP",
-					"Goal",
-					"Goal2",
-					"Goal3",
-					"Goal4"
+					"Goal"
 				],
 				"subfolders": [],
 				"name": "alevelmarker"
@@ -360,13 +350,13 @@
 			{
 				"items": [
 					"Enemy",
-					"Sprite14"
+					"bird2"
 				],
 				"subfolders": [
 					{
 						"items": [
 							"BulletEnemy",
-							"Sprite15"
+							"bombs"
 						],
 						"subfolders": [],
 						"name": "projectile"

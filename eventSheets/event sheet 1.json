@@ -78,6 +78,31 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
+							"sid": 919808884459689,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "Cam",
+							"sid": 475153815996656,
+							"parameters": {
+								"angle": "90",
+								"distance": "10"
+							}
+						}
+					],
+					"sid": 354076654588382
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
 							"sid": 587977552170691,
 							"parameters": {
 								"key": 65
@@ -242,7 +267,7 @@
 							"objectClass": "Player",
 							"sid": 806663122146256,
 							"parameters": {
-								"object": "Sprite15"
+								"object": "bombs"
 							}
 						}
 					],
@@ -1085,6 +1110,336 @@
 				}
 			],
 			"sid": 980559730493021
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "bird",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 751186764335339
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "bird2",
+							"sid": 581540093778935,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "bird2",
+							"sid": 648375351763657,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "bird2",
+							"sid": 100041233159985,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-cone-of-view",
+							"objectClass": "bird2",
+							"sid": 816684598719887,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"cone-of-view": "180"
+							}
+						}
+					],
+					"sid": 578361677756454
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bird2",
+							"sid": 395025640868557,
+							"parameters": {
+								"object": "WalkPoint"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-instvar",
+							"objectClass": "bird2",
+							"sid": 326191098023326,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"sid": 103299350696139
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "bird2",
+							"sid": 276206843102177,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "bird2",
+							"sid": 828082114086029,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "bird2",
+							"sid": 741702823741516,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 624242865587248
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "bird2",
+							"sid": 720015003902972,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "bird2",
+							"sid": 340401670047607,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "bird2",
+							"sid": 968430328217564,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 572607266197541
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bird2",
+							"sid": 748413732042054,
+							"parameters": {
+								"object": "Bullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bird2",
+							"sid": 773237425157219,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 916482060857154,
+							"disabled": true,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 566932595025975,
+							"disabled": true,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 425814313671922,
+							"disabled": true,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 990616705144722
+						}
+					],
+					"sid": 545651376715771
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Enemy",
+							"sid": 883643491498495,
+							"parameters": {
+								"animation": "\"Pain\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 443373262797792
+						}
+					],
+					"sid": 791236683227840,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bombs",
+							"sid": 779089727803854,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "bombs",
+							"sid": 662877105806944
+						}
+					],
+					"sid": 455784250226902,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bird2",
+							"sid": 571385526492803,
+							"parameters": {
+								"object": "ShockBullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bird2",
+							"sid": 601090553694968,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 983526067271104
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "bird2",
+							"sid": 926562681543003,
+							"parameters": {
+								"object": "boxingGlove"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bird2",
+							"sid": 445416815327501,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 946967318208650
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 942565780040245,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "bird2",
+							"sid": 358175853271851,
+							"parameters": {
+								"object": "bombs",
+								"layer": "0",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 353933807688503
+				}
+			],
+			"sid": 545314586869046
 		},
 		{
 			"eventType": "group",
@@ -3007,33 +3362,6 @@
 						}
 					],
 					"sid": 183738815770329
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 938366464627934,
-							"parameters": {
-								"key": 81
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "bubblemachine",
-							"sid": 784368614295202,
-							"parameters": {
-								"object": "BubbleShield",
-								"layer": "2",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 565605904818451
 				}
 			],
 			"sid": 808606313618351
@@ -3092,45 +3420,6 @@
 				}
 			],
 			"sid": 305247441323785
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "birdenemy",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "has-los-to-object",
-							"objectClass": "Sprite14",
-							"sid": 912006119079023,
-							"behaviorType": "LineOfSight",
-							"parameters": {
-								"object": "Player",
-								"image-point": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite14",
-							"sid": 611834821998877,
-							"parameters": {
-								"object": "Sprite15",
-								"layer": "0",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 422080727310687
-				}
-			],
-			"sid": 801679709054839
 		}
 	],
 	"sid": 899970392297185

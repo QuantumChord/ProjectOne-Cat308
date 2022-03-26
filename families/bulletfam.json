@@ -15,6 +15,7 @@
 		"Sprite",
 		"ShockBullet",
 		"Bullet",
-		"BulletEnemy"
+		"BulletEnemy",
+		"bombs"
 	]
 }

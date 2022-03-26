@@ -1,0 +1,84 @@
+{
+	"name": "bird2",
+	"plugin-id": "Sprite",
+	"sid": 228736366082193,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "IsWalkingLeft",
+			"type": "boolean",
+			"desc": "",
+			"sid": 812592088568589
+		},
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 433489181828618
+		},
+		{
+			"name": "Shock",
+			"type": "boolean",
+			"desc": "",
+			"sid": 954910072723855
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 391312476374798
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 383931387534015
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 127284269242197
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 286239408293286
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 115,
+						"height": 48,
+						"originX": 0.5043478260869565,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6485512,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5043478260869565,
+								"y": 1.1041666666666667
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 446466044637136,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

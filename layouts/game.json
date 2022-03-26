@@ -880,8 +880,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 696,
-						"y": 698,
+						"x": 906,
+						"y": 903,
 						"width": 50,
 						"height": 61,
 						"originX": 0.5013192612137203,
@@ -1337,35 +1337,6 @@
 						"height": 133,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "bubblemachine",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 306,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 396,
-						"y": 663,
-						"width": 76,
-						"height": 125,
-						"originX": 0.3026315789473684,
-						"originY": 0.488,
 						"color": [
 							1,
 							1,
