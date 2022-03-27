@@ -1,0 +1,57 @@
+{
+	"name": "bunnyGunArm",
+	"plugin-id": "Sprite",
+	"sid": 302010598788116,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 642,
+						"height": 292,
+						"originX": 0.4221183800623053,
+						"originY": 0.3801369863013699,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6622749,
+						"collisionPoly": {
+							"points": [
+								0.37538940809968846,
+								0.2773972602739726,
+								0.4221183800623053,
+								0.07191780821917808,
+								0.5607476635514018,
+								0.07191780821917808,
+								0.9345794392523364,
+								0.3801369863013699,
+								0.5607476635514018,
+								0.684931506849315,
+								0.4221183800623053,
+								0.9931506849315068,
+								0.28193146417445486,
+								0.684931506849315,
+								0.048286604361370715,
+								0.3801369863013699
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 898264715809249,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
