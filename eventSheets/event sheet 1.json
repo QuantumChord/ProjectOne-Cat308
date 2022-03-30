@@ -779,11 +779,11 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 855208593844476,
+							"id": "is-overlapping-another-object",
+							"objectClass": "Bullet",
+							"sid": 185865351533672,
 							"parameters": {
-								"object": "Bullet"
+								"object": "Enemy"
 							}
 						}
 					],
@@ -1032,6 +1032,16 @@
 							"parameters": {
 								"object": "Player",
 								"image-point": "0"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 792881833423799,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
 							}
 						},
 						{
