@@ -1786,41 +1786,6 @@
 					}
 				},
 				{
-					"type": "aimbot",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 285,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 128,
-						"y": 1184,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "WalkPoint",
 					"properties": {
 						"initially-visible": false,
@@ -2560,6 +2525,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "aimbot",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "gun",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 0,
+						"y": 1600,
+						"width": 64,
+						"height": 32,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 473381680721034,
@@ -2620,64 +2620,6 @@
 						"height": 690,
 						"originX": 0.04,
 						"originY": 0.04,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Fox",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 171,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1287,
-						"y": 758,
-						"width": 96.00000000000001,
-						"height": 128,
-						"originX": 0.6657060518731989,
-						"originY": 0.437137330754352,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "bunnyGunArm",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 306,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 278.98855109088913,
-						"y": 1064.1924234282733,
-						"width": 63.198112637583506,
-						"height": 34.36201737248291,
-						"originX": 0.4221183800623053,
-						"originY": 0.3801369863013699,
 						"color": [
 							1,
 							1,

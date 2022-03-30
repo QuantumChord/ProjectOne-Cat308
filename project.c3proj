@@ -192,8 +192,7 @@
 			"hotpinkPocky",
 			"pinkCandle",
 			"TiledBackground2",
-			"Fox",
-			"bunnyGunArm"
+			"Fox"
 		],
 		"subfolders": [
 			{
@@ -267,7 +266,9 @@
 					"Cam",
 					"WalkPoint",
 					"Sprite12",
-					"Killpoint"
+					"Killpoint",
+					"aimbot2",
+					"aimbot3"
 				],
 				"subfolders": [
 					{
@@ -309,7 +310,8 @@
 					"Player",
 					"ShockBullet",
 					"Sprite",
-					"boxingGlove"
+					"boxingGlove",
+					"bunnyGunArm"
 				],
 				"subfolders": [],
 				"name": "Player"

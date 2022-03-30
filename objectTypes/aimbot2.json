@@ -1,0 +1,43 @@
+{
+	"name": "aimbot2",
+	"plugin-id": "Sprite",
+	"sid": 756326319385009,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 952278116899903
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 642,
+						"height": 292,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9035490,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 685624852811691,
+				"name": "bunnyarm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

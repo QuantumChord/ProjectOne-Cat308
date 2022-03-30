@@ -1,14 +1,14 @@
 {
-	"name": "aimbot",
+	"name": "aimbot3",
 	"plugin-id": "Sprite",
-	"sid": 587505336970085,
+	"sid": 231761223298117,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
 			"name": "Pin",
-			"sid": 817362267758711
+			"sid": 251147497784716
 		}
 	],
 	"effectTypes": [],
@@ -17,20 +17,20 @@
 			{
 				"frames": [
 					{
-						"width": 642,
-						"height": 292,
-						"originX": 0.0529595015576324,
-						"originY": 0.2568493150684932,
+						"width": 3,
+						"height": 4,
+						"originX": 0.3333333333333333,
+						"originY": 0.75,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4880755,
+						"imageSpriteId": 7718025,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 724961000977332,
-				"name": "gun",
+				"sid": 465089569468449,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -42,18 +42,18 @@
 					{
 						"width": 642,
 						"height": 292,
-						"originX": 0.0529595015576324,
-						"originY": 0.2568493150684932,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4099782,
+						"imageSpriteId": 4273786,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 269332127552946,
-				"name": "elgun",
+				"sid": 176255315436481,
+				"name": "bunnyarm",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

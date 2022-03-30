@@ -3295,7 +3295,7 @@
 					"type": "aimbot",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initial-animation": "gun",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -3312,10 +3312,10 @@
 					"world": {
 						"x": 160.66666666666669,
 						"y": 309,
-						"width": 2,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
+						"width": 428,
+						"height": 292,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
 						"color": [
 							1,
 							1,

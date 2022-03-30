@@ -1102,7 +1102,7 @@
 					"type": "aimbot",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initial-animation": "gun",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1119,10 +1119,10 @@
 					"world": {
 						"x": 245,
 						"y": 296,
-						"width": 6,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
+						"width": 1284,
+						"height": 292,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
 						"color": [
 							1,
 							1,
@@ -1393,7 +1393,7 @@
 					"type": "aimbot",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initial-animation": "gun",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1410,10 +1410,10 @@
 					"world": {
 						"x": 140,
 						"y": 185,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
+						"width": 642,
+						"height": 292,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
 						"color": [
 							1,
 							1,

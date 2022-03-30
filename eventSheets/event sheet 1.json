@@ -411,6 +411,14 @@
 								"instance-variable": "Gun",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "aimbot",
+							"sid": 541820773342718,
+							"parameters": {
+								"visibility": "visible"
+							}
 						}
 					],
 					"sid": 247748232763455
@@ -498,6 +506,15 @@
 								"instance-variable": "Ammo",
 								"value": "0"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "aimbot",
+							"sid": 131173149278315,
+							"parameters": {
+								"animation": "\"gun\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 177833331048371
@@ -531,6 +548,15 @@
 							"parameters": {
 								"instance-variable": "Ammo",
 								"value": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "aimbot",
+							"sid": 327723206390092,
+							"parameters": {
+								"animation": "\"elgun\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -2107,18 +2133,33 @@
 					],
 					"actions": [
 						{
-							"id": "pin-to-object-properties",
-							"objectClass": "aimbot",
-							"sid": 557222056591903,
-							"behaviorType": "Pin",
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 924386676338490,
 							"parameters": {
-								"pin-to": "Player",
-								"x": true,
-								"y": true,
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
+								"object-to-create": "aimbot",
+								"layer": "0",
+								"x": "0",
+								"y": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "aimbot",
+							"sid": 971806106485350,
+							"disabled": true,
+							"parameters": {
+								"animation": "\"bunnyarm\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "aimbot",
+							"sid": 642520981018656,
+							"parameters": {
+								"visibility": "visible"
 							}
 						}
 					],

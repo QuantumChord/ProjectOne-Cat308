@@ -1269,8 +1269,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 17,
-						"y": 577,
+						"x": 38,
+						"y": 579,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
@@ -1331,7 +1331,7 @@
 					"type": "aimbot",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initial-animation": "gun",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1348,10 +1348,10 @@
 					"world": {
 						"x": 277,
 						"y": 628,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
+						"width": 642,
+						"height": 292,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
 						"color": [
 							1,
 							1,
@@ -2608,7 +2608,7 @@
 					"type": "aimbot",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initial-animation": "gun",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2625,10 +2625,10 @@
 					"world": {
 						"x": 87,
 						"y": 688,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
+						"width": 642,
+						"height": 292,
+						"originX": 0.0529595015576324,
+						"originY": 0.2568493150684932,
 						"color": [
 							1,
 							1,

@@ -763,41 +763,6 @@
 					}
 				},
 				{
-					"type": "aimbot",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 88.19407538763201,
-						"y": 662.8589120878237,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "BulletEnemy",
 					"properties": {
 						"initially-visible": true,
@@ -1215,41 +1180,6 @@
 						"height": 293,
 						"originX": 0.31744777953308767,
 						"originY": 0.3966165413533835,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "aimbot",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 277,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 230,
-						"y": 638,
-						"width": 3,
-						"height": 4,
-						"originX": 0.3333333333333333,
-						"originY": 0.75,
 						"color": [
 							1,
 							1,
