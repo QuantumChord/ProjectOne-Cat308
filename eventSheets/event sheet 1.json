@@ -2448,6 +2448,49 @@
 						}
 					],
 					"sid": 562559109224822
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "Player",
+							"sid": 749630468486492
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "aimbot",
+							"sid": 162190525849503,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 300717381734720
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "Player",
+							"sid": 297995314073884,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "aimbot",
+							"sid": 486408814635027,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 579197320347474
 				}
 			],
 			"sid": 975256653768747
