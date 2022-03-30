@@ -144,16 +144,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Turret",
-			"name": "Turret",
+			"id": "LOS",
+			"name": "Line of sight",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "LOS",
-			"name": "Line of sight",
+			"id": "Turret",
+			"name": "Turret",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -420,14 +420,6 @@
 				],
 				"subfolders": [],
 				"name": "Story slides"
-			},
-			{
-				"items": [
-					"Game2",
-					"Game3"
-				],
-				"subfolders": [],
-				"name": "Scrapped levels"
 			}
 		]
 	},

@@ -1904,6 +1904,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "has-los-to-object",
+							"objectClass": "Fox",
+							"sid": 981639551425506,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Fox",
+							"sid": 812134228614031,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 875284514856671
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-animation-finished",
 							"objectClass": "Fox",
 							"sid": 311536865169980,
@@ -3271,14 +3299,6 @@
 							"parameters": {
 								"tag": "\"1\""
 							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 947967492237880,
-							"parameters": {
-								"layout": "Game2"
-							}
 						}
 					],
 					"sid": 943505694947522,
@@ -3305,14 +3325,6 @@
 							"sid": 684218489919909,
 							"parameters": {
 								"tag": "\"1\""
-							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 247694385953490,
-							"parameters": {
-								"layout": "Game3"
 							}
 						}
 					],

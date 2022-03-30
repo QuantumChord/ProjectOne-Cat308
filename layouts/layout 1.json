@@ -1372,19 +1372,6 @@
 								"tags": ""
 							}
 						},
-						"Turret": {
-							"properties": {
-								"range": 100,
-								"rate-of-fire": 1,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": false,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": false
-							}
-						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
@@ -1445,19 +1432,6 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
-							}
-						},
-						"Turret": {
-							"properties": {
-								"range": 100,
-								"rate-of-fire": 1,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": false,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": false
 							}
 						},
 						"LineOfSight": {
@@ -1522,19 +1496,6 @@
 								"tags": ""
 							}
 						},
-						"Turret": {
-							"properties": {
-								"range": 100,
-								"rate-of-fire": 1,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": false,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": false
-							}
-						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
@@ -1597,19 +1558,6 @@
 								"tags": ""
 							}
 						},
-						"Turret": {
-							"properties": {
-								"range": 100,
-								"rate-of-fire": 1,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": false,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": false
-							}
-						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
@@ -1670,19 +1618,6 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
-							}
-						},
-						"Turret": {
-							"properties": {
-								"range": 100,
-								"rate-of-fire": 1,
-								"rotate": true,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": false,
-								"projectile-speed": 500,
-								"use-collision-cells": true,
-								"enabled": false
 							}
 						},
 						"LineOfSight": {
