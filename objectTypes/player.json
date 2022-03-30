@@ -302,7 +302,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1874953,
+						"imageSpriteId": 2324042,
 						"collisionPoly": {
 							"points": [
 								0.18041992187500008,
@@ -370,8 +370,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.50814332247557,
-						"originY": 0.5043327556325823,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -444,7 +444,7 @@
 						"width": 272,
 						"height": 597,
 						"originX": 0.5735294117647058,
-						"originY": 0.5083056478405316,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -517,7 +517,7 @@
 						"width": 272,
 						"height": 597,
 						"originX": 0.5735294117647058,
-						"originY": 0.512998266897747,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -569,7 +569,7 @@
 					}
 				],
 				"sid": 364335319560362,
-				"name": "Walk",
+				"name": "Savuthun'sbathwater",
 				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -581,8 +581,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5056390977443609,
-						"originY": 1.0025597269624573,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -637,8 +637,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5145348837209303,
-						"originY": 1.0041597337770383,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -688,8 +688,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5226510067114094,
-						"originY": 0.9965564738292011,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -743,8 +743,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5084602368866328,
-						"originY": 0.9971131639722863,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -798,8 +798,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5255775577557755,
-						"originY": 0.9961300309597523,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -853,8 +853,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.521630615640599,
-						"originY": 0.9955470737913485,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -910,8 +910,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5249584026622296,
-						"originY": 0.9993678887484198,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -965,8 +965,8 @@
 					{
 						"width": 272,
 						"height": 597,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -1013,14 +1013,14 @@
 			{
 				"frames": [
 					{
-						"width": 542,
-						"height": 1192,
-						"originX": 0.5738007380073801,
-						"originY": 0.5125838926174496,
+						"width": 272,
+						"height": 597,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4715038,
+						"imageSpriteId": 4559685,
 						"collisionPoly": {
 							"points": [
 								0.22324723247232484,
@@ -1042,17 +1042,39 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "hp",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "ammo",
+								"x": 1.7389705882352942,
+								"y": -0.0033500837520938024
+							},
+							{
+								"name": "boxing",
+								"x": 1.2463235294117647,
+								"y": 0.5745393634840871
+							},
+							{
+								"name": "reload",
+								"x": 0.47794117647058826,
+								"y": -0.3601340033500838
+							}
+						],
 						"duration": 1
 					},
 					{
-						"width": 542,
-						"height": 1152,
-						"originX": 0.5738007380073801,
-						"originY": 0.5043402777777778,
+						"width": 272,
+						"height": 597,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6929162,
+						"imageSpriteId": 8010087,
 						"collisionPoly": {
 							"points": [
 								0.22324723247232484,
@@ -1074,17 +1096,39 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "hp",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "ammo",
+								"x": 1.7389705882352942,
+								"y": -0.0033500837520938024
+							},
+							{
+								"name": "boxing",
+								"x": 1.2463235294117647,
+								"y": 0.5745393634840871
+							},
+							{
+								"name": "reload",
+								"x": 0.47794117647058826,
+								"y": -0.3601340033500838
+							}
+						],
 						"duration": 1
 					},
 					{
-						"width": 542,
-						"height": 1202,
-						"originX": 0.5738007380073801,
-						"originY": 0.5083194675540765,
+						"width": 272,
+						"height": 597,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8985791,
+						"imageSpriteId": 686055,
 						"collisionPoly": {
 							"points": [
 								0.22324723247232484,
@@ -1106,17 +1150,39 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "hp",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "ammo",
+								"x": 1.7389705882352942,
+								"y": -0.0033500837520938024
+							},
+							{
+								"name": "boxing",
+								"x": 1.2463235294117647,
+								"y": 0.5745393634840871
+							},
+							{
+								"name": "reload",
+								"x": 0.47794117647058826,
+								"y": -0.3601340033500838
+							}
+						],
 						"duration": 1
 					},
 					{
-						"width": 542,
-						"height": 1152,
-						"originX": 0.5738007380073801,
-						"originY": 0.5130208333333334,
+						"width": 272,
+						"height": 597,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4455432,
+						"imageSpriteId": 9078011,
 						"collisionPoly": {
 							"points": [
 								0.22324723247232484,
@@ -1138,12 +1204,34 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "hp",
+								"x": -0.7904411764705882,
+								"y": -0.006700167504187605
+							},
+							{
+								"name": "ammo",
+								"x": 1.7389705882352942,
+								"y": -0.0033500837520938024
+							},
+							{
+								"name": "boxing",
+								"x": 1.2463235294117647,
+								"y": 0.5745393634840871
+							},
+							{
+								"name": "reload",
+								"x": 0.47794117647058826,
+								"y": -0.3601340033500838
+							}
+						],
 						"duration": 1
 					}
 				],
 				"sid": 866232285567940,
-				"name": "walk no arm",
-				"isLooping": false,
+				"name": "Walk",
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

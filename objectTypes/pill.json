@@ -1,0 +1,63 @@
+{
+	"name": "pill",
+	"plugin-id": "Sprite",
+	"sid": 936021852918367,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 431963503863043
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 59,
+						"height": 81,
+						"originX": 0.6728076639646279,
+						"originY": 0.8084689050421138,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 835799,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.3898305084745763,
+								0,
+								0.8983050847457628,
+								0,
+								1,
+								0.35802469135802467,
+								0.9491525423728814,
+								0.7654320987654321,
+								0.3898305084745763,
+								1,
+								0,
+								0.7654320987654321,
+								0,
+								0.35802469135802467
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 961914972787531,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

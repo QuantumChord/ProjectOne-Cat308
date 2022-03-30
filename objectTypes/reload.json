@@ -1,0 +1,37 @@
+{
+	"name": "reload",
+	"plugin-id": "Sprite",
+	"sid": 174409843517607,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 405,
+						"height": 313,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7224262,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 254103876401689,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

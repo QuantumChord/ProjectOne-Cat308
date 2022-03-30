@@ -395,10 +395,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 346435640734912,
+							"sid": 487055898674327,
 							"parameters": {
 								"object": "aimbot",
-								"layer": "1",
+								"layer": "\"Game\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -472,6 +472,11 @@
 							"parameters": {
 								"layout": "GameOver"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "aimbot",
+							"sid": 256506236789386
 						}
 					],
 					"sid": 131649889747043
@@ -2707,6 +2712,31 @@
 						}
 					],
 					"sid": 508518347249233
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 282901904531820,
+							"parameters": {
+								"key": 77
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 973407035818392,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10000"
+							}
+						}
+					],
+					"sid": 842458942276289
 				}
 			],
 			"sid": 715473841842573

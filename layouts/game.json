@@ -192,7 +192,7 @@
 			"global": false
 		},
 		{
-			"name": "game",
+			"name": "Game",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [

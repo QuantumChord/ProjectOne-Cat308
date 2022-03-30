@@ -207,7 +207,8 @@
 			"whippedCream",
 			"hotpinkPocky",
 			"pinkCandle",
-			"TiledBackground2"
+			"TiledBackground2",
+			"Untitled"
 		],
 		"subfolders": [
 			{
@@ -269,7 +270,8 @@
 			},
 			{
 				"items": [
-					"egg"
+					"egg",
+					"pill"
 				],
 				"subfolders": [],
 				"name": "collectibles"
@@ -345,7 +347,10 @@
 			},
 			{
 				"items": [
-					"tip1"
+					"tip1",
+					"movement",
+					"SCam",
+					"reload"
 				],
 				"subfolders": [
 					{
@@ -462,6 +467,11 @@
 					"name": "Rock_n_Hop.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 269246808443791
+				},
+				{
+					"name": "Drum_Roll.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 779828935783314
 				}
 			],
 			"subfolders": []
