@@ -157,6 +157,22 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "7673veo5p56",
@@ -191,8 +207,7 @@
 			"whippedCream",
 			"hotpinkPocky",
 			"pinkCandle",
-			"TiledBackground2",
-			"Fox"
+			"TiledBackground2"
 		],
 		"subfolders": [
 			{
@@ -354,7 +369,8 @@
 			{
 				"items": [
 					"Enemy",
-					"bird2"
+					"bird2",
+					"Fox"
 				],
 				"subfolders": [
 					{
@@ -382,8 +398,6 @@
 	},
 	"layouts": {
 		"items": [
-			"Game2",
-			"Game3",
 			"LevelbyAnthony",
 			"JoeDevRoom"
 		],
@@ -406,6 +420,14 @@
 				],
 				"subfolders": [],
 				"name": "Story slides"
+			},
+			{
+				"items": [
+					"Game2",
+					"Game3"
+				],
+				"subfolders": [],
+				"name": "Scrapped levels"
 			}
 		]
 	},

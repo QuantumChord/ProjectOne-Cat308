@@ -395,10 +395,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 214322329088185,
+							"sid": 346435640734912,
 							"parameters": {
 								"object": "aimbot",
-								"layer": "0",
+								"layer": "1",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -1479,8 +1479,8 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": true,
-			"title": "Enemy wolves",
+			"disabled": false,
+			"title": "EnemyFox",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -1496,8 +1496,8 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Enemy",
-							"sid": 854799483516326,
+							"objectClass": "Fox",
+							"sid": 884098075332474,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "right"
@@ -1505,8 +1505,8 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Enemy",
-							"sid": 457493012593957,
+							"objectClass": "Fox",
+							"sid": 186931330687272,
 							"parameters": {
 								"animation": "\"Walk\"",
 								"from": "beginning"
@@ -1514,32 +1514,31 @@
 						},
 						{
 							"id": "set-mirrored",
-							"objectClass": "Enemy",
-							"sid": 123772674021910,
+							"objectClass": "Fox",
+							"sid": 542366062363021,
 							"parameters": {
 								"state": "not-mirrored"
 							}
 						},
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Enemy",
-							"sid": 883830890952765,
+							"objectClass": "Fox",
+							"sid": 945342147745907,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "3"
+								"value": "2"
 							}
 						}
 					],
-					"sid": 735725898099018,
-					"disabled": true
+					"sid": 735725898099018
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 154441967607644,
+							"objectClass": "Fox",
+							"sid": 169706441210092,
 							"parameters": {
 								"object": "WalkPoint"
 							}
@@ -1548,23 +1547,22 @@
 					"actions": [
 						{
 							"id": "toggle-boolean-instvar",
-							"objectClass": "Enemy",
-							"sid": 689885434048582,
+							"objectClass": "Fox",
+							"sid": 386876431435670,
 							"parameters": {
 								"instance-variable": "IsWalkingLeft"
 							}
 						}
 					],
-					"sid": 561427455096154,
-					"disabled": true
+					"sid": 561427455096154
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Enemy",
-							"sid": 641136451093052,
+							"objectClass": "Fox",
+							"sid": 860940469364670,
 							"parameters": {
 								"instance-variable": "IsWalkingLeft"
 							}
@@ -1573,8 +1571,8 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Enemy",
-							"sid": 904924352515129,
+							"objectClass": "Fox",
+							"sid": 621217658700742,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "left"
@@ -1582,23 +1580,22 @@
 						},
 						{
 							"id": "set-mirrored",
-							"objectClass": "Enemy",
-							"sid": 156327873697340,
+							"objectClass": "Fox",
+							"sid": 790461806873563,
 							"parameters": {
 								"state": "mirrored"
 							}
 						}
 					],
-					"sid": 455127491890326,
-					"disabled": true
+					"sid": 455127491890326
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Enemy",
-							"sid": 712881305354655,
+							"objectClass": "Fox",
+							"sid": 791022889817224,
 							"parameters": {
 								"instance-variable": "IsWalkingLeft"
 							},
@@ -1608,8 +1605,8 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Enemy",
-							"sid": 317504941025713,
+							"objectClass": "Fox",
+							"sid": 584066821463633,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "right"
@@ -1617,23 +1614,22 @@
 						},
 						{
 							"id": "set-mirrored",
-							"objectClass": "Enemy",
-							"sid": 368663477504337,
+							"objectClass": "Fox",
+							"sid": 808656611568707,
 							"parameters": {
 								"state": "not-mirrored"
 							}
 						}
 					],
-					"sid": 529682862420779,
-					"disabled": true
+					"sid": 217783430712961
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 996302569672808,
+							"objectClass": "Fox",
+							"sid": 804998219655858,
 							"parameters": {
 								"object": "Bullet"
 							}
@@ -1642,8 +1638,8 @@
 					"actions": [
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "Enemy",
-							"sid": 751105673104193,
+							"objectClass": "Fox",
+							"sid": 448773092863541,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
@@ -1685,128 +1681,15 @@
 							"sid": 596278601323659
 						}
 					],
-					"sid": 143609999210547,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-animation-finished",
-							"objectClass": "Enemy",
-							"sid": 627957905446140,
-							"parameters": {
-								"animation": "\"Pain\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Enemy",
-							"sid": 958619099287356
-						}
-					],
-					"sid": 650970287546517,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "has-los-to-object",
-							"objectClass": "Enemy",
-							"sid": 261936066147097,
-							"behaviorType": "LineOfSight",
-							"parameters": {
-								"object": "Player",
-								"image-point": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 738756143589475,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "disabled"
-							}
-						},
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Enemy",
-							"sid": 620331006631712,
-							"parameters": {
-								"object": "Gun",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "set-angle",
-							"objectClass": "Gun",
-							"sid": 950946400471922,
-							"parameters": {
-								"angle": "clamp(Gun.Angle,90,270)"
-							}
-						},
-						{
-							"id": "set-angle-toward-position",
-							"objectClass": "Gun",
-							"sid": 127577363824215,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						}
-					],
-					"sid": 135758075429205,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "has-los-to-object",
-							"objectClass": "Enemy",
-							"sid": 434965100940358,
-							"behaviorType": "LineOfSight",
-							"parameters": {
-								"object": "Player",
-								"image-point": "0"
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Gun",
-							"sid": 136839054877580
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 816119025145745,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "enabled"
-							}
-						}
-					],
-					"sid": 924032586733642,
-					"disabled": true
+					"sid": 143609999210547
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Enemy",
-							"sid": 382177508007475,
+							"objectClass": "Fox",
+							"sid": 308175959229225,
 							"parameters": {
 								"instance-variable": "Health",
 								"comparison": 3,
@@ -1816,23 +1699,18 @@
 					],
 					"actions": [
 						{
-							"id": "destroy",
-							"objectClass": "Gun",
-							"sid": 587538056278910
-						},
-						{
 							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 180573385798913,
-							"behaviorType": "Solid",
+							"objectClass": "Fox",
+							"sid": 901249573629310,
+							"behaviorType": "Platform",
 							"parameters": {
 								"state": "disabled"
 							}
 						},
 						{
 							"id": "set-ignoring-input",
-							"objectClass": "Enemy",
-							"sid": 308527811861782,
+							"objectClass": "Fox",
+							"sid": 423444400820279,
 							"behaviorType": "Platform",
 							"parameters": {
 								"input": "start-ignoring"
@@ -1840,52 +1718,29 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Enemy",
-							"sid": 661553452641484,
+							"objectClass": "Fox",
+							"sid": 122954530313679,
 							"parameters": {
-								"animation": "\"Pain\"",
+								"animation": "\"death\"",
 								"from": "beginning"
 							}
 						},
 						{
 							"id": "wait-for-previous-actions",
 							"objectClass": "System",
-							"sid": 475730160882200
+							"sid": 462226317140185,
+							"disabled": true
 						}
 					],
-					"sid": 271127562008113,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "BulletEnemy",
-							"sid": 700001070091825,
-							"parameters": {
-								"object": "Player"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "BulletEnemy",
-							"sid": 423564978961526
-						}
-					],
-					"sid": 722470481107833,
-					"disabled": true,
-					"isOrBlock": true
+					"sid": 925831974593272
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "has-los-to-object",
-							"objectClass": "Enemy",
-							"sid": 639429921282878,
+							"objectClass": "Fox",
+							"sid": 847241496668325,
 							"behaviorType": "LineOfSight",
 							"parameters": {
 								"object": "Player",
@@ -1893,37 +1748,219 @@
 							}
 						},
 						{
-							"id": "every-x-seconds",
-							"objectClass": "System",
-							"sid": 189441625845173,
+							"id": "compare-x",
+							"objectClass": "Player",
+							"sid": 946020418066192,
 							"parameters": {
-								"interval-seconds": "1"
+								"comparison": 2,
+								"x-co-ordinate": "Fox.x"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "spawn-another-object",
-							"objectClass": "Gun",
-							"sid": 715858289408818,
+							"id": "set-animation",
+							"objectClass": "Fox",
+							"sid": 644671610400643,
 							"parameters": {
-								"object": "BulletEnemy",
-								"layer": "0",
+								"animation": "\"dash\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Fox",
+							"sid": 852867804092457,
+							"disabled": true,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
 								"image-point": "0",
-								"create-hierarchy": false
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Fox",
+							"sid": 258807227077600,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Fox",
+							"sid": 799899303414064,
+							"disabled": true,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "Fox",
+							"sid": 286202189280323,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 939987438107905,
+							"parameters": {
+								"seconds": "1.0"
 							}
 						}
 					],
-					"sid": 169714057393510,
-					"disabled": true
+					"sid": 314487907487897
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Fox",
+							"sid": 838838608307692,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "compare-x",
+							"objectClass": "Player",
+							"sid": 495836926071211,
+							"parameters": {
+								"comparison": 4,
+								"x-co-ordinate": "Fox.x"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Fox",
+							"sid": 103716242952882,
+							"parameters": {
+								"animation": "\"dash\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Fox",
+							"sid": 370490766642838,
+							"disabled": true,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "Fox",
+							"sid": 253092553754011,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Fox",
+							"sid": 451714877699823,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Fox",
+							"sid": 280832034068118,
+							"disabled": true,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 924910074822822,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						}
+					],
+					"sid": 772491498174686
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Fox",
+							"sid": 311536865169980,
+							"parameters": {
+								"animation": "\"death\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Fox",
+							"sid": 139298593744233
+						}
+					],
+					"sid": 650970287546517
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Fox",
+							"sid": 487366059777551,
+							"parameters": {
+								"animation": "\"dash\""
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Fox",
+							"sid": 833590446843561,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 584924403122028,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 567260041397537
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 727544048349258,
+							"objectClass": "Fox",
+							"sid": 758069090110596,
 							"parameters": {
 								"object": "ShockBullet"
 							}
@@ -1932,24 +1969,23 @@
 					"actions": [
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "Enemy",
-							"sid": 786523580676646,
+							"objectClass": "Fox",
+							"sid": 950559514466339,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
 							}
 						}
 					],
-					"sid": 665842938657835,
-					"disabled": true
+					"sid": 665842938657835
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 938329768348497,
+							"objectClass": "Fox",
+							"sid": 478456276251383,
 							"parameters": {
 								"object": "boxingGlove"
 							}
@@ -1958,16 +1994,15 @@
 					"actions": [
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "Enemy",
-							"sid": 799371704659135,
+							"objectClass": "Fox",
+							"sid": 628209006883809,
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "3"
 							}
 						}
 					],
-					"sid": 393512467606423,
-					"disabled": true
+					"sid": 393512467606423
 				}
 			],
 			"sid": 214424940830738
