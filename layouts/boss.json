@@ -1,0 +1,112 @@
+{
+	"name": "boss",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "TeddyRosevelt",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {
+						"health": 10,
+						"block": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 363,
+						"y": 181,
+						"width": 270,
+						"height": 365,
+						"originX": 0.48125,
+						"originY": 0.49504950495049505,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.00022096517229197588,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BoxingP",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 42,
+					"instanceVariables": {
+						"Health": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 406,
+						"y": 473,
+						"width": 79,
+						"height": 175,
+						"originX": 0.7088607594936709,
+						"originY": 0.5085714285714286,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 216479904090533,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 928200855712520,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 2560,
+	"height": 1440,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "AnthonTest"
+}

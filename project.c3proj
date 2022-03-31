@@ -328,7 +328,8 @@
 					"ShockBullet",
 					"Sprite",
 					"boxingGlove",
-					"bunnyGunArm"
+					"bunnyGunArm",
+					"BoxingP"
 				],
 				"subfolders": [],
 				"name": "Player"
@@ -375,7 +376,8 @@
 				"items": [
 					"Enemy",
 					"bird2",
-					"Fox"
+					"Fox",
+					"TeddyRosevelt"
 				],
 				"subfolders": [
 					{
@@ -411,7 +413,8 @@
 				"items": [
 					"Layout 1",
 					"s1",
-					"Game"
+					"Game",
+					"boss"
 				],
 				"subfolders": [],
 				"name": "Updated levels"

@@ -1958,19 +1958,28 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-animation-finished",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Fox",
-							"sid": 487366059777551,
+							"sid": 830148686114735,
+							"parameters": {
+								"object": "Player"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Fox",
+							"sid": 374045877606679,
 							"parameters": {
 								"animation": "\"dash\""
 							}
 						},
 						{
-							"id": "is-overlapping-another-object",
+							"id": "compare-animation-frame",
 							"objectClass": "Fox",
-							"sid": 833590446843561,
+							"sid": 490429720330608,
 							"parameters": {
-								"object": "Player"
+								"comparison": 5,
+								"number": "4"
 							}
 						}
 					],

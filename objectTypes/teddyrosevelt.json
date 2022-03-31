@@ -1,0 +1,119 @@
+{
+	"name": "TeddyRosevelt",
+	"plugin-id": "Sprite",
+	"sid": 631906249462988,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 886548106551617
+		},
+		{
+			"name": "block",
+			"type": "boolean",
+			"desc": "",
+			"sid": 181132261665033
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 160,
+						"height": 202,
+						"originX": 0.48125,
+						"originY": 0.49504950495049505,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 137978,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 607901413901008,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3078587,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 958631755943999,
+				"name": "lp",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3995898,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 591439783948681,
+				"name": "rp",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3703982,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 275314279729570,
+				"name": "block",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
