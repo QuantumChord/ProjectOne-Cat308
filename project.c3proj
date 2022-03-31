@@ -414,7 +414,8 @@
 					"Layout 1",
 					"s1",
 					"Game",
-					"boss"
+					"boss",
+					"Game level 3"
 				],
 				"subfolders": [],
 				"name": "Updated levels"
@@ -583,9 +584,9 @@
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
-			0,
-			0,
-			0,
+			0.9921568627450981,
+			0.9882352941176471,
+			0.9882352941176471,
 			0
 		],
 		"splashColor": [
