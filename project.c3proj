@@ -341,9 +341,20 @@
 					"MovingPlatform",
 					"staticplat",
 					"hidden",
+					"Road",
+					"buildingPlat",
 					"Sprite14"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"citybg",
+							"TiledBackground5"
+						],
+						"subfolders": [],
+						"name": "bg"
+					}
+				],
 				"name": "platforms"
 			},
 			{
@@ -415,7 +426,8 @@
 					"s1",
 					"Game",
 					"boss",
-					"Game level 3"
+					"Game level 3",
+					"Layout 2"
 				],
 				"subfolders": [],
 				"name": "Updated levels"

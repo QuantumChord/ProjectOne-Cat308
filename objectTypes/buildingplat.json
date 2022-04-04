@@ -1,14 +1,14 @@
 {
-	"name": "Sprite14",
+	"name": "buildingPlat",
 	"plugin-id": "Sprite",
-	"sid": 543291818399648,
+	"sid": 674929504515493,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "jumpthru",
 			"name": "Jumpthru",
-			"sid": 830943694053214
+			"sid": 565675066120645
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,31 @@
 			{
 				"frames": [
 					{
-						"width": 244,
-						"height": 121,
+						"width": 252,
+						"height": 76,
 						"originX": 0.5,
-						"originY": 0.008264462809917356,
+						"originY": 0.6710526315789473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1403804,
+						"imageSpriteId": 9108729,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0,
+								0.996031746031746,
+								0,
+								0.996031746031746,
+								1,
+								0.003968253968253968,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 496429377042558,
+				"sid": 980233870478340,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

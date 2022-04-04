@@ -259,7 +259,7 @@
 						"x": 4807.522984148577,
 						"y": 1194.9013080305388,
 						"width": 171.7781090934353,
-						"height": 255.40577322285472,
+						"height": 255.4057732228547,
 						"originX": 0.47512437810945274,
 						"originY": 0.47549019607843135,
 						"color": [
@@ -1450,93 +1450,6 @@
 					}
 				},
 				{
-					"type": "Fox",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 116,
-					"instanceVariables": {
-						"Health": 0,
-						"IsWalkingLeft": false,
-						"Shock": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"LineOfSight": {
-							"properties": {
-								"obstacles": "solids",
-								"range": 10000,
-								"cone-of-view": 360,
-								"use-collision-cells": true
-							}
-						},
-						"Pathfinding": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 200,
-								"acceleration": 1000,
-								"deceleration": 2000,
-								"rotate-speed": 135,
-								"rotate-object": true,
-								"diagonals": true,
-								"enabled": true
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 4766,
-						"y": 1154,
-						"width": 96,
-						"height": 128,
-						"originX": 0.6657060518731989,
-						"originY": 0.437137330754352,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "WalkPoint",
 					"properties": {
 						"initially-visible": false,
@@ -1847,7 +1760,7 @@
 					"world": {
 						"x": 6669,
 						"y": 1172,
-						"width": 96,
+						"width": 96.00000000000001,
 						"height": 128,
 						"originX": 0.6657060518731989,
 						"originY": 0.437137330754352,
@@ -1874,8 +1787,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 6986,
-						"y": 1162,
+						"x": 7738,
+						"y": 1159,
 						"width": 32,
 						"height": 160,
 						"originX": 0.5,
@@ -2233,6 +2146,155 @@
 						"height": 127.99999999999999,
 						"originX": 0.6594036697247706,
 						"originY": 0.5173116089613035,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 116,
+					"instanceVariables": {
+						"IsWalkingLeft": false,
+						"Health": 3,
+						"Shock": false
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 300,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						}
+					},
+					"world": {
+						"x": 4834,
+						"y": 1162,
+						"width": 96,
+						"height": 127.99999999999999,
+						"originX": 0.6594036697247706,
+						"originY": 0.5173116089613035,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Fox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 237,
+					"instanceVariables": {
+						"Health": 0,
+						"IsWalkingLeft": false,
+						"Shock": false
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Pathfinding": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 200,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 135,
+								"rotate-object": true,
+								"diagonals": true,
+								"enabled": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 7504,
+						"y": 1162,
+						"width": 96.00000000000001,
+						"height": 128,
+						"originX": 0.6657060518731989,
+						"originY": 0.437137330754352,
 						"color": [
 							1,
 							1,
