@@ -3066,7 +3066,7 @@
 							"objectClass": "System",
 							"sid": 866912917510811,
 							"parameters": {
-								"layout": "Layout 1"
+								"layout": "Game Level 1"
 							}
 						}
 					],
@@ -3110,7 +3110,7 @@
 							"objectClass": "System",
 							"sid": 115674573059007,
 							"parameters": {
-								"layout": "Game"
+								"layout": "Game Level 2"
 							}
 						}
 					],
@@ -3233,7 +3233,7 @@
 							"objectClass": "System",
 							"sid": 334658858193199,
 							"parameters": {
-								"layout": "Layout 1"
+								"layout": "Game Level 1"
 							}
 						},
 						{
@@ -3309,7 +3309,7 @@
 							"objectClass": "System",
 							"sid": 985551320101896,
 							"parameters": {
-								"layout": "Game"
+								"layout": "Game Level 2"
 							}
 						}
 					],
@@ -3542,6 +3542,59 @@
 						}
 					],
 					"sid": 183738815770329
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 829815732140245,
+							"parameters": {
+								"object": "boat"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-object",
+							"objectClass": "boat",
+							"sid": 204405885740601,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "anchor",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 535726167445510
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 352004651580209,
+							"parameters": {
+								"object": "boat"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "boat",
+							"sid": 780175423291795,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": false
+							}
+						}
+					],
+					"sid": 481882431474022
 				}
 			],
 			"sid": 808606313618351

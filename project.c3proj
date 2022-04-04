@@ -96,6 +96,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -162,14 +170,6 @@
 			"type": "behavior",
 			"id": "Pathfinding",
 			"name": "Pathfinding",
-			"author": "Scirra",
-			"version": "r285.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -294,7 +294,9 @@
 							"nbutton",
 							"breakablewall",
 							"fadingplat",
-							"breakablewall2"
+							"breakablewall2",
+							"boat",
+							"anchor"
 						],
 						"subfolders": [
 							{
@@ -422,12 +424,13 @@
 		"subfolders": [
 			{
 				"items": [
-					"Layout 1",
+					"Game Level 1",
 					"s1",
-					"Game",
+					"Game Level 2",
 					"boss",
 					"Game level 3",
-					"Layout 2"
+					"Game Level",
+					"Layout 1"
 				],
 				"subfolders": [],
 				"name": "Updated levels"
