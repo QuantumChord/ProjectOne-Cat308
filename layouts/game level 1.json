@@ -454,7 +454,6 @@
 						"Gun": 0,
 						"level": 0,
 						"Eggs": 0,
-						"DoubleJump": false,
 						"FloatTrigger": false
 					},
 					"behaviors": {

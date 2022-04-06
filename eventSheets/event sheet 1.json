@@ -22,28 +22,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-start-of-layout",
-							"objectClass": "System",
-							"sid": 893209554839629
-						}
-					],
-					"actions": [
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "Player",
-							"sid": 560453820575659,
-							"parameters": {
-								"instance-variable": "DoubleJump",
-								"value": "true"
-							}
-						}
-					],
-					"sid": 519831073541604
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
 							"sid": 507070611392805,
@@ -178,62 +156,43 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 310161109177257,
-							"parameters": {
-								"key": 87
-							}
-						},
-						{
 							"id": "is-jumping",
 							"objectClass": "Player",
-							"sid": 850767606603234,
+							"sid": 556813363137208,
 							"behaviorType": "Platform"
 						},
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "is-falling",
 							"objectClass": "Player",
-							"sid": 116610675948865,
-							"parameters": {
-								"instance-variable": "DoubleJump"
-							}
+							"sid": 640799805552660,
+							"behaviorType": "Platform"
 						}
 					],
 					"actions": [
 						{
-							"id": "simulate-control",
-							"objectClass": "Player",
-							"sid": 886643451381405,
-							"behaviorType": "Platform",
-							"parameters": {
-								"control": "jump"
-							}
-						},
-						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Player",
-							"sid": 724688295028714,
-							"parameters": {
-								"instance-variable": "DoubleJump",
-								"value": "false"
-							}
-						},
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "Player",
-							"sid": 945614288698524,
+							"sid": 743915593829766,
 							"parameters": {
 								"instance-variable": "FloatTrigger",
 								"value": "true"
 							}
 						}
 					],
-					"sid": 922381851355881
+					"sid": 426050309421297,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
 					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 475278270683287,
+							"parameters": {
+								"key": 70
+							}
+						},
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Player",
@@ -247,10 +206,19 @@
 						{
 							"id": "set-gravity",
 							"objectClass": "Player",
-							"sid": 642947410643666,
+							"sid": 633080478489296,
 							"behaviorType": "Platform",
 							"parameters": {
-								"gravity": "850"
+								"gravity": "500"
+							}
+						},
+						{
+							"id": "set-max-fall-speed",
+							"objectClass": "Player",
+							"sid": 125900431143265,
+							"behaviorType": "Platform",
+							"parameters": {
+								"max-fall-speed": "250"
 							}
 						}
 					],
@@ -277,12 +245,12 @@
 							}
 						},
 						{
-							"id": "set-boolean-instvar",
+							"id": "set-max-fall-speed",
 							"objectClass": "Player",
-							"sid": 730976878501459,
+							"sid": 799996282802976,
+							"behaviorType": "Platform",
 							"parameters": {
-								"instance-variable": "DoubleJump",
-								"value": "true"
+								"max-fall-speed": "330"
 							}
 						},
 						{
