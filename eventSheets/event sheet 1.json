@@ -98,10 +98,10 @@
 						{
 							"id": "move-at-angle",
 							"objectClass": "Cam",
-							"sid": 475153815996656,
+							"sid": 916814824720625,
 							"parameters": {
 								"angle": "90",
-								"distance": "10"
+								"distance": "20"
 							}
 						}
 					],
@@ -343,6 +343,15 @@
 							}
 						},
 						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 952774296383806,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						},
+						{
 							"id": "set-enabled",
 							"objectClass": "Player",
 							"sid": 313488807532490,
@@ -375,6 +384,17 @@
 								"instance-variable": "Health",
 								"value": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 131036385230727,
+							"parameters": {
+								"audio-file": "player hurt sound",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 675444640426845,
@@ -400,6 +420,17 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 716411496462336,
+							"parameters": {
+								"audio-file": "player hurt sound",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -514,17 +545,6 @@
 							}
 						},
 						{
-							"id": "spawn-another-object",
-							"objectClass": "Player",
-							"sid": 487055898674327,
-							"parameters": {
-								"object": "aimbot",
-								"layer": "\"Game\"",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						},
-						{
 							"id": "set-instvar-value",
 							"objectClass": "Player",
 							"sid": 209833768854931,
@@ -598,6 +618,15 @@
 							"id": "destroy",
 							"objectClass": "aimbot",
 							"sid": 256506236789386
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heart",
+							"sid": 154548806427933,
+							"parameters": {
+								"animation": "\"dead\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 131649889747043
@@ -643,7 +672,8 @@
 							}
 						}
 					],
-					"sid": 177833331048371
+					"sid": 177833331048371,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -686,7 +716,8 @@
 							}
 						}
 					],
-					"sid": 759834715072694
+					"sid": 759834715072694,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -702,14 +733,12 @@
 					],
 					"actions": [
 						{
-							"id": "spawn-another-object",
-							"objectClass": "Player",
-							"sid": 179862883651644,
+							"id": "set-animation",
+							"objectClass": "aimbot",
+							"sid": 311342701874783,
 							"parameters": {
-								"object": "boxingGlove",
-								"layer": "0",
-								"image-point": "2",
-								"create-hierarchy": false
+								"animation": "\"punch\"",
+								"from": "beginning"
 							}
 						},
 						{
@@ -721,12 +750,67 @@
 							}
 						},
 						{
-							"id": "destroy",
-							"objectClass": "boxingGlove",
-							"sid": 775522103255372
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 487279524058890,
+							"parameters": {
+								"object": "boxingGlove",
+								"layer": "0",
+								"image-point": "6",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 893627602449712,
+							"parameters": {
+								"audio-file": "Punch Sound Effect - Gaming SFX",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 895188883936440
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 949853851452022,
+							"parameters": {
+								"key": 69
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "aimbot",
+							"sid": 625598959437433,
+							"parameters": {
+								"animation": "\"gun\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 916341387135319,
+							"parameters": {
+								"seconds": ".3"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "boxingGlove",
+							"sid": 410587358892946
+						}
+					],
+					"sid": 677062721069654
 				}
 			],
 			"sid": 289945159721035
@@ -1147,6 +1231,17 @@
 							"id": "wait-for-previous-actions",
 							"objectClass": "System",
 							"sid": 799894549557229
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 734780867017953,
+							"parameters": {
+								"audio-file": "Enemy Death Scream",
+								"loop": "not-looping",
+								"volume": "-32",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 385763029385581
@@ -1168,6 +1263,17 @@
 							"id": "destroy",
 							"objectClass": "BulletEnemy",
 							"sid": 298632510081035
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 738905301148335,
+							"parameters": {
+								"audio-file": "panda hurt sound",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 787909436805813,
@@ -1518,6 +1624,28 @@
 							"id": "destroy",
 							"objectClass": "bombs",
 							"sid": 662877105806944
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 622723437207992,
+							"parameters": {
+								"audio-file": "player hurt sound",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 549742175797916,
+							"parameters": {
+								"audio-file": "Explosion Sound Effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 455784250226902,
@@ -1599,6 +1727,65 @@
 						}
 					],
 					"sid": 353933807688503
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "bombs",
+							"sid": 947370190303807,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "Killpoint.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "bombs",
+							"sid": 994369672288077
+						}
+					],
+					"sid": 128497077604805
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Bullet",
+							"sid": 920976459569717,
+							"parameters": {
+								"object": "bombs"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 699497337820126
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 750230064412011,
+							"parameters": {
+								"audio-file": "Explosion Sound Effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "bombs",
+							"sid": 301179680863850
+						}
+					],
+					"sid": 140592734138924
 				}
 			],
 			"sid": 545314586869046
@@ -1805,6 +1992,17 @@
 							"id": "destroy",
 							"objectClass": "Bullet",
 							"sid": 596278601323659
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 641205246824514,
+							"parameters": {
+								"audio-file": "fox hurt sound",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 143609999210547
@@ -1856,6 +2054,17 @@
 							"objectClass": "System",
 							"sid": 462226317140185,
 							"disabled": true
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 687240112473881,
+							"parameters": {
+								"audio-file": "Enemy Death Scream",
+								"loop": "not-looping",
+								"volume": "-32",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 925831974593272
@@ -2113,6 +2322,17 @@
 								"instance-variable": "Health",
 								"value": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 163278908252978,
+							"parameters": {
+								"audio-file": "knife slash sound effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 567260041397537
@@ -2253,10 +2473,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "aimbot",
-							"sid": 548371614426727,
+							"sid": 947537269142004,
 							"parameters": {
 								"object": "Bullet",
-								"layer": "0",
+								"layer": "\"Game\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -2264,17 +2484,17 @@
 						{
 							"id": "move-forward",
 							"objectClass": "Bullet",
-							"sid": 827697713211480,
+							"sid": 972799853460859,
 							"parameters": {
-								"distance": "20"
+								"distance": "40"
 							}
 						},
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 678507243973630,
+							"sid": 410707019580126,
 							"parameters": {
-								"audio-file": "481584__malatestinic-com__gun-2",
+								"audio-file": "Realistic Gunshot Sound Effect",
 								"loop": "not-looping",
 								"volume": "-1",
 								"tag-optional": "\"\""
@@ -2420,6 +2640,17 @@
 								"instance-variable": "Ammo",
 								"value": "6"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 829510972526456,
+							"parameters": {
+								"audio-file": "gun reload",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 367583989015116
@@ -2429,7 +2660,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": false,
+			"disabled": true,
 			"title": "360 elctric",
 			"description": "",
 			"isActiveOnStart": true,
@@ -2471,7 +2702,8 @@
 							}
 						}
 					],
-					"sid": 191264347293269
+					"sid": 191264347293269,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2528,7 +2760,8 @@
 							}
 						}
 					],
-					"sid": 848597221018713
+					"sid": 848597221018713,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2555,8 +2788,7 @@
 							}
 						}
 					],
-					"sid": 192424287990175,
-					"disabled": true
+					"sid": 192424287990175
 				},
 				{
 					"eventType": "block",
@@ -2584,8 +2816,7 @@
 							}
 						}
 					],
-					"sid": 373778686187834,
-					"disabled": true
+					"sid": 373778686187834
 				},
 				{
 					"eventType": "block",
@@ -2620,7 +2851,8 @@
 							}
 						}
 					],
-					"sid": 678206367343602
+					"sid": 678206367343602,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2645,7 +2877,8 @@
 							}
 						}
 					],
-					"sid": 562559109224822
+					"sid": 562559109224822,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2666,7 +2899,8 @@
 							}
 						}
 					],
-					"sid": 300717381734720
+					"sid": 300717381734720,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2688,7 +2922,8 @@
 							}
 						}
 					],
-					"sid": 579197320347474
+					"sid": 579197320347474,
+					"disabled": true
 				}
 			],
 			"sid": 975256653768747
@@ -2721,6 +2956,17 @@
 								"instance-variable": "Health",
 								"value": "10"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 541725934550440,
+							"parameters": {
+								"audio-file": "knife slash sound effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 899139710238096
@@ -2745,6 +2991,17 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 516936969987023,
+							"parameters": {
+								"audio-file": "knife slash sound effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -2771,6 +3028,17 @@
 								"instance-variable": "Health",
 								"value": "10"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 352739687421848,
+							"parameters": {
+								"audio-file": "knife slash sound effect",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 828169118729752
@@ -2789,11 +3057,30 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 431400213192838,
+							"parameters": {
+								"audio-file": "Clock Ticking Sound Effect For Download",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"6\""
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 296463291831609,
+							"sid": 882086056956783,
 							"parameters": {
-								"seconds": ".5"
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 107176760689271,
+							"parameters": {
+								"tag": "\"6\""
 							}
 						},
 						{
@@ -2867,6 +3154,27 @@
 						}
 					],
 					"sid": 842458942276289
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 502048795855135,
+							"parameters": {
+								"key": 48
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 582939956237118
+						}
+					],
+					"sid": 614841732345685
 				}
 			],
 			"sid": 715473841842573
@@ -2966,6 +3274,77 @@
 						}
 					],
 					"sid": 481549904390196
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 629014282239021
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 582511316790958,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 990743931865282,
+							"parameters": {
+								"audio-file": "Drum_Roll",
+								"loop": "looping",
+								"volume": "-9",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 356180252881642
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 545250875293614
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 227881527740061,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 372445004103153
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 864560984596235,
+							"parameters": {
+								"object": "staticplat"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 166258059493290
 				}
 			],
 			"sid": 954013017299990
@@ -2998,18 +3377,27 @@
 						{
 							"id": "set-text",
 							"objectClass": "ammo",
-							"sid": 721543481984293,
+							"sid": 988360776860526,
 							"parameters": {
 								"text": "Player.Ammo"
 							}
 						},
 						{
 							"id": "set-position-to-another-object",
-							"objectClass": "Health",
-							"sid": 250278561300223,
+							"objectClass": "heart",
+							"sid": 715739348132630,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "1"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Ammocount",
+							"sid": 168998091413522,
+							"parameters": {
+								"object": "Player",
+								"image-point-optional": "\"ammoc\""
 							}
 						},
 						{
@@ -3106,10 +3494,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Cam",
-							"sid": 946857864550701,
+							"sid": 606187959877635,
 							"parameters": {
 								"object": "ammo",
-								"layer": "0",
+								"layer": "\"Game\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -3117,10 +3505,21 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Cam",
-							"sid": 658356766777103,
+							"sid": 829123992919058,
 							"parameters": {
-								"object": "Health",
-								"layer": "0",
+								"object": "aimbot",
+								"layer": "\"Game\"",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Cam",
+							"sid": 734821582279953,
+							"parameters": {
+								"object": "Ammocount",
+								"layer": "\"Game\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -3128,16 +3527,108 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 751817461132216,
+							"sid": 295413719331250,
 							"parameters": {
 								"object": "Cam",
-								"layer": "0",
+								"layer": "\"Game\"",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 617223706296605,
+							"parameters": {
+								"object": "heart",
+								"layer": "\"Game\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
 						}
 					],
 					"sid": 816162210164394
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 659816702845071,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heart",
+							"sid": 935672884228995,
+							"parameters": {
+								"animation": "\"hp3\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 192335253801239
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 930876426781147,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heart",
+							"sid": 468352534448352,
+							"parameters": {
+								"animation": "\"hp2\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 478903885962835
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 667584996845307,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heart",
+							"sid": 832399253734962,
+							"parameters": {
+								"animation": "\"hp1\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 642377742270356
 				}
 			],
 			"sid": 711572916003009
@@ -3591,17 +4082,60 @@
 							}
 						}
 					],
-					"sid": 561588078239685
+					"sid": 561588078239685,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "boxingGlove",
-							"sid": 913446767652012,
+							"objectClass": "Bullet",
+							"sid": 839361972258048,
+							"parameters": {
+								"object": "nbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "door",
+							"sid": 405534639447142,
+							"parameters": {
+								"animation": "\"open\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "nbutton",
+							"sid": 768941563805126,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 423334733699713
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "aimbot",
+							"sid": 144333027346181,
 							"parameters": {
 								"object": "breakablewall"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "aimbot",
+							"sid": 238101028921750,
+							"parameters": {
+								"animation": "\"punch\""
 							}
 						}
 					],
@@ -3623,6 +4157,39 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
+							"objectClass": "aimbot",
+							"sid": 657954664433938,
+							"parameters": {
+								"object": "breakablewall2"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "aimbot",
+							"sid": 139603530999588,
+							"parameters": {
+								"animation": "\"punch\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "breakablewall",
+							"sid": 199488331097171,
+							"parameters": {
+								"animation": "\"break\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 168711380522708
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
 							"objectClass": "boxingGlove",
 							"sid": 476042904995376,
 							"parameters": {
@@ -3638,6 +4205,17 @@
 							"parameters": {
 								"animation": "\"break\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 171498290442775,
+							"parameters": {
+								"audio-file": "wall break sound",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -3668,9 +4246,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 829815732140245,
+							"sid": 658376399890299,
 							"parameters": {
 								"object": "boat"
 							}
@@ -3687,35 +4265,18 @@
 								"image-point": "0",
 								"mode": "direct"
 							}
-						}
-					],
-					"sid": 535726167445510
-				},
-				{
-					"eventType": "block",
-					"conditions": [
+						},
 						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
-							"sid": 352004651580209,
-							"parameters": {
-								"object": "boat"
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "set-enabled",
+							"id": "set-animation",
 							"objectClass": "boat",
-							"sid": 780175423291795,
-							"behaviorType": "MoveTo",
+							"sid": 285378561440146,
 							"parameters": {
-								"enabled": false
+								"animation": "\"sail\"",
+								"from": "beginning"
 							}
 						}
 					],
-					"sid": 481882431474022
+					"sid": 535726167445510
 				}
 			],
 			"sid": 808606313618351
@@ -3754,20 +4315,15 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 495245588598404,
+							"sid": 869765488745293,
 							"parameters": {
-								"seconds": "1.0"
+								"seconds": "4.0"
 							}
 						},
 						{
 							"id": "destroy",
 							"objectClass": "TiledBackground4",
 							"sid": 221555928831714
-						},
-						{
-							"id": "destroy",
-							"objectClass": "tip1",
-							"sid": 674549091142183
 						}
 					],
 					"sid": 852190609045328

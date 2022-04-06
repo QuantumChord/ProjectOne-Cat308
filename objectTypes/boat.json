@@ -43,6 +43,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "walk point",
+								"x": -0.056338028169014086,
+								"y": 0.6218487394957983
+							},
+							{
+								"name": "walkpoint2",
+								"x": 1.0892018779342723,
+								"y": 0.6932773109243697
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -78,6 +90,18 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "walk point",
+								"x": -0.056338028169014086,
+								"y": 0.6218487394957983
+							},
+							{
+								"name": "walkpoint2",
+								"x": 1.0892018779342723,
+								"y": 0.6932773109243697
+							}
+						],
 						"duration": 1
 					}
 				],

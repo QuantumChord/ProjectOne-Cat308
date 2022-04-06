@@ -1,0 +1,106 @@
+{
+	"name": "heart",
+	"plugin-id": "Sprite",
+	"sid": 855019338807938,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 182,
+						"height": 187,
+						"originX": 0.5274725274725275,
+						"originY": 0.40641711229946526,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2729066,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 711239667306719,
+				"name": "hp1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 182,
+						"height": 187,
+						"originX": 0.5274725274725275,
+						"originY": 0.40641711229946526,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5679612,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 894200059137858,
+				"name": "hp2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 182,
+						"height": 187,
+						"originX": 0.5274725274725275,
+						"originY": 0.40641711229946526,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7935503,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 620286973047492,
+				"name": "hp3",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 182,
+						"height": 187,
+						"originX": 0.5274725274725275,
+						"originY": 0.40641711229946526,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4647656,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 479436140130765,
+				"name": "dead",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

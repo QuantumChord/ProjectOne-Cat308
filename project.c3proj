@@ -318,7 +318,9 @@
 					"EGGs",
 					"Health",
 					"ammo",
-					"Sprite13"
+					"Sprite13",
+					"heart",
+					"Ammocount"
 				],
 				"subfolders": [],
 				"name": "UI"
@@ -351,7 +353,8 @@
 					{
 						"items": [
 							"citybg",
-							"TiledBackground5"
+							"TiledBackground5",
+							"Sprite15"
 						],
 						"subfolders": [],
 						"name": "bg"
@@ -430,7 +433,7 @@
 					"boss",
 					"Game level 3",
 					"Game Level",
-					"Layout 1"
+					"Game level 4"
 				],
 				"subfolders": [],
 				"name": "Updated levels"
@@ -491,6 +494,91 @@
 					"name": "Drum_Roll.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 779828935783314
+				},
+				{
+					"name": "feet landing sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 699215864933257
+				},
+				{
+					"name": "fox hurt sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 234709340010310
+				},
+				{
+					"name": "gun reload.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 364329061996649
+				},
+				{
+					"name": "knife slash sound effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 674227000507953
+				},
+				{
+					"name": "panda hurt sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 539773114273161
+				},
+				{
+					"name": "player death song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 401988424933747
+				},
+				{
+					"name": "player hurt sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 614569484632556
+				},
+				{
+					"name": "Punch Sound Effect - Gaming SFX.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 285153631170793
+				},
+				{
+					"name": "Realistic Gunshot Sound Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 766769181967418
+				},
+				{
+					"name": "wall break sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 516010758909035
+				},
+				{
+					"name": "bomb falling.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 611687246431761
+				},
+				{
+					"name": "Clock Ticking Sound Effect For Download.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 781842146208152
+				},
+				{
+					"name": "Drum_Roll(Level Song).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 749995006924886
+				},
+				{
+					"name": "egg collection sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 242851775442185
+				},
+				{
+					"name": "Electric Zap - Sound Effect for editing.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 137433371263759
+				},
+				{
+					"name": "Enemy Death Scream.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 352062466173647
+				},
+				{
+					"name": "Explosion Sound Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 974056454702701
 				}
 			],
 			"subfolders": []

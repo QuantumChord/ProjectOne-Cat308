@@ -1,7 +1,7 @@
 {
-	"name": "tip1",
+	"name": "Ammocount",
 	"plugin-id": "Sprite",
-	"sid": 454893317145625,
+	"sid": 579953609614719,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 124,
-						"height": 127,
-						"originX": 0.532258064516129,
-						"originY": -0.5275590551181102,
+						"width": 103,
+						"height": 146,
+						"originX": 0.8155339805825242,
+						"originY": 0.6506849315068494,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2627163,
+						"imageSpriteId": 663241,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 978402871331175,
+				"sid": 387508619326442,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

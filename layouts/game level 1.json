@@ -2682,6 +2682,93 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "boxingGlove",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 275,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -125.24901522410306,
+						"y": 1412.7685185185185,
+						"width": 32,
+						"height": 32,
+						"originX": 0.8279569892473119,
+						"originY": 0.8958333333333333,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "hp1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 276,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -128,
+						"y": 1600,
+						"width": 32,
+						"height": 31.999999999999996,
+						"originX": 0.5274725274725275,
+						"originY": 0.40641711229946526,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ammocount",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 277,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -249.90291262135923,
+						"y": 1415.8219178082193,
+						"width": 31.999999999999996,
+						"height": 32,
+						"originX": 0.8155339805825242,
+						"originY": 0.6506849315068494,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 227176055346553,
