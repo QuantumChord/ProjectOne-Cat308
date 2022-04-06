@@ -22,12 +22,22 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-visible",
-							"objectClass": "Player",
-							"sid": 354456859354086
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 893209554839629
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 560453820575659,
+							"parameters": {
+								"instance-variable": "DoubleJump",
+								"value": "true"
+							}
+						}
+					],
 					"sid": 519831073541604
 				},
 				{
@@ -143,9 +153,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 244949636792172,
+							"sid": 846712008843647,
 							"parameters": {
 								"key": 87
 							}
@@ -160,21 +170,132 @@
 							"parameters": {
 								"control": "jump"
 							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 346952521647828,
-							"disabled": true,
-							"parameters": {
-								"audio-file": "386647__jalastram__sfx-jump-15",
-								"loop": "not-looping",
-								"volume": "-15",
-								"tag-optional": "\"\""
-							}
 						}
 					],
 					"sid": 559583532418735
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 310161109177257,
+							"parameters": {
+								"key": 87
+							}
+						},
+						{
+							"id": "is-jumping",
+							"objectClass": "Player",
+							"sid": 850767606603234,
+							"behaviorType": "Platform"
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 116610675948865,
+							"parameters": {
+								"instance-variable": "DoubleJump"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 886643451381405,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 724688295028714,
+							"parameters": {
+								"instance-variable": "DoubleJump",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 945614288698524,
+							"parameters": {
+								"instance-variable": "FloatTrigger",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 922381851355881
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 570105748571132,
+							"parameters": {
+								"instance-variable": "FloatTrigger"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-gravity",
+							"objectClass": "Player",
+							"sid": 642947410643666,
+							"behaviorType": "Platform",
+							"parameters": {
+								"gravity": "850"
+							}
+						}
+					],
+					"sid": 235555500473743
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-floor",
+							"objectClass": "Player",
+							"sid": 329631916240628,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-gravity",
+							"objectClass": "Player",
+							"sid": 175775439407660,
+							"behaviorType": "Platform",
+							"parameters": {
+								"gravity": "1500"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 730976878501459,
+							"parameters": {
+								"instance-variable": "DoubleJump",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 958302327936278,
+							"parameters": {
+								"instance-variable": "FloatTrigger",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 678751376386160
 				},
 				{
 					"eventType": "block",

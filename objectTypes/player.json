@@ -45,6 +45,18 @@
 			"type": "number",
 			"desc": "",
 			"sid": 495988315025258
+		},
+		{
+			"name": "DoubleJump",
+			"type": "boolean",
+			"desc": "",
+			"sid": 836367525030794
+		},
+		{
+			"name": "FloatTrigger",
+			"type": "boolean",
+			"desc": "",
+			"sid": 419189588690988
 		}
 	],
 	"behaviorTypes": [

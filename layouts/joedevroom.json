@@ -23,7 +23,9 @@
 						"Ammo": 6,
 						"Gun": 1,
 						"level": 0,
-						"Eggs": 0
+						"Eggs": 0,
+						"DoubleJump": false,
+						"FloatTrigger": false
 					},
 					"behaviors": {
 						"Platform": {
