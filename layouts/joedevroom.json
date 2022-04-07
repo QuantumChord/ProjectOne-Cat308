@@ -512,7 +512,9 @@
 						"live-preview": false
 					},
 					"uid": 262,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Fading": false
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -592,10 +594,10 @@
 					"world": {
 						"x": 803,
 						"y": 374,
-						"width": 83,
-						"height": 112,
-						"originX": 0.6951283394447355,
-						"originY": 0.7900534045393858,
+						"width": 53,
+						"height": 63,
+						"originX": 0.8621821164889254,
+						"originY": 1.0712060525144638,
 						"color": [
 							1,
 							1,

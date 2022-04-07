@@ -756,7 +756,9 @@
 						"live-preview": false
 					},
 					"uid": 51,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Fading": false
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -816,7 +818,9 @@
 						"live-preview": false
 					},
 					"uid": 53,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Fading": false
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -876,7 +880,9 @@
 						"live-preview": false
 					},
 					"uid": 54,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Fading": false
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -1361,9 +1367,9 @@
 					"world": {
 						"x": 7891,
 						"y": 1171,
-						"width": 138,
-						"height": 133,
-						"originX": 0.5,
+						"width": 45.816,
+						"height": 59.584,
+						"originX": 0.5060240963855421,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -1995,7 +2001,9 @@
 						"live-preview": false
 					},
 					"uid": 224,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Fading": false
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {

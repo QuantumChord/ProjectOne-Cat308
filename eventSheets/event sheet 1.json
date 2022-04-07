@@ -1094,11 +1094,38 @@
 								"image-point": "0",
 								"create-hierarchy": false
 							}
+						}
+					],
+					"sid": 332975964166704
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 187417504926547,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 795927035634130,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
 						},
 						{
 							"id": "set-angle",
 							"objectClass": "Gun",
-							"sid": 162891490847593,
+							"sid": 599320942168920,
 							"parameters": {
 								"angle": "clamp(Gun.Angle,90,270)"
 							}
@@ -1106,14 +1133,14 @@
 						{
 							"id": "set-angle-toward-position",
 							"objectClass": "Gun",
-							"sid": 669997071635458,
+							"sid": 792975526990059,
 							"parameters": {
 								"x": "Player.X",
 								"y": "Player.Y"
 							}
 						}
 					],
-					"sid": 332975964166704
+					"sid": 855002926819283
 				},
 				{
 					"eventType": "block",
@@ -1160,6 +1187,11 @@
 								"comparison": 3,
 								"value": "0"
 							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 386183507177601
 						}
 					],
 					"actions": [
@@ -1203,7 +1235,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 734780867017953,
+							"sid": 120219302168511,
 							"parameters": {
 								"audio-file": "Enemy Death Scream",
 								"loop": "not-looping",
@@ -1346,6 +1378,409 @@
 				}
 			],
 			"sid": 980559730493021
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "PandaCloud",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 718692011602720
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "CloudPanda",
+							"sid": 319841058132829,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "CloudPanda",
+							"sid": 595462509154534,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 491684279188268
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Bullet",
+							"sid": 884387571719239,
+							"parameters": {
+								"object": "CloudPanda"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "CloudPanda",
+							"sid": 541406887082779,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy",
+							"sid": 649842252694190,
+							"disabled": true,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 868870081173329,
+							"disabled": true,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Enemy",
+							"sid": 186268496830435,
+							"disabled": true,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet",
+							"sid": 203893354403383
+						}
+					],
+					"sid": 576382748798736
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "CloudPanda",
+							"sid": 239525718710198,
+							"parameters": {
+								"animation": "\"Pain\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "CloudPanda",
+							"sid": 943352953946978
+						}
+					],
+					"sid": 730318413883846
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "CloudPanda",
+							"sid": 162552126379373,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "CloudPanda",
+							"sid": 442798433924482,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 382237792260209
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "CloudPanda",
+							"sid": 789292531688349,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "Gun",
+							"sid": 766128648340150,
+							"parameters": {
+								"angle": "clamp(Gun.Angle,90,270)"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Gun",
+							"sid": 434125463065117,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"sid": 565098220477743
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "CloudPanda",
+							"sid": 253018682856426,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 461905466960168
+						}
+					],
+					"sid": 726460783959134
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CloudPanda",
+							"sid": 198830902471481,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 870096108393837
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 127348358826632
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "CloudPanda",
+							"sid": 568080980982320,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "CloudPanda",
+							"sid": 968130612691294,
+							"parameters": {
+								"animation": "\"Pain\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 158433280356248
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 977732810573202,
+							"parameters": {
+								"audio-file": "Enemy Death Scream",
+								"loop": "not-looping",
+								"volume": "-32",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 804744533503280
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BulletEnemy",
+							"sid": 312890510517367,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "BulletEnemy",
+							"sid": 491561336550200
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 739054651803825,
+							"parameters": {
+								"audio-file": "panda hurt sound",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 498321349424351,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "CloudPanda",
+							"sid": 975837208018213,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "CloudPanda",
+							"sid": 595627522211690,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 638699862713297,
+							"parameters": {
+								"interval-seconds": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Gun",
+							"sid": 437227891912845,
+							"parameters": {
+								"object": "BulletEnemy",
+								"layer": "\"Game\"",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 746067282782809
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 134932859996907,
+							"parameters": {
+								"object": "ShockBullet"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 712673484493730,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 869746712807454,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 878219950273507,
+							"parameters": {
+								"object": "boxingGlove"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Enemy",
+							"sid": 997482897314650,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 991143379433541,
+					"disabled": true
+				}
+			],
+			"sid": 862305321171231
 		},
 		{
 			"eventType": "group",
@@ -1987,6 +2422,11 @@
 								"comparison": 3,
 								"value": "0"
 							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 579691688404816
 						}
 					],
 					"actions": [
@@ -2591,9 +3031,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "key-is-down",
+							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 297299642521625,
+							"sid": 607461622793247,
 							"parameters": {
 								"key": 82
 							}
@@ -3025,14 +3465,12 @@
 					],
 					"actions": [
 						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 431400213192838,
+							"id": "set-boolean-instvar",
+							"objectClass": "fadingplat",
+							"sid": 853936020858413,
 							"parameters": {
-								"audio-file": "Clock Ticking Sound Effect For Download",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"6\""
+								"instance-variable": "Fading",
+								"value": "true"
 							}
 						},
 						{
@@ -3097,6 +3535,38 @@
 						}
 					],
 					"sid": 508518347249233
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "fadingplat",
+							"sid": 106239027713663,
+							"parameters": {
+								"instance-variable": "Fading"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 195689313285732
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 756914522225633,
+							"parameters": {
+								"audio-file": "Clock Ticking Sound Effect For Download",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 933108025804873
 				},
 				{
 					"eventType": "block",
@@ -3768,15 +4238,6 @@
 							"sid": 877326948370557,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "1"
-							}
-						},
-						{
-							"id": "add-to-instvar",
-							"objectClass": "Player",
-							"sid": 600861583086855,
-							"parameters": {
-								"instance-variable": "Eggs",
 								"value": "1"
 							}
 						}

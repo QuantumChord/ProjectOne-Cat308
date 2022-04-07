@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 415782464788477,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Fading",
+			"type": "boolean",
+			"desc": "",
+			"sid": 379858722279762
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",

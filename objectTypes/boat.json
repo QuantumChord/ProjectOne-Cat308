@@ -6,14 +6,14 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 757216119688061
-		},
-		{
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 332827814105881
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 713100969694599
 		}
 	],
 	"effectTypes": [],

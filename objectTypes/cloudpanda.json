@@ -1,0 +1,158 @@
+{
+	"name": "CloudPanda",
+	"plugin-id": "Sprite",
+	"sid": 352777744273223,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "IsWalkingLeft",
+			"type": "boolean",
+			"desc": "",
+			"sid": 180842264728320
+		},
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 126740293765968
+		},
+		{
+			"name": "Shock",
+			"type": "boolean",
+			"desc": "",
+			"sid": 202207868954432
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 477608338557077
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 597797095513570
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 265902517369961
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 873,
+						"height": 862,
+						"originX": 0.6735395189003437,
+						"originY": 0.580046403712297,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6082032,
+						"collisionPoly": {
+							"points": [
+								0.1294388568961197,
+								0.05104410122829358,
+								0.4004447186681803,
+								0.001160092807424594,
+								0.6144494175462281,
+								0.2447795823665894,
+								0.9747995418098511,
+								0.4651972157772622,
+								0.6769759450171822,
+								0.8120649651972158,
+								0.3344788087056128,
+								1,
+								0.001145475372279496,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9919816723940436,
+								"y": 0.4280742459396752
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 891393920413261,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 532,
+						"height": 982,
+						"originX": 0.45300751879699247,
+						"originY": -0.3044806517311609,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9233994,
+						"collisionPoly": {
+							"points": [
+								0.45300751879699247,
+								0.01120162932790224,
+								0.7894736842105263,
+								0.5295315682281059,
+								0.45300751879699247,
+								0.9470468431771895,
+								0.35902255639097747,
+								0.3971486761710794
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1202,
+						"height": 1572,
+						"originX": 0.5166389351081531,
+						"originY": 0.19147582697201018,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3318874,
+						"collisionPoly": {
+							"points": [
+								0.5166389351081531,
+								0.7321882951653944,
+								0.3910149750415973,
+								0.19147582697201018,
+								0.9484193011647255,
+								0.9287531806615776,
+								0.5166389351081531,
+								0.9987277353689568,
+								0.2753743760399334,
+								0.19147582697201018
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 166526165037888,
+				"name": "Pain",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
