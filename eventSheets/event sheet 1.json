@@ -2189,6 +2189,68 @@
 						}
 					],
 					"sid": 140592734138924
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "bird2",
+							"sid": 439588683541950,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 282501032387102
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "bird2",
+							"sid": 279688404894635,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "bird2",
+							"sid": 793712405808755,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 897801097558841
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 830848593273585,
+							"parameters": {
+								"audio-file": "Enemy Death Scream",
+								"loop": "not-looping",
+								"volume": "-32",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "bird2",
+							"sid": 394392101997545
+						}
+					],
+					"sid": 125262753314810
 				}
 			],
 			"sid": 545314586869046
