@@ -519,9 +519,9 @@
 						}
 					},
 					"world": {
-						"x": 1377.774647887324,
+						"x": 1355.9624413145539,
 						"y": 4837,
-						"width": 967,
+						"width": 921,
 						"height": 396,
 						"originX": 0.47417840375586856,
 						"originY": 0.49159663865546216,
@@ -810,8 +810,8 @@
 						}
 					},
 					"world": {
-						"x": 1944,
-						"y": 2288,
+						"x": 1972,
+						"y": 2246,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -872,8 +872,8 @@
 						}
 					},
 					"world": {
-						"x": 1987,
-						"y": 1751,
+						"x": 1973,
+						"y": 1724,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -996,8 +996,8 @@
 						}
 					},
 					"world": {
-						"x": 1969,
-						"y": 3287,
+						"x": 1991,
+						"y": 3195,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -1058,8 +1058,8 @@
 						}
 					},
 					"world": {
-						"x": 1961,
-						"y": 1237,
+						"x": 2003,
+						"y": 1195,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -1120,8 +1120,8 @@
 						}
 					},
 					"world": {
-						"x": 1966,
-						"y": 2792,
+						"x": 1980,
+						"y": 2718,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -1244,8 +1244,8 @@
 						}
 					},
 					"world": {
-						"x": 898,
-						"y": 3164,
+						"x": 912,
+						"y": 3094,
 						"width": 96,
 						"height": 128,
 						"originX": 0.6735395189003437,
@@ -1306,70 +1306,12 @@
 						}
 					},
 					"world": {
-						"x": 1971,
-						"y": 3822,
+						"x": 1986,
+						"y": 3614,
 						"width": -128,
 						"height": 128,
 						"originX": 0.6735395189003437,
 						"originY": 0.580046403712297,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Player",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 383,
-					"instanceVariables": {
-						"Fired": false,
-						"IsDead": false,
-						"Health": 3,
-						"Ammo": 6,
-						"Gun": 0,
-						"level": 0,
-						"Eggs": 0,
-						"FloatTrigger": false
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": true,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": false
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": false
-							}
-						}
-					},
-					"world": {
-						"x": 186,
-						"y": 4844,
-						"width": 69.632,
-						"height": 152.832,
-						"originX": 0.5735294117647058,
-						"originY": 0.5125628140703518,
 						"color": [
 							1,
 							1,
@@ -1484,12 +1426,70 @@
 						}
 					},
 					"world": {
-						"x": 905,
-						"y": 3626,
+						"x": 923,
+						"y": 3538,
 						"width": 96,
 						"height": 128,
 						"originX": 0.6735395189003437,
 						"originY": 0.580046403712297,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 383,
+					"instanceVariables": {
+						"Fired": false,
+						"IsDead": false,
+						"Health": 3,
+						"Ammo": 6,
+						"Gun": 0,
+						"level": 0,
+						"Eggs": 0,
+						"FloatTrigger": false
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 290,
+						"y": 4797,
+						"width": 69.632,
+						"height": 152.832,
+						"originX": 0.5735294117647058,
+						"originY": 0.5125628140703518,
 						"color": [
 							1,
 							1,
