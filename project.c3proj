@@ -296,7 +296,9 @@
 							"fadingplat",
 							"breakablewall2",
 							"boat",
-							"anchor"
+							"anchor",
+							"Elevator",
+							"Gear"
 						],
 						"subfolders": [
 							{
@@ -434,7 +436,8 @@
 					"boss",
 					"Game level 3",
 					"Game Level",
-					"Game level 4"
+					"Game level 4",
+					"Game level 5"
 				],
 				"subfolders": [],
 				"name": "Updated levels"
@@ -688,9 +691,9 @@
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
-			0.9921568627450981,
-			0.9882352941176471,
-			0.9882352941176471,
+			0.9607843137254902,
+			0.9568627450980393,
+			0.9568627450980393,
 			0
 		],
 		"splashColor": [

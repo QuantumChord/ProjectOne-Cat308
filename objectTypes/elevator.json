@@ -1,0 +1,119 @@
+{
+	"name": "Elevator",
+	"plugin-id": "Sprite",
+	"sid": 244751767046825,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 443806806530254
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 470376852417967
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 213,
+						"height": 238,
+						"originX": 0.47417840375586856,
+						"originY": 0.49159663865546216,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5495326,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.7352941336751986,
+								1,
+								0.7436976713292738,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "walk point",
+								"x": -0.056338028169014086,
+								"y": 0.6218487394957983
+							},
+							{
+								"name": "walkpoint2",
+								"x": 1.0892018779342723,
+								"y": 0.6932773109243697
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 641618973161902,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 213,
+						"height": 238,
+						"originX": 0.47417840375586856,
+						"originY": 0.49159663865546216,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7089005,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.7352941336751988,
+								1,
+								0.7394958944881663,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "walk point",
+								"x": -0.056338028169014086,
+								"y": 0.6218487394957983
+							},
+							{
+								"name": "walkpoint2",
+								"x": 1.0892018779342723,
+								"y": 0.6932773109243697
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 725216039004185,
+				"name": "sail",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

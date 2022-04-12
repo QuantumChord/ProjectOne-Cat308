@@ -4768,6 +4768,42 @@
 						}
 					],
 					"sid": 535726167445510
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 655850909669529,
+							"parameters": {
+								"object": "Elevator"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Elevator",
+							"sid": 956429947008961,
+							"parameters": {
+								"animation": "\"sail\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Elevator",
+							"sid": 531864030002904,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Gear",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 780740575959893
 				}
 			],
 			"sid": 808606313618351
