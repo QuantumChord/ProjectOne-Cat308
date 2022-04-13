@@ -5,6 +5,17 @@
 	"singleglobal-inst": {
 		"type": "Keyboard",
 		"properties": {},
-		"uid": 11
+		"uid": 11,
+		"template": {
+			"mode": "none",
+			"templateName": "",
+			"sourceTemplateName": "",
+			"components": [
+				{
+					"id": "plugin",
+					"component": "[{\"key\":\"plugin\",\"state\":\"[]\"}]"
+				}
+			]
+		}
 	}
 }
