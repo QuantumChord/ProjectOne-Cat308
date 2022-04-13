@@ -3029,7 +3029,8 @@
 								"layer": "0",
 								"x": "0",
 								"y": "0",
-								"create-hierarchy": false
+								"create-hierarchy": false,
+								"template-name": "\"\""
 							}
 						},
 						{
