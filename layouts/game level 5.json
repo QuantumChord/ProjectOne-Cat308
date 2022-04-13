@@ -18,6 +18,33 @@
 					"uid": 350,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1484,
 						"y": 3243,
@@ -47,6 +74,33 @@
 					"uid": 404,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -18,
 						"y": 4836,
@@ -76,6 +130,33 @@
 					"uid": 405,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 542,
 						"y": 4690,
@@ -105,6 +186,33 @@
 					"uid": 406,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1299,
 						"y": 678,
@@ -138,6 +246,33 @@
 					"uid": 407,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"origin\\\",true],[\\\"wrap-horizontal\\\",true],[\\\"wrap-vertical\\\",true],[\\\"image-offset-x\\\",true],[\\\"image-offset-y\\\",true],[\\\"image-scale-x\\\",true],[\\\"image-scale-y\\\",true],[\\\"image-angle\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -21,
 						"y": 616,
@@ -171,6 +306,33 @@
 					"uid": 408,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"origin\\\",true],[\\\"wrap-horizontal\\\",true],[\\\"wrap-vertical\\\",true],[\\\"image-offset-x\\\",true],[\\\"image-offset-y\\\",true],[\\\"image-scale-x\\\",true],[\\\"image-scale-y\\\",true],[\\\"image-angle\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -21,
 						"y": 757,
@@ -204,6 +366,33 @@
 					"uid": 353,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"origin\\\",true],[\\\"wrap-horizontal\\\",true],[\\\"wrap-vertical\\\",true],[\\\"image-offset-x\\\",true],[\\\"image-offset-y\\\",true],[\\\"image-scale-x\\\",true],[\\\"image-scale-y\\\",true],[\\\"image-angle\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 768,
 						"y": 735,
@@ -273,6 +462,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 663,
 						"y": 4837,
@@ -307,6 +523,33 @@
 								"enabled": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 436,
@@ -343,6 +586,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2263,
 						"y": 4831,
@@ -377,6 +647,33 @@
 								"enabled": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 2491,
@@ -413,6 +710,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2752,
 						"y": 4824,
@@ -442,6 +766,33 @@
 					"uid": 386,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1451,
 						"y": 769,
@@ -544,6 +895,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"ScrollTo\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 59.24,
 						"y": 5046,
@@ -584,6 +962,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"origin\\\",true],[\\\"wrap-horizontal\\\",true],[\\\"wrap-vertical\\\",true],[\\\"image-offset-x\\\",true],[\\\"image-offset-y\\\",true],[\\\"image-scale-x\\\",true],[\\\"image-scale-y\\\",true],[\\\"image-angle\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -60,
 						"y": 4883,
@@ -623,6 +1028,33 @@
 								"tags": ""
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"origin\\\",true],[\\\"wrap-horizontal\\\",true],[\\\"wrap-vertical\\\",true],[\\\"image-offset-x\\\",true],[\\\"image-offset-y\\\",true],[\\\"image-scale-x\\\",true],[\\\"image-scale-y\\\",true],[\\\"image-angle\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 1895,
@@ -671,6 +1103,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"MoveTo\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"rotate-speed\\\",true],[\\\"set-angle\\\",true],[\\\"stop-on-solids\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1355.9624413145539,
 						"y": 4837,
@@ -706,6 +1165,33 @@
 								"tags": ""
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 2421,
@@ -743,6 +1229,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2117,
 						"y": 2838.5,
@@ -778,6 +1291,33 @@
 								"tags": ""
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 777,
@@ -841,6 +1381,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 907,
 						"y": 1259,
@@ -902,6 +1469,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 933,
@@ -965,6 +1559,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1972,
 						"y": 2246,
@@ -1026,6 +1647,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 1973,
@@ -1089,6 +1737,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 909,
 						"y": 2620,
@@ -1150,6 +1825,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 1991,
@@ -1213,6 +1915,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2003,
 						"y": 1195,
@@ -1274,6 +2003,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 1980,
@@ -1337,6 +2093,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 875,
 						"y": 1750,
@@ -1398,6 +2181,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 912,
@@ -1461,6 +2271,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1986,
 						"y": 3614,
@@ -1490,6 +2327,33 @@
 					"uid": 376,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -194,
 						"y": 4916,
@@ -1552,6 +2416,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 923,
 						"y": 3538,
@@ -1609,6 +2500,33 @@
 								"enabled": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"Fired\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"IsDead\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Ammo\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Gun\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"level\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Eggs\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"FloatTrigger\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"ScrollTo\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 290,
@@ -1685,6 +2603,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Turret\",\"state\":\"[[\\\"range\\\",true],[\\\"rate-of-fire\\\",true],[\\\"rotate\\\",true],[\\\"rotate-speed\\\",true],[\\\"target-mode\\\",true],[\\\"predictive-aim\\\",true],[\\\"projectile-speed\\\",true],[\\\"use-collision-cells\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 949,
 						"y": 114,
@@ -1759,6 +2704,33 @@
 								"use-collision-cells": true
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Turret\",\"state\":\"[[\\\"range\\\",true],[\\\"rate-of-fire\\\",true],[\\\"rotate\\\",true],[\\\"rotate-speed\\\",true],[\\\"target-mode\\\",true],[\\\"predictive-aim\\\",true],[\\\"projectile-speed\\\",true],[\\\"use-collision-cells\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 1247,
@@ -1835,6 +2807,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Turret\",\"state\":\"[[\\\"range\\\",true],[\\\"rate-of-fire\\\",true],[\\\"rotate\\\",true],[\\\"rotate-speed\\\",true],[\\\"target-mode\\\",true],[\\\"predictive-aim\\\",true],[\\\"projectile-speed\\\",true],[\\\"use-collision-cells\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"LineOfSight\",\"state\":\"[[\\\"obstacles\\\",true],[\\\"range\\\",true],[\\\"cone-of-view\\\",true],[\\\"use-collision-cells\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 1613,
 						"y": 427,
@@ -1864,6 +2863,33 @@
 					"uid": 412,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 683,
 						"y": 111,
@@ -1893,6 +2919,33 @@
 					"uid": 413,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 700,
 						"y": 305,
@@ -1922,6 +2975,33 @@
 					"uid": 414,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 703,
 						"y": 434,
@@ -1951,6 +3031,33 @@
 					"uid": 415,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2214,
 						"y": 411,
@@ -1980,6 +3087,33 @@
 					"uid": 416,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2178,
 						"y": 248,
@@ -2009,6 +3143,33 @@
 					"uid": 417,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 2126,
 						"y": 90,
@@ -2052,6 +3213,33 @@
 								"live-preview": false
 							}
 						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
 					},
 					"world": {
 						"x": 2650,

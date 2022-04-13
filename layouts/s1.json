@@ -18,6 +18,33 @@
 					"uid": 218,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 660.5,
 						"y": 545,
@@ -81,6 +108,33 @@
 					"uid": 211,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 307,
 						"y": 390,
@@ -110,6 +164,33 @@
 					"uid": 212,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 894.3492435271695,
 						"y": 122.70895873350813,
@@ -152,6 +233,33 @@
 					"uid": 215,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"text\\\",true],[\\\"enable-bbcode\\\",true],[\\\"font\\\",true],[\\\"size\\\",true],[\\\"line-height\\\",true],[\\\"bold\\\",true],[\\\"italic\\\",true],[\\\"color\\\",true],[\\\"horizontal-alignment\\\",true],[\\\"vertical-alignment\\\",true],[\\\"wrapping\\\",true],[\\\"initially-visible\\\",true],[\\\"origin\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 180,
 						"y": 157,
@@ -194,6 +302,33 @@
 					"uid": 216,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"text\\\",true],[\\\"enable-bbcode\\\",true],[\\\"font\\\",true],[\\\"size\\\",true],[\\\"line-height\\\",true],[\\\"bold\\\",true],[\\\"italic\\\",true],[\\\"color\\\",true],[\\\"horizontal-alignment\\\",true],[\\\"vertical-alignment\\\",true],[\\\"wrapping\\\",true],[\\\"initially-visible\\\",true],[\\\"origin\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 123,
 						"y": 396,
@@ -236,6 +371,33 @@
 					"uid": 217,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"text\\\",true],[\\\"enable-bbcode\\\",true],[\\\"font\\\",true],[\\\"size\\\",true],[\\\"line-height\\\",true],[\\\"bold\\\",true],[\\\"italic\\\",true],[\\\"color\\\",true],[\\\"horizontal-alignment\\\",true],[\\\"vertical-alignment\\\",true],[\\\"wrapping\\\",true],[\\\"initially-visible\\\",true],[\\\"origin\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 87,
 						"y": 511,
@@ -294,6 +456,33 @@
 							}
 						}
 					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"Fired\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"IsDead\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Ammo\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Gun\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"level\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Eggs\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"FloatTrigger\\\",\\\"state\\\":true}]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Platform\",\"state\":\"[[\\\"max-speed\\\",true],[\\\"acceleration\\\",true],[\\\"deceleration\\\",true],[\\\"jump-strength\\\",true],[\\\"gravity\\\",true],[\\\"max-fall-speed\\\",true],[\\\"double-jump\\\",true],[\\\"jump-sustain\\\",true],[\\\"default-controls\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"ScrollTo\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 617,
 						"y": 500,
@@ -323,6 +512,33 @@
 					"uid": 344,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": -47,
 						"y": 1072,
@@ -365,6 +581,33 @@
 					"uid": 429,
 					"instanceVariables": {},
 					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"text\\\",true],[\\\"enable-bbcode\\\",true],[\\\"font\\\",true],[\\\"size\\\",true],[\\\"line-height\\\",true],[\\\"bold\\\",true],[\\\"italic\\\",true],[\\\"color\\\",true],[\\\"horizontal-alignment\\\",true],[\\\"vertical-alignment\\\",true],[\\\"wrapping\\\",true],[\\\"initially-visible\\\",true],[\\\"origin\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
 					"world": {
 						"x": 145,
 						"y": 68,

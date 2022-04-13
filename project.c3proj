@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 28503,
+	"savedWithRelease": 29000,
 	"name": "Project1Prototype3",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "jumpthru",
 			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -147,7 +147,7 @@
 			"id": "Physics",
 			"name": "Physics",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -155,7 +155,7 @@
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -163,7 +163,7 @@
 			"id": "Turret",
 			"name": "Turret",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		},
 		{
@@ -171,7 +171,7 @@
 			"id": "Pathfinding",
 			"name": "Pathfinding",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r290",
 			"bundled": false
 		}
 	],
@@ -479,117 +479,186 @@
 				{
 					"name": "509857__mrthenoronha__easter-theme-loop-1.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 220430681743136
+					"sid": 220430681743136,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "481584__malatestinic-com__gun-2.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 147837119163756
+					"sid": 147837119163756,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "386647__jalastram__sfx-jump-15.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 835229770959021
+					"sid": 835229770959021,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "533034__evretro__8-bit-game-over-sound-tune.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 429060704765832
+					"sid": 429060704765832,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Rock_n_Hop.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 269246808443791
+					"sid": 269246808443791,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Drum_Roll.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 779828935783314
+					"sid": 779828935783314,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "feet landing sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 699215864933257
+					"sid": 699215864933257,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "fox hurt sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 234709340010310
+					"sid": 234709340010310,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "gun reload.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 364329061996649
+					"sid": 364329061996649,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "knife slash sound effect.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 674227000507953
+					"sid": 674227000507953,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "panda hurt sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 539773114273161
+					"sid": 539773114273161,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "player death song.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 401988424933747
+					"sid": 401988424933747,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "player hurt sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 614569484632556
+					"sid": 614569484632556,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Punch Sound Effect - Gaming SFX.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 285153631170793
+					"sid": 285153631170793,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Realistic Gunshot Sound Effect.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 766769181967418
+					"sid": 766769181967418,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "wall break sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 516010758909035
+					"sid": 516010758909035,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "bomb falling.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 611687246431761
+					"sid": 611687246431761,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Clock Ticking Sound Effect For Download.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 781842146208152
+					"sid": 781842146208152,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Drum_Roll(Level Song).webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 749995006924886
+					"sid": 749995006924886,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "egg collection sound.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 242851775442185
+					"sid": 242851775442185,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Electric Zap - Sound Effect for editing.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 137433371263759
+					"sid": 137433371263759,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Enemy Death Scream.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 352062466173647
+					"sid": 352062466173647,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Explosion Sound Effect.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 974056454702701
+					"sid": 974056454702701,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
