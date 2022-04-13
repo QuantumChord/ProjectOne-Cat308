@@ -4236,6 +4236,138 @@
 						}
 					],
 					"sid": 122818623716523
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 563808919698436,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 912207124915455,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 909509090489367,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 521463475409524,
+							"parameters": {
+								"layout": "Game level 3"
+							}
+						}
+					],
+					"sid": 451867425620731
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 869051399659816,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 502044641219194,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 249756863657530,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 648008055944621,
+							"parameters": {
+								"layout": "Game level 4"
+							}
+						}
+					],
+					"sid": 387192866244239
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 702592148202079,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 351128960005023,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 496444463959461,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 527443276042868,
+							"parameters": {
+								"layout": "Game level 5"
+							}
+						}
+					],
+					"sid": 844009619973014
 				}
 			],
 			"sid": 268355709682477
