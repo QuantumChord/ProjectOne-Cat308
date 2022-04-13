@@ -43,9 +43,9 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 449267767308868,
+							"sid": 702118690094316,
 							"parameters": {
-								"animation": "\"Walk\"",
+								"animation": "\"Savuthun'sbathwater\"",
 								"from": "beginning"
 							}
 						},
@@ -110,9 +110,9 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 672039712636003,
+							"sid": 374154418717708,
 							"parameters": {
-								"animation": "\"Walk\"",
+								"animation": "\"Savuthun'sbathwater\"",
 								"from": "beginning"
 							}
 						},
@@ -3546,9 +3546,9 @@
 						{
 							"id": "stop",
 							"objectClass": "Audio",
-							"sid": 107176760689271,
+							"sid": 925270987023432,
 							"parameters": {
-								"tag": "\"6\""
+								"tag": "\"100\""
 							}
 						},
 						{
@@ -3587,6 +3587,15 @@
 							}
 						},
 						{
+							"id": "set-boolean-instvar",
+							"objectClass": "fadingplat",
+							"sid": 626071563731565,
+							"parameters": {
+								"instance-variable": "Fading",
+								"value": "false"
+							}
+						},
+						{
 							"id": "set-enabled",
 							"objectClass": "fadingplat",
 							"sid": 648235985146114,
@@ -3619,12 +3628,12 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 756914522225633,
+							"sid": 376896944630335,
 							"parameters": {
 								"audio-file": "Clock Ticking Sound Effect For Download",
 								"loop": "not-looping",
 								"volume": "0",
-								"tag-optional": "\"\""
+								"tag-optional": "\"100\""
 							}
 						}
 					],
@@ -4282,6 +4291,44 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
+							"sid": 617691447349730,
+							"parameters": {
+								"object": "pill"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 466878852088453,
+							"parameters": {
+								"variable": "Level",
+								"value": "1"
+							}
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 791821518966189
+						},
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 144596435956243,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 205929044251673
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
 							"sid": 759311803882419,
 							"parameters": {
 								"object": "egg"
@@ -4831,10 +4878,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "tip1",
-							"sid": 962782777874097,
+							"sid": 332887848674109,
 							"parameters": {
-								"object": "TiledBackground4",
-								"layer": "0",
+								"object": "ffff",
+								"layer": "\"UI\"",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
@@ -4849,8 +4896,8 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "TiledBackground4",
-							"sid": 221555928831714
+							"objectClass": "ffff",
+							"sid": 548622660674049
 						}
 					],
 					"sid": 852190609045328

@@ -1,5 +1,5 @@
 {
-	"name": "s1",
+	"name": "s3",
 	"layers": [
 		{
 			"name": "Layer 1",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "HvpyGFBJSIg7rALQDFW_LLzvb16Wb6tcb3PXq8BOho",
+					"type": "NYPDcr",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 218,
+					"uid": 427,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 660.5,
-						"y": 545,
-						"width": 1339,
-						"height": 1117,
+						"x": 794,
+						"y": 471,
+						"width": 1600,
+						"height": 948,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"sid": 920328415967997,
+			"sid": 121973761452446,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -78,7 +78,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 211,
+					"uid": 221,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -107,7 +107,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 212,
+					"uid": 244,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -124,90 +124,6 @@
 							1
 						],
 						"angle": 2.8773893306545544,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text9",
-					"properties": {
-						"text": "Eric Philip bunkin Jones is a simple man,joined the navy too build himself from the ground up.                                   \n                                                              \n                                                              \nUntill he was discharged from the navy after a dispute with his captain. Over a burrito.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 215,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 180,
-						"y": 157,
-						"width": 350.28500801132327,
-						"height": 233.37593905452877,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.21324133211564367,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text10",
-					"properties": {
-						"text": "He took some time to do meditation and self-reflect.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 216,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 123,
-						"y": 396,
-						"width": 350.28500801132327,
-						"height": 122.48918219186201,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.21324133211564367,
 						"zElevation": 0
 					}
 				},
@@ -233,12 +149,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 217,
+					"uid": 401,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 87,
-						"y": 511,
+						"x": 76,
+						"y": 507,
 						"width": 350.28500801132327,
 						"height": 122.48918219186201,
 						"originX": 0,
@@ -262,7 +178,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 239,
+					"uid": 420,
 					"instanceVariables": {
 						"Fired": false,
 						"IsDead": false,
@@ -320,7 +236,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 344,
+					"uid": 421,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -362,12 +278,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 429,
+					"uid": 431,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 145,
-						"y": 68,
+						"y": 69,
 						"width": 309.98432095168806,
 						"height": 56,
 						"originX": 0,
@@ -381,9 +297,93 @@
 						"angle": 0.01209519200636644,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Text12",
+					"properties": {
+						"text": "After a few weeks working in the NYPD. Eric Cleaned up the mean streets, but with the steep hours and endless nights filled with stress.                                                           \n                                                                  He wouldn't stop eating candy to the point He began fighting a witness during one of his arrests.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 432,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 185,
+						"y": 186,
+						"width": 330,
+						"height": 203.2972634065222,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.22453998354021965,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text7",
+					"properties": {
+						"text": "He was fired due to his uncontrollable anger.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 433,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 117,
+						"y": 398,
+						"width": 333,
+						"height": 78,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.22308619281639025,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 935209259408975,
+			"sid": 337769632621063,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -412,7 +412,7 @@
 			"global": false
 		}
 	],
-	"sid": 929332391602042,
+	"sid": 905812840979348,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2560,

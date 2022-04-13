@@ -1,0 +1,20 @@
+{
+	"name": "citybg2",
+	"plugin-id": "TiledBg",
+	"sid": 978768654741480,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 148,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7752341,
+		"useCollisionPoly": true
+	}
+}

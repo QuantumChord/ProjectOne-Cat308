@@ -15,12 +15,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 219,
+					"uid": 425,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 648,
-						"y": 361,
+						"x": 647,
+						"y": 379,
 						"width": 1318,
 						"height": 763,
 						"originX": 0.5,
@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"sid": 702162154143947,
+			"sid": 756802016026158,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -70,35 +70,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "nextLayout",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 213,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 860,
-						"y": 77,
-						"width": 284.5365077064786,
-						"height": 227.4791735972474,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 2.8773893306545544,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "scrolltinyantiquewhiteclipartatclker",
 					"properties": {
 						"initially-visible": true,
@@ -107,12 +78,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 214,
+					"uid": 418,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 299,
-						"y": 383,
+						"x": 307,
+						"y": 390,
 						"width": 620,
 						"height": 713,
 						"originX": 0.5,
@@ -128,86 +99,31 @@
 					}
 				},
 				{
-					"type": "Text12",
+					"type": "nextLayout",
 					"properties": {
-						"text": "After a few weeks working in the NYPD. Eric found himself fist fighting a witness during one of his arrest. He was left off the force and charged with multiple violent charges.  ",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 221,
+					"uid": 419,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 190,
-						"y": 145,
-						"width": 330,
-						"height": 134.00762922553452,
-						"originX": 0,
-						"originY": 0,
+						"x": 894.3492435271695,
+						"y": 122.70895873350813,
+						"width": 276.3243625643183,
+						"height": 200.39484838571423,
+						"originX": 0.5286624203821656,
+						"originY": 0.6397058823529411,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0.22453998354021965,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text13",
-					"properties": {
-						"text": "Eric Philip bunkin Jones, would begin to reflect on life and start a journey of self discovery as it turns out. He is really good at fighting people and is filled with anger. So he become a boxer but he was later found beating up his manager over a Taco. So he moved to a far away land",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 220,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 128,
-						"y": 300,
-						"width": 343.8085067817985,
-						"height": 202.53625865739951,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.2029722557805688,
+						"angle": 2.8773893306545544,
 						"zElevation": 0
 					}
 				},
@@ -233,12 +149,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 222,
+					"uid": 422,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 60,
-						"y": 510,
+						"x": 87,
+						"y": 511,
 						"width": 350.28500801132327,
 						"height": 122.48918219186201,
 						"originX": 0,
@@ -252,9 +168,180 @@
 						"angle": 0.21324133211564367,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 423,
+					"instanceVariables": {
+						"Fired": false,
+						"IsDead": false,
+						"Health": 3,
+						"Ammo": 6,
+						"Gun": 0,
+						"level": 0,
+						"Eggs": 0,
+						"FloatTrigger": false
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": false
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 617,
+						"y": 500,
+						"width": 69.632,
+						"height": 152.832,
+						"originX": 0.5772058823529411,
+						"originY": 0.5577889447236181,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Killpoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 424,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -47,
+						"y": 1072,
+						"width": 61,
+						"height": 61,
+						"originX": 0.5081967213114754,
+						"originY": 0.5081967213114754,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "cop1",
+					"properties": {
+						"text": "   Eric soon found recreational candy to help with his stresses in life.                                                            \n                                                                 \n  One day he woke up inside a party city during Halloween. Already dressed in an NYPD Costume he became inspired as he peered at his reflection. He Would apply and soon find himself working for the NYPD",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 426,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 166,
+						"y": 152,
+						"width": 364,
+						"height": 286.07208291035914,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.16621952950580832,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pastreflection",
+					"properties": {
+						"text": "Past-Reflection",
+						"enable-bbcode": true,
+						"font": "Broadway",
+						"size": 28,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 430,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 139,
+						"y": 69,
+						"width": 309.98432095168806,
+						"height": 56,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.01209519200636644,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 672997410702826,
+			"sid": 154841845023421,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -265,9 +352,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				0,
+				0,
+				0,
 				1
 			],
 			"isTransparent": true,
@@ -283,7 +370,7 @@
 			"global": false
 		}
 	],
-	"sid": 264703684097775,
+	"sid": 998785335096770,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2560,

@@ -1,7 +1,7 @@
 {
-	"name": "tip1",
+	"name": "ffff",
 	"plugin-id": "Sprite",
-	"sid": 454893317145625,
+	"sid": 670429418221416,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 124,
-						"height": 127,
-						"originX": 0.47580645161290325,
-						"originY": -1.6614173228346456,
+						"width": 235,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2627163,
+						"imageSpriteId": 7870111,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 978402871331175,
-				"name": "Animation 1",
+				"sid": 126315659479136,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
