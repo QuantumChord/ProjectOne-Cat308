@@ -136,8 +136,8 @@
 						]
 					},
 					"world": {
-						"x": 681,
-						"y": 1137,
+						"x": 682,
+						"y": 1123,
 						"width": 141.2402103028182,
 						"height": 257.2662581405254,
 						"originX": 0.5,
@@ -148,7 +148,7 @@
 							1,
 							1
 						],
-						"angle": 3.289413122992441,
+						"angle": 3.2203209513955007,
 						"zElevation": 0
 					}
 				},
@@ -377,62 +377,6 @@
 					}
 				},
 				{
-					"type": "Sprite7",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 230,
-					"instanceVariables": {},
-					"behaviors": {},
-					"template": {
-						"mode": "none",
-						"templateName": "",
-						"sourceTemplateName": "",
-						"components": [
-							{
-								"id": "plugin",
-								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
-							},
-							{
-								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
-							},
-							{
-								"id": "behavior",
-								"component": "[]"
-							},
-							{
-								"id": "effect",
-								"component": "[]"
-							},
-							{
-								"id": "world-instance",
-								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
-							}
-						]
-					},
-					"world": {
-						"x": 255,
-						"y": 1124,
-						"width": 141.2402103028182,
-						"height": 257.2662581405254,
-						"originX": 0.5,
-						"originY": 0.5101832993890021,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 2.994666051290537,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite11",
 					"properties": {
 						"initially-visible": true,
@@ -657,15 +601,15 @@
 					}
 				},
 				{
-					"type": "Sprite8",
+					"type": "amped_Arm2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 234,
+					"uid": 458,
 					"instanceVariables": {},
 					"behaviors": {},
 					"template": {
@@ -696,11 +640,67 @@
 						]
 					},
 					"world": {
-						"x": 5977,
-						"y": 1332,
-						"width": -45,
-						"height": 487,
-						"originX": 0.4305555555555556,
+						"x": 4745,
+						"y": 1177,
+						"width": 331.7377571319603,
+						"height": 355.6337520872348,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.28004191019259,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite7",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 459,
+					"instanceVariables": {},
+					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 240,
+						"y": 1124,
+						"width": 141.2402103028182,
+						"height": 257.2662581405254,
+						"originX": 0.5,
 						"originY": 0.5101832993890021,
 						"color": [
 							1,
@@ -708,15 +708,71 @@
 							1,
 							1
 						],
-						"angle": 0.10716171101682814,
+						"angle": 2.994666051290537,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Sprite8",
+					"type": "pocky",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 230,
+					"instanceVariables": {},
+					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 2611,
+						"y": 1284,
+						"width": 895,
+						"height": 746,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.31868526250540713,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pocky",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -752,19 +808,19 @@
 						]
 					},
 					"world": {
-						"x": 2619,
-						"y": 1332,
-						"width": -45,
-						"height": 487,
-						"originX": 0.4305555555555556,
-						"originY": 0.5101832993890021,
+						"x": 5859,
+						"y": 1334,
+						"width": 895,
+						"height": 746,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0.18215924562530716,
+						"angle": 0.31868526250540713,
 						"zElevation": 0
 					}
 				}
@@ -3741,6 +3797,62 @@
 						"height": 127.99999999999999,
 						"originX": 0.6594036697247706,
 						"originY": 0.5173116089613035,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "deadGirl3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 457,
+					"instanceVariables": {},
+					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 7360.272727272728,
+						"y": 1061.636363636364,
+						"width": 384,
+						"height": 369,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

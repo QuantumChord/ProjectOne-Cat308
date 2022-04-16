@@ -212,7 +212,16 @@
 			"ffff",
 			"Tilemap",
 			"TiledBackground6",
-			"NYPDcr"
+			"NYPDcr",
+			"amped_Arm",
+			"inaBoxAlt",
+			"deadGirl",
+			"deadGirl2",
+			"inaBox",
+			"Goredoor",
+			"deadGirl3",
+			"amped_Arm2",
+			"pocky"
 		],
 		"subfolders": [
 			{

@@ -1,0 +1,37 @@
+{
+	"name": "amped_Arm",
+	"plugin-id": "Sprite",
+	"sid": 513040837930674,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 176,
+						"height": 84,
+						"originX": 0.48295454545454547,
+						"originY": 0.17857142857142858,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9275005,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 750868685568519,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
