@@ -362,7 +362,8 @@
 					"hidden",
 					"Road",
 					"buildingPlat",
-					"Sprite14"
+					"Sprite14",
+					"FakePlatform"
 				],
 				"subfolders": [
 					{

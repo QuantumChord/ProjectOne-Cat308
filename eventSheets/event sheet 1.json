@@ -4984,6 +4984,27 @@
 						}
 					],
 					"sid": 780740575959893
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 589223543317705,
+							"parameters": {
+								"object": "FakePlatform"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "FakePlatform",
+							"sid": 251130397659066
+						}
+					],
+					"sid": 205975150571261
 				}
 			],
 			"sid": 808606313618351
