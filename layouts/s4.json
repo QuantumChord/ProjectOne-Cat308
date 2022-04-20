@@ -101,62 +101,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "nextLayout",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 213,
-					"instanceVariables": {},
-					"behaviors": {},
-					"template": {
-						"mode": "none",
-						"templateName": "",
-						"sourceTemplateName": "",
-						"components": [
-							{
-								"id": "plugin",
-								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
-							},
-							{
-								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
-							},
-							{
-								"id": "behavior",
-								"component": "[]"
-							},
-							{
-								"id": "effect",
-								"component": "[]"
-							},
-							{
-								"id": "world-instance",
-								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
-							}
-						]
-					},
-					"world": {
-						"x": 1118,
-						"y": 116,
-						"width": 284.5365077064786,
-						"height": 227.4791735972474,
-						"originX": 0.5286624203821656,
-						"originY": 0.6397058823529411,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 2.8773893306545544,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "scrolltinyantiquewhiteclipartatclker",
 					"properties": {
 						"initially-visible": true,
@@ -215,7 +159,7 @@
 				{
 					"type": "Text13",
 					"properties": {
-						"text": "Eric Philip bunkin Jones, would begin to reflect on life and start a journey of self discovery as it turns out. He is really good at fighting people and is filled with anger. So he become a boxer to                  ............................................................................................................................................................................................................Later end up beating his manager up over a Taco and fled the State.                                   ",
+						"text": "Eric Philip bunkin Jones, would begin to reflect on life and start a journey of self discovery as it turns out. He is really good at fighting people and is filled with anger. So he become a boxer to                  ..............................................................................................................................................................................................................                               ",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -265,10 +209,10 @@
 						]
 					},
 					"world": {
-						"x": 148,
-						"y": 227,
+						"x": 170,
+						"y": 154,
 						"width": 343.8085067817985,
-						"height": 220.05047536562972,
+						"height": 180.8122014362888,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -416,6 +360,62 @@
 							1
 						],
 						"angle": 0.01209519200636644,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "nextLayout2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 520,
+					"instanceVariables": {},
+					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 953,
+						"y": 179,
+						"width": 276.3243625643183,
+						"height": 200.39484838571423,
+						"originX": 0.5286624203821656,
+						"originY": 0.6397058823529411,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.0922790646482388,
 						"zElevation": 0
 					}
 				}

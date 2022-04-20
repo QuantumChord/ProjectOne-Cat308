@@ -76,10 +76,10 @@
 						{
 							"id": "move-at-angle",
 							"objectClass": "Cam",
-							"sid": 916814824720625,
+							"sid": 406761665828165,
 							"parameters": {
 								"angle": "90",
-								"distance": "20"
+								"distance": "30"
 							}
 						}
 					],
@@ -527,6 +527,14 @@
 							"sid": 541820773342718,
 							"parameters": {
 								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "boxingGlove",
+							"sid": 630104771764590,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -3838,8 +3846,54 @@
 							}
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 215384289872527,
+							"parameters": {
+								"audio-file": "4_28_21 track",
+								"loop": "looping",
+								"volume": "-20",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
 					"sid": 372445004103153
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 930444636749168
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 343468547457779,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 196530636202487,
+							"parameters": {
+								"audio-file": "horror song",
+								"loop": "looping",
+								"volume": "-20",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 271938129695279
 				},
 				{
 					"eventType": "block",
@@ -3929,9 +3983,13 @@
 							}
 						},
 						{
+							"type": "comment",
+							"text": "cam deefalt is player.x, 0.03 player 0.03"
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Cam",
-							"sid": 633327590314831,
+							"sid": 890439233791667,
 							"parameters": {
 								"x": "lerp(Self.X, Player.X, 0.03)",
 								"y": "lerp(Self.Y, Player.Y-150, 0.03)"
@@ -4563,6 +4621,40 @@
 						}
 					],
 					"sid": 267895033936556
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 135839329928632,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "nextLayout2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 811072147212474,
+							"parameters": {
+								"layout": "\"s6\""
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 295410832610934,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						}
+					],
+					"sid": 394720226482407
 				},
 				{
 					"eventType": "block",
