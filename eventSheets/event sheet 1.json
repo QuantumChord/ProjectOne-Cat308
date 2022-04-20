@@ -1163,6 +1163,15 @@
 								"image-point": "0"
 							},
 							"isInverted": true
+						},
+						{
+							"id": "compare-child-count",
+							"objectClass": "Enemy",
+							"sid": 445116572168842,
+							"parameters": {
+								"comparison": 4,
+								"count": "0"
+							}
 						}
 					],
 					"actions": [
@@ -1194,6 +1203,15 @@
 								"instance-variable": "Health",
 								"comparison": 3,
 								"value": "0"
+							}
+						},
+						{
+							"id": "compare-child-count",
+							"objectClass": "Enemy",
+							"sid": 343545541127415,
+							"parameters": {
+								"comparison": 4,
+								"count": "0"
 							}
 						},
 						{
@@ -1582,6 +1600,15 @@
 								"image-point": "0"
 							},
 							"isInverted": true
+						},
+						{
+							"id": "compare-child-count",
+							"objectClass": "CloudPanda",
+							"sid": 564093061886322,
+							"parameters": {
+								"comparison": 4,
+								"count": "0"
+							}
 						}
 					],
 					"actions": [
