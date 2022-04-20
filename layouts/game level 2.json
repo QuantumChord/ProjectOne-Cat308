@@ -582,7 +582,8 @@
 					"instanceVariables": {
 						"IsWalkingLeft": false,
 						"Health": 3,
-						"Shock": false
+						"Shock": false,
+						"GunSpawn": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -625,7 +626,7 @@
 							},
 							{
 								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"GunSpawn\\\",\\\"state\\\":true}]\"}]"
 							},
 							{
 								"id": "behavior",
@@ -783,7 +784,8 @@
 					"instanceVariables": {
 						"IsWalkingLeft": false,
 						"Health": 3,
-						"Shock": false
+						"Shock": false,
+						"GunSpawn": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -826,7 +828,7 @@
 							},
 							{
 								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"GunSpawn\\\",\\\"state\\\":true}]\"}]"
 							},
 							{
 								"id": "behavior",
@@ -1061,7 +1063,8 @@
 					"instanceVariables": {
 						"IsWalkingLeft": false,
 						"Health": 3,
-						"Shock": false
+						"Shock": false,
+						"GunSpawn": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -1104,7 +1107,7 @@
 							},
 							{
 								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true}]\"}]"
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"IsWalkingLeft\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Shock\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"GunSpawn\\\",\\\"state\\\":true}]\"}]"
 							},
 							{
 								"id": "behavior",

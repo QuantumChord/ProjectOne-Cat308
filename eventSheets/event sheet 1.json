@@ -554,6 +554,15 @@
 					],
 					"actions": [
 						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 241005363928262,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
 							"id": "destroy",
 							"objectClass": "Player",
 							"sid": 145563406967334
@@ -1093,14 +1102,12 @@
 							}
 						},
 						{
-							"id": "spawn-another-object",
+							"id": "set-boolean-instvar",
 							"objectClass": "Enemy",
-							"sid": 956462513673280,
+							"sid": 189649889760481,
 							"parameters": {
-								"object": "Gun",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
+								"instance-variable": "GunSpawn",
+								"value": "true"
 							}
 						}
 					],
@@ -1121,15 +1128,6 @@
 						}
 					],
 					"actions": [
-						{
-							"id": "set-enabled",
-							"objectClass": "Enemy",
-							"sid": 795927035634130,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "disabled"
-							}
-						},
 						{
 							"id": "set-angle",
 							"objectClass": "Gun",
@@ -1163,23 +1161,9 @@
 								"image-point": "0"
 							},
 							"isInverted": true
-						},
-						{
-							"id": "compare-child-count",
-							"objectClass": "Enemy",
-							"sid": 445116572168842,
-							"parameters": {
-								"comparison": 4,
-								"count": "0"
-							}
 						}
 					],
 					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Gun",
-							"sid": 234722210333478
-						},
 						{
 							"id": "set-enabled",
 							"objectClass": "Enemy",
@@ -1188,9 +1172,67 @@
 							"parameters": {
 								"state": "enabled"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Enemy",
+							"sid": 554502667303985,
+							"parameters": {
+								"instance-variable": "GunSpawn",
+								"value": "false"
+							}
 						}
 					],
 					"sid": 614604784549056
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 461276733185631,
+							"parameters": {
+								"instance-variable": "GunSpawn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy",
+							"sid": 457076572815914,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 142213877402571
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy",
+							"sid": 821067967025509,
+							"parameters": {
+								"instance-variable": "GunSpawn"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Gun",
+							"sid": 686789690869429
+						}
+					],
+					"sid": 460277644398342
 				},
 				{
 					"eventType": "block",
@@ -1203,15 +1245,6 @@
 								"instance-variable": "Health",
 								"comparison": 3,
 								"value": "0"
-							}
-						},
-						{
-							"id": "compare-child-count",
-							"objectClass": "Enemy",
-							"sid": 343545541127415,
-							"parameters": {
-								"comparison": 4,
-								"count": "0"
 							}
 						},
 						{
@@ -1539,14 +1572,12 @@
 					],
 					"actions": [
 						{
-							"id": "spawn-another-object",
+							"id": "set-boolean-instvar",
 							"objectClass": "CloudPanda",
-							"sid": 442798433924482,
+							"sid": 862257468734854,
 							"parameters": {
-								"object": "Gun",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
+								"instance-variable": "GunSpawn",
+								"value": "true"
 							}
 						}
 					],
@@ -1600,25 +1631,69 @@
 								"image-point": "0"
 							},
 							"isInverted": true
-						},
+						}
+					],
+					"actions": [
 						{
-							"id": "compare-child-count",
+							"id": "set-boolean-instvar",
 							"objectClass": "CloudPanda",
-							"sid": 564093061886322,
+							"sid": 886662722656974,
 							"parameters": {
-								"comparison": 4,
-								"count": "0"
+								"instance-variable": "GunSpawn",
+								"value": "false"
 							}
+						}
+					],
+					"sid": 726460783959134
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "CloudPanda",
+							"sid": 704116172554562,
+							"parameters": {
+								"instance-variable": "GunSpawn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "CloudPanda",
+							"sid": 126326355191957,
+							"parameters": {
+								"object": "Gun",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 196046994868746
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "CloudPanda",
+							"sid": 871721735601354,
+							"parameters": {
+								"instance-variable": "GunSpawn"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
 						{
 							"id": "destroy",
 							"objectClass": "Gun",
-							"sid": 461905466960168
+							"sid": 936996792828986
 						}
 					],
-					"sid": 726460783959134
+					"sid": 339489297835505
 				},
 				{
 					"eventType": "block",
@@ -1678,6 +1753,11 @@
 								"volume": "-32",
 								"tag-optional": "\"\""
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "CloudPanda",
+							"sid": 417728767838696
 						}
 					],
 					"sid": 804744533503280

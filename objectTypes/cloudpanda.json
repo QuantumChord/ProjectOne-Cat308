@@ -21,6 +21,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 202207868954432
+		},
+		{
+			"name": "GunSpawn",
+			"type": "boolean",
+			"desc": "",
+			"sid": 851964803247765
 		}
 	],
 	"behaviorTypes": [
