@@ -1786,6 +1786,30 @@
 					],
 					"sid": 991143379433541,
 					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "CloudPanda",
+							"sid": 690494527196383,
+							"parameters": {
+								"instance-variable": "IsWalkingLeft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "CloudPanda",
+							"sid": 153287246491243,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 584989353703156
 				}
 			],
 			"sid": 862305321171231
