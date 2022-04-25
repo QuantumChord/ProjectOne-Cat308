@@ -757,7 +757,8 @@
 							}
 						}
 					],
-					"sid": 895188883936440
+					"sid": 895188883936440,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -795,7 +796,8 @@
 							"sid": 410587358892946
 						}
 					],
-					"sid": 677062721069654
+					"sid": 677062721069654,
+					"disabled": true
 				}
 			],
 			"sid": 289945159721035
@@ -4120,10 +4122,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Cam",
-							"sid": 890439233791667,
+							"sid": 746177981401107,
 							"parameters": {
-								"x": "lerp(Self.X, Player.X, 0.03)",
-								"y": "lerp(Self.Y, Player.Y-150, 0.03)"
+								"x": "lerp(Self.X, Mouse.X, 0.03)",
+								"y": "lerp(Self.Y, Mouse.Y-150, 0.03)"
 							}
 						}
 					],
