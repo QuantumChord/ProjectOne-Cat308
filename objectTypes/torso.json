@@ -1,7 +1,7 @@
 {
-	"name": "cbbteryubetkgfim65st",
+	"name": "torso",
 	"plugin-id": "Sprite",
-	"sid": 496497840118801,
+	"sid": 872591484352361,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,32 @@
 			{
 				"frames": [
 					{
-						"width": 848,
-						"height": 377,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 137,
+						"height": 170,
+						"originX": 0.48905109489051096,
+						"originY": -0.13529411764705881,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9278857,
+						"imageSpriteId": 3649410,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0.9941176470588236,
+								0,
+								0.9941176470588236
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 999739992624666,
-				"name": "Default",
+				"sid": 848681806100590,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
