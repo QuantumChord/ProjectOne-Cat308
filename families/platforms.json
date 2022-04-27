@@ -3,13 +3,7 @@
 	"plugin-id": "Sprite",
 	"sid": 447240424489769,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 763720150707546
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [
 		"MovingPlatform",

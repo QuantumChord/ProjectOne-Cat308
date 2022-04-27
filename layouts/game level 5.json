@@ -1914,8 +1914,8 @@
 						]
 					},
 					"world": {
-						"x": 311,
-						"y": 7760,
+						"x": 4149,
+						"y": 2449,
 						"width": 69.632,
 						"height": 152.832,
 						"originX": 0.5772058823529411,
@@ -3842,12 +3842,6 @@
 					"uid": 467,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Jumpthru": {
 							"properties": {
 								"enabled": true
@@ -3869,7 +3863,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4426,12 +4420,6 @@
 					"uid": 482,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Jumpthru": {
 							"properties": {
 								"enabled": true
@@ -4453,7 +4441,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4613,12 +4601,6 @@
 					"uid": 494,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -4633,9 +4615,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -4654,7 +4637,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4695,12 +4678,6 @@
 					"uid": 471,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Jumpthru": {
 							"properties": {
 								"enabled": true
@@ -4722,7 +4699,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4763,12 +4740,6 @@
 					"uid": 472,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -4783,9 +4754,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -4804,7 +4776,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4845,12 +4817,6 @@
 					"uid": 495,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -4865,9 +4831,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -4886,7 +4853,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4927,12 +4894,6 @@
 					"uid": 465,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -4947,9 +4908,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -4968,7 +4930,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5009,12 +4971,6 @@
 					"uid": 474,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -5029,9 +4985,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -5050,7 +5007,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5295,12 +5252,6 @@
 						"Fading": false
 					},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -5311,7 +5262,7 @@
 								"period-offset-random": 0,
 								"magnitude": 100,
 								"magnitude-random": 0,
-								"enabled": true,
+								"enabled": false,
 								"live-preview": false
 							}
 						},
@@ -5346,7 +5297,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5387,12 +5338,6 @@
 					"uid": 500,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -5407,9 +5352,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -5428,7 +5374,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5469,12 +5415,6 @@
 					"uid": 501,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Jumpthru": {
 							"properties": {
 								"enabled": true
@@ -5496,7 +5436,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5509,8 +5449,8 @@
 						]
 					},
 					"world": {
-						"x": 4182,
-						"y": 869,
+						"x": 3974,
+						"y": 858,
 						"width": 203,
 						"height": 96,
 						"originX": 0.5911330049261084,
@@ -5593,12 +5533,6 @@
 					"uid": 503,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -5613,9 +5547,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -5634,7 +5569,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5675,12 +5610,6 @@
 					"uid": 504,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Jumpthru": {
 							"properties": {
 								"enabled": true
@@ -5702,7 +5631,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -5743,12 +5672,6 @@
 					"uid": 473,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "vertical",
@@ -5763,9 +5686,10 @@
 								"live-preview": false
 							}
 						},
-						"Jumpthru": {
+						"Solid": {
 							"properties": {
-								"enabled": true
+								"enabled": true,
+								"tags": ""
 							}
 						}
 					},
@@ -5784,7 +5708,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -7847,6 +7771,68 @@
 						"height": 128,
 						"originX": 0.6735395189003437,
 						"originY": 0.580046403712297,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "staticplat",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 220,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 4366,
+						"y": 852,
+						"width": 203,
+						"height": 96,
+						"originX": 0.5911330049261084,
+						"originY": 0.3958333333333333,
 						"color": [
 							1,
 							1,

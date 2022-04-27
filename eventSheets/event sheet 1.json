@@ -3832,11 +3832,29 @@
 							}
 						},
 						{
+							"id": "set-enabled",
+							"objectClass": "fadingplat",
+							"sid": 120063671982955,
+							"behaviorType": "Jumpthru",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 248089392317570,
 							"parameters": {
 								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "fadingplat",
+							"sid": 176218071179589,
+							"behaviorType": "Jumpthru",
+							"parameters": {
+								"state": "enabled"
 							}
 						},
 						{
