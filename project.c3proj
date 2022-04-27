@@ -224,7 +224,8 @@
 			"pocky",
 			"putNumberofBulletsonGun",
 			"torso",
-			"Sprite16"
+			"Sprite16",
+			"Text"
 		],
 		"subfolders": [
 			{
@@ -446,6 +447,7 @@
 	},
 	"layouts": {
 		"items": [
+			"s6",
 			"Game Level",
 			"LevelbyAnthony",
 			"JoeDevRoom"
@@ -462,7 +464,6 @@
 					"s3",
 					"Game level 4",
 					"s4",
-					"s6",
 					"Game level 5",
 					"End"
 				],
