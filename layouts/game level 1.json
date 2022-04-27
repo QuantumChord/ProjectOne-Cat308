@@ -946,7 +946,8 @@
 						"Gun": 0,
 						"level": 0,
 						"Eggs": 0,
-						"FloatTrigger": false
+						"FloatTrigger": false,
+						"Reloading": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -980,7 +981,7 @@
 							},
 							{
 								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"Fired\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"IsDead\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Ammo\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Gun\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"level\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Eggs\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"FloatTrigger\\\",\\\"state\\\":true}]\"}]"
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[{\\\"iv\\\":\\\"Fired\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"IsDead\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Health\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Ammo\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Gun\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"level\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Eggs\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"FloatTrigger\\\",\\\"state\\\":true},{\\\"iv\\\":\\\"Reloading\\\",\\\"state\\\":true}]\"}]"
 							},
 							{
 								"id": "behavior",

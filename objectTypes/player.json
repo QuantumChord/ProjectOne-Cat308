@@ -51,6 +51,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 419189588690988
+		},
+		{
+			"name": "Reloading",
+			"type": "boolean",
+			"desc": "",
+			"sid": 789399011927148
 		}
 	],
 	"behaviorTypes": [

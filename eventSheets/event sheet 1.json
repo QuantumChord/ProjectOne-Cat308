@@ -3141,6 +3141,15 @@
 								"comparison": 0,
 								"value": "1"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 929052008567324,
+							"parameters": {
+								"instance-variable": "Reloading"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -3299,9 +3308,60 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 466030645067555,
+							"parameters": {
+								"instance-variable": "Reloading",
+								"value": "true"
+							}
 						}
 					],
 					"sid": 580203231282354
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 431992718351043,
+							"parameters": {
+								"key": 82
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "reloadTimer",
+							"sid": 888724077511439,
+							"parameters": {
+								"animation": "\"Timer\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "reloadTimer",
+							"sid": 391877587104455,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 457630651748694,
+							"parameters": {
+								"instance-variable": "Reloading",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 928267527897977
 				},
 				{
 					"eventType": "block",
@@ -3331,6 +3391,15 @@
 							"sid": 860996416292751,
 							"parameters": {
 								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 136421382261480,
+							"parameters": {
+								"instance-variable": "Reloading",
+								"value": "false"
 							}
 						}
 					],
