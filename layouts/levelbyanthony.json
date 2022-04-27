@@ -144,7 +144,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1215,7 +1215,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -4551,7 +4551,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",

@@ -226,7 +226,9 @@
 			"torso",
 			"Sprite16",
 			"Text",
-			"reaoodv"
+			"reaoodv",
+			"movmenetredo",
+			"cherrybomb"
 		],
 		"subfolders": [
 			{

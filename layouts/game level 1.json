@@ -459,6 +459,62 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "movmenetredo",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"template": {
+						"mode": "none",
+						"templateName": "",
+						"sourceTemplateName": "",
+						"components": [
+							{
+								"id": "plugin",
+								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
+							},
+							{
+								"id": "instance-variable",
+								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
+							},
+							{
+								"id": "behavior",
+								"component": "[]"
+							},
+							{
+								"id": "effect",
+								"component": "[]"
+							},
+							{
+								"id": "world-instance",
+								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
+							}
+						]
+					},
+					"world": {
+						"x": 160,
+						"y": 800,
+						"width": 320,
+						"height": 256,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 574755643147772,
@@ -1252,7 +1308,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1329,7 +1385,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1598,7 +1654,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1666,7 +1722,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1743,7 +1799,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1820,7 +1876,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1888,7 +1944,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -2300,7 +2356,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -2368,7 +2424,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -2904,62 +2960,6 @@
 						"height": 1312,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "movement",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"template": {
-						"mode": "none",
-						"templateName": "",
-						"sourceTemplateName": "",
-						"components": [
-							{
-								"id": "plugin",
-								"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"initially-visible\\\",true],[\\\"initial-animation\\\",true],[\\\"initial-frame\\\",true],[\\\"enable-collisions\\\",true]]\"}]"
-							},
-							{
-								"id": "instance-variable",
-								"component": "[{\"key\":\"instance-variable\",\"state\":\"[]\"}]"
-							},
-							{
-								"id": "behavior",
-								"component": "[]"
-							},
-							{
-								"id": "effect",
-								"component": "[]"
-							},
-							{
-								"id": "world-instance",
-								"component": "[{\"key\":\"world-instance\",\"state\":\"[[\\\"x\\\",false],[\\\"y\\\",false],[\\\"z\\\",true],[\\\"w\\\",true],[\\\"h\\\",true],[\\\"a\\\",true],[\\\"o\\\",true],[\\\"c\\\",true],[\\\"sx\\\",true],[\\\"sy\\\",true],[\\\"bm\\\",true]]\"}]"
-							}
-						]
-					},
-					"world": {
-						"x": 128,
-						"y": 1344,
-						"width": 256,
-						"height": 224,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -4213,7 +4213,7 @@
 					}
 				},
 				{
-					"type": "reload",
+					"type": "reaoodv",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -4221,7 +4221,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 20,
+					"uid": 8,
 					"instanceVariables": {},
 					"behaviors": {},
 					"template": {
@@ -4252,10 +4252,10 @@
 						]
 					},
 					"world": {
-						"x": 1152,
-						"y": 1024,
-						"width": 320,
-						"height": 256,
+						"x": 1184,
+						"y": 1056,
+						"width": 405,
+						"height": 313,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -4571,7 +4571,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
+								"component": "[{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",

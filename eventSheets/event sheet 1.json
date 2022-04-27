@@ -3823,15 +3823,6 @@
 							}
 						},
 						{
-							"id": "set-enabled",
-							"objectClass": "fadingplat",
-							"sid": 398115323528773,
-							"behaviorType": "Solid",
-							"parameters": {
-								"state": "disabled"
-							}
-						},
-						{
 							"id": "set-animation",
 							"objectClass": "fadingplat",
 							"sid": 247598189989454,
@@ -3864,15 +3855,6 @@
 							"parameters": {
 								"instance-variable": "Fading",
 								"value": "false"
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "fadingplat",
-							"sid": 648235985146114,
-							"behaviorType": "Solid",
-							"parameters": {
-								"state": "enabled"
 							}
 						}
 					],
