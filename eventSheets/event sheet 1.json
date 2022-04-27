@@ -28,6 +28,16 @@
 							"parameters": {
 								"key": 68
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 746257068529760,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
@@ -70,6 +80,16 @@
 							"parameters": {
 								"key": 83
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 497450000123730,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
@@ -94,6 +114,16 @@
 							"sid": 587977552170691,
 							"parameters": {
 								"key": 65
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 235614311803676,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
 							}
 						}
 					],
@@ -136,6 +166,16 @@
 							"sid": 846712008843647,
 							"parameters": {
 								"key": 87
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 387707172048579,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
 							}
 						}
 					],
@@ -272,6 +312,16 @@
 							"id": "on-any-key-released",
 							"objectClass": "Keyboard",
 							"sid": 258276351613324
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 544247888256295,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 4,
+								"value": "0"
+							}
 						}
 					],
 					"actions": [
@@ -302,6 +352,15 @@
 					],
 					"actions": [
 						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 431795925549964,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 422842976321427,
@@ -317,15 +376,6 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "10"
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Player",
-							"sid": 313488807532490,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "disabled"
 							}
 						}
 					],
@@ -421,21 +471,21 @@
 					],
 					"actions": [
 						{
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 606994100512488,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 108729087662646,
 							"parameters": {
 								"animation": "\"DIE\"",
 								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Player",
-							"sid": 258256055805968,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "disabled"
 							}
 						}
 					],
