@@ -1,0 +1,37 @@
+{
+	"name": "reaoodv",
+	"plugin-id": "Sprite",
+	"sid": 566773521644739,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 405,
+						"height": 313,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6138888,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 199502128275935,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

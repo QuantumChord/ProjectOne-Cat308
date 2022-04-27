@@ -225,7 +225,8 @@
 			"putNumberofBulletsonGun",
 			"torso",
 			"Sprite16",
-			"Text"
+			"Text",
+			"reaoodv"
 		],
 		"subfolders": [
 			{
