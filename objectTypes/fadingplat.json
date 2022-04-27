@@ -21,6 +21,11 @@
 			"behaviorId": "Fade",
 			"name": "Fade",
 			"sid": 126875458647581
+		},
+		{
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 887119758278930
 		}
 	],
 	"effectTypes": [],

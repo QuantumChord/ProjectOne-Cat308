@@ -9,6 +9,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 753310293601668
+		},
+		{
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 393478388051165
 		}
 	],
 	"effectTypes": [],

@@ -1005,6 +1005,11 @@
 								"enabled": true,
 								"live-preview": false
 							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"template": {
@@ -1022,7 +1027,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1699,6 +1704,11 @@
 								"enabled": false,
 								"live-preview": false
 							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"template": {
@@ -1716,7 +1726,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1788,6 +1798,11 @@
 								"enabled": false,
 								"live-preview": false
 							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"template": {
@@ -1805,7 +1820,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Fade\",\"state\":\"[[\\\"fade-in-time\\\",true],[\\\"wait-time\\\",true],[\\\"fade-out-time\\\",true],[\\\"destroy\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
@@ -1865,6 +1880,11 @@
 								"enabled": true,
 								"live-preview": false
 							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"template": {
@@ -1882,7 +1902,7 @@
 							},
 							{
 								"id": "behavior",
-								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"}]"
+								"component": "[{\"key\":\"Sine\",\"state\":\"[[\\\"movement\\\",true],[\\\"wave\\\",true],[\\\"period\\\",true],[\\\"period-random\\\",true],[\\\"period-offset\\\",true],[\\\"period-offset-random\\\",true],[\\\"magnitude\\\",true],[\\\"magnitude-random\\\",true],[\\\"enabled\\\",true]]\"},{\"key\":\"Solid\",\"state\":\"[[\\\"enabled\\\",true],[\\\"tags\\\",true]]\"},{\"key\":\"Jumpthru\",\"state\":\"[[\\\"enabled\\\",true]]\"}]"
 							},
 							{
 								"id": "effect",
