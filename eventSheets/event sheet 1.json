@@ -521,8 +521,7 @@
 							}
 						}
 					],
-					"sid": 791654615342840,
-					"disabled": true
+					"sid": 791654615342840
 				},
 				{
 					"eventType": "block",
@@ -3266,7 +3265,7 @@
 						{
 							"id": "on-click",
 							"objectClass": "Mouse",
-							"sid": 132206136279153,
+							"sid": 452006331922612,
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked"
@@ -3275,7 +3274,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 646993654961486,
+							"sid": 106869568654812,
 							"parameters": {
 								"instance-variable": "Ammo",
 								"comparison": 0,
@@ -3285,25 +3284,26 @@
 					],
 					"actions": [
 						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 472582635789401,
+							"id": "set-animation",
+							"objectClass": "reloadTimer",
+							"sid": 804243214310814,
 							"parameters": {
-								"seconds": "5"
+								"animation": "\"Timer\"",
+								"from": "beginning"
 							}
 						}
 					],
-					"sid": 820187535866954
+					"sid": 580203231282354
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 607461622793247,
+							"id": "on-animation-finished",
+							"objectClass": "reloadTimer",
+							"sid": 473161680616450,
 							"parameters": {
-								"key": 82
+								"animation": "\"Timer\""
 							}
 						}
 					],
@@ -3311,25 +3311,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Player",
-							"sid": 310017848385578,
+							"sid": 477780229099357,
 							"parameters": {
 								"instance-variable": "Ammo",
 								"value": "6"
 							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 829510972526456,
-							"parameters": {
-								"audio-file": "gun reload",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"\""
-							}
 						}
 					],
-					"sid": 367583989015116
+					"sid": 340347502150895
 				}
 			],
 			"sid": 207141634756619
@@ -4607,6 +4596,24 @@
 						}
 					],
 					"sid": 756095000220129
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 464867573162822
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-animation",
+							"objectClass": "reloadTimer",
+							"sid": 684362820602477
+						}
+					],
+					"sid": 342817495406543
 				}
 			],
 			"sid": 711572916003009
