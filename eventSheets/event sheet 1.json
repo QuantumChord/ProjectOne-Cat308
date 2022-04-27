@@ -3291,6 +3291,14 @@
 								"animation": "\"Timer\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "reloadTimer",
+							"sid": 808350180038807,
+							"parameters": {
+								"visibility": "visible"
+							}
 						}
 					],
 					"sid": 580203231282354
@@ -3315,6 +3323,14 @@
 							"parameters": {
 								"instance-variable": "Ammo",
 								"value": "6"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "reloadTimer",
+							"sid": 860996416292751,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -4611,6 +4627,14 @@
 							"id": "stop-animation",
 							"objectClass": "reloadTimer",
 							"sid": 684362820602477
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "reloadTimer",
+							"sid": 737359835738128,
+							"parameters": {
+								"visibility": "invisible"
+							}
 						}
 					],
 					"sid": 342817495406543
