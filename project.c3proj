@@ -222,8 +222,6 @@
 			"deadGirl3",
 			"amped_Arm2",
 			"pocky",
-			"healthHearts",
-			"reloadTimer",
 			"putNumberofBulletsonGun",
 			"torso",
 			"Sprite16"
@@ -354,7 +352,10 @@
 					"Sprite",
 					"boxingGlove",
 					"bunnyGunArm",
-					"BoxingP"
+					"BoxingP",
+					"Bulletcount",
+					"reloadTimer",
+					"healthHearts"
 				],
 				"subfolders": [],
 				"name": "Player"

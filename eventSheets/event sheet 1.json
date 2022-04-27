@@ -487,6 +487,11 @@
 								"animation": "\"DIE\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "aimbot",
+							"sid": 262894716870022
 						}
 					],
 					"sid": 288262768769509
@@ -516,7 +521,8 @@
 							}
 						}
 					],
-					"sid": 791654615342840
+					"sid": 791654615342840,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -661,6 +667,14 @@
 							"parameters": {
 								"animation": "\"dead\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "aimbot",
+							"sid": 831174568913650,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -4324,12 +4338,11 @@
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "heart",
-							"sid": 935672884228995,
+							"id": "set-animation-frame",
+							"objectClass": "healthHearts",
+							"sid": 867579858379780,
 							"parameters": {
-								"animation": "\"hp3\"",
-								"from": "beginning"
+								"frame-number": "0"
 							}
 						}
 					],
@@ -4351,12 +4364,11 @@
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "heart",
-							"sid": 468352534448352,
+							"id": "set-animation-frame",
+							"objectClass": "healthHearts",
+							"sid": 414753368236211,
 							"parameters": {
-								"animation": "\"hp2\"",
-								"from": "beginning"
+								"frame-number": "1"
 							}
 						}
 					],
@@ -4378,16 +4390,223 @@
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "heart",
-							"sid": 832399253734962,
+							"id": "set-animation-frame",
+							"objectClass": "healthHearts",
+							"sid": 643728748706479,
 							"parameters": {
-								"animation": "\"hp1\"",
-								"from": "beginning"
+								"frame-number": "2"
 							}
 						}
 					],
 					"sid": 642377742270356
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 510274640371985,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "healthHearts",
+							"sid": 193950817888039,
+							"parameters": {
+								"frame-number": "3"
+							}
+						}
+					],
+					"sid": 832232897220614
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 189687119601494,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 146816844812238,
+							"parameters": {
+								"frame-number": "6"
+							}
+						}
+					],
+					"sid": 450628715428661
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 837843078633340,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 250059164678671,
+							"parameters": {
+								"frame-number": "5"
+							}
+						}
+					],
+					"sid": 710602816038940
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 832824223920337,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 757351425560723,
+							"parameters": {
+								"frame-number": "4"
+							}
+						}
+					],
+					"sid": 216337176522640
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 573176011317866,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 351900627870911,
+							"parameters": {
+								"frame-number": "3"
+							}
+						}
+					],
+					"sid": 610877490589548
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 439320170502111,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 825460213683952,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 936732888425422
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 702586113864815,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 141621518485867,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 856117067430227
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 516029168826477,
+							"parameters": {
+								"instance-variable": "Ammo",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Bulletcount",
+							"sid": 149365450527680,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 756095000220129
 				}
 			],
 			"sid": 711572916003009
