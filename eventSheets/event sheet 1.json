@@ -4117,6 +4117,7 @@
 							"id": "set-text",
 							"objectClass": "Health",
 							"sid": 483533602085211,
+							"disabled": true,
 							"parameters": {
 								"text": "Player.Health"
 							}
@@ -4125,6 +4126,7 @@
 							"id": "set-text",
 							"objectClass": "ammo",
 							"sid": 988360776860526,
+							"disabled": true,
 							"parameters": {
 								"text": "Player.Ammo"
 							}
@@ -4133,6 +4135,7 @@
 							"id": "set-position-to-another-object",
 							"objectClass": "heart",
 							"sid": 715739348132630,
+							"disabled": true,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "1"
@@ -4142,6 +4145,7 @@
 							"id": "set-position-to-another-object",
 							"objectClass": "Ammocount",
 							"sid": 168998091413522,
+							"disabled": true,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "\"ammoc\""
@@ -4151,6 +4155,7 @@
 							"id": "set-position-to-another-object",
 							"objectClass": "ammo",
 							"sid": 110096832236496,
+							"disabled": true,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "\"ammo\""
@@ -4172,10 +4177,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "Cam",
-							"sid": 746177981401107,
+							"sid": 887264833474014,
 							"parameters": {
-								"x": "lerp(Self.X, Mouse.X, 0.03)",
-								"y": "lerp(Self.Y, Mouse.Y-150, 0.03)"
+								"x": "lerp(Self.X, Player.X, 0.03)",
+								"y": "lerp(Self.Y, Player.Y-150, 0.03)"
 							}
 						}
 					],
@@ -4246,6 +4251,7 @@
 							"id": "spawn-another-object",
 							"objectClass": "Cam",
 							"sid": 606187959877635,
+							"disabled": true,
 							"parameters": {
 								"object": "ammo",
 								"layer": "\"Game\"",
@@ -4268,6 +4274,7 @@
 							"id": "spawn-another-object",
 							"objectClass": "Cam",
 							"sid": 734821582279953,
+							"disabled": true,
 							"parameters": {
 								"object": "Ammocount",
 								"layer": "\"Game\"",
@@ -4290,6 +4297,7 @@
 							"id": "spawn-another-object",
 							"objectClass": "Player",
 							"sid": 617223706296605,
+							"disabled": true,
 							"parameters": {
 								"object": "heart",
 								"layer": "\"Game\"",
