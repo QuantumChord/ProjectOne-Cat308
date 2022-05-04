@@ -16,17 +16,6 @@
 			"maximum-distance": 10000,
 			"roll-off-factor": 1
 		},
-		"uid": 37,
-		"template": {
-			"mode": "none",
-			"templateName": "",
-			"sourceTemplateName": "",
-			"components": [
-				{
-					"id": "plugin",
-					"component": "[{\"key\":\"plugin\",\"state\":\"[[\\\"timescale-audio\\\",true],[\\\"save-load\\\",true],[\\\"play-in-background\\\",true],[\\\"latency-hint\\\",true],[\\\"panning-model\\\",true],[\\\"distance-model\\\",true],[\\\"listener-z-height\\\",true],[\\\"reference-distance\\\",true],[\\\"maximum-distance\\\",true],[\\\"roll-off-factor\\\",true]]\"}]"
-				}
-			]
-		}
+		"uid": 37
 	}
 }
