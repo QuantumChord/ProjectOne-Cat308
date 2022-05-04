@@ -1,0 +1,37 @@
+{
+	"name": "RS20770_GettyImages157567487scr",
+	"plugin-id": "Sprite",
+	"sid": 935415897829311,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 980,
+						"height": 653,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4244665,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 729127222169731,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

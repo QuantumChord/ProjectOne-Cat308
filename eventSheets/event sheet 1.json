@@ -220,6 +220,7 @@
 						}
 					],
 					"sid": 426050309421297,
+					"disabled": true,
 					"isOrBlock": true
 				},
 				{
@@ -262,7 +263,8 @@
 							}
 						}
 					],
-					"sid": 235555500473743
+					"sid": 235555500473743,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -303,7 +305,8 @@
 							}
 						}
 					],
-					"sid": 678751376386160
+					"sid": 678751376386160,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -4161,11 +4164,122 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 560918178551643
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 777017618104238,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 174287561015444,
+							"parameters": {
+								"audio-file": "sad_track",
+								"loop": "looping",
+								"volume": "-15",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 399627133614753
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 131052034782522
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 841317761545720,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 864418431529192,
+							"parameters": {
+								"audio-file": "sad_track",
+								"loop": "looping",
+								"volume": "-15",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 766201688877899
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 729535520761402
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 148779940885585,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "7"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 904454206074329,
+							"parameters": {
+								"audio-file": "OnlyMP3.to_-_Happy_Kids_-_Royalty_Free_Music_Background_Music_Upbeat_Joyful_Instrumental_Children-rTKYWeaS1s4-192k-1649479522243",
+								"loop": "looping",
+								"volume": "-15",
+								"tag-optional": "\"1\""
+							}
+						}
+					],
+					"sid": 831329505853964
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
 							"sid": 864560984596235,
 							"parameters": {
 								"object": "staticplat"
+							}
+						},
+						{
+							"id": "compare-time",
+							"objectClass": "System",
+							"sid": 783126061327353,
+							"parameters": {
+								"comparison": 4,
+								"time-seconds": "4.0"
 							}
 						}
 					],
@@ -4928,6 +5042,50 @@
 						}
 					],
 					"sid": 844009619973014
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 615009896578562,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Redo"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 992101085730361,
+							"parameters": {
+								"variable": "Level",
+								"comparison": 0,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 765029405679593,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 974457613410823,
+							"parameters": {
+								"layout": "Game level 6"
+							}
+						}
+					],
+					"sid": 758811654124570
 				}
 			],
 			"sid": 268355709682477
@@ -4976,6 +5134,44 @@
 						}
 					],
 					"sid": 538827968976530
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 109647840161351,
+							"parameters": {
+								"object": "playerkill"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 483950758782984,
+							"parameters": {
+								"variable": "Level",
+								"value": "1"
+							}
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 358761905485594
+						},
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 997845159524157,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 201974345969069
 				},
 				{
 					"eventType": "block",
@@ -5088,6 +5284,49 @@
 						}
 					],
 					"sid": 157120043806661
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 142591361367358,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "TiledBackground7"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 164961641775544,
+							"parameters": {
+								"layout": "Game level 6"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 985351403214671,
+							"parameters": {
+								"tag": "\"1\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 849533996314860,
+							"parameters": {
+								"variable": "Level",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 301787523138538
 				},
 				{
 					"eventType": "block",
@@ -5252,11 +5491,11 @@
 						{
 							"id": "on-object-clicked",
 							"objectClass": "Mouse",
-							"sid": 901004911225321,
+							"sid": 170366801096522,
 							"parameters": {
 								"mouse-button": "left",
 								"click-type": "clicked",
-								"object-clicked": "secretlevel"
+								"object-clicked": "Sprite2"
 							}
 						}
 					],
@@ -5264,9 +5503,9 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 687648819534762,
+							"sid": 744563650375120,
 							"parameters": {
-								"layout": "LevelbyAnthony"
+								"layout": "Main"
 							}
 						},
 						{
@@ -5276,6 +5515,11 @@
 							"parameters": {
 								"tag": "\"1\""
 							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 672053873224314
 						}
 					],
 					"sid": 306655410053790
@@ -5286,23 +5530,44 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 836395436380449,
+							"sid": 263426260475803,
 							"parameters": {
-								"object": "Sprite2"
+								"object": "end"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 825229907768689,
-							"parameters": {
-								"layout": "End"
-							}
+							"id": "destroy",
+							"objectClass": "Goal",
+							"sid": 280974050346839
 						}
 					],
 					"sid": 412160326814742
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 448651955327442,
+							"parameters": {
+								"object": "playerkill"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 722644992345894,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 365860086282826
 				}
 			],
 			"sid": 311478726899178

@@ -489,19 +489,19 @@
 					}
 				},
 				{
-					"type": "pastreflection",
+					"type": "Text14",
 					"properties": {
-						"text": "Past-Reflection",
+						"text": "Help Eric find his way",
 						"enable-bbcode": true,
 						"font": "Broadway",
-						"size": 28,
+						"size": 19,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							0,
-							0,
+							0.9686274509803922,
+							0.00784313725490196,
+							0.00784313725490196,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -510,7 +510,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 430,
+					"uid": 272,
 					"instanceVariables": {},
 					"behaviors": {},
 					"template": {
@@ -541,10 +541,10 @@
 						]
 					},
 					"world": {
-						"x": 139,
-						"y": 69,
-						"width": 309.98432095168806,
-						"height": 56,
+						"x": 126,
+						"y": 78,
+						"width": 338,
+						"height": 49,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -553,7 +553,7 @@
 							1,
 							1
 						],
-						"angle": 0.01209519200636644,
+						"angle": 0.026226592309396165,
 						"zElevation": 0
 					}
 				}

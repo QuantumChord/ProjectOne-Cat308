@@ -228,7 +228,13 @@
 			"Text",
 			"reaoodv",
 			"movmenetredo",
-			"cherrybomb"
+			"cherrybomb",
+			"gpsrdboathouseinmaine2",
+			"s",
+			"Police_Line_Crime_Scene_",
+			"Sprite17",
+			"Text15",
+			"RS20770_GettyImages157567487scr"
 		],
 		"subfolders": [
 			{
@@ -272,7 +278,9 @@
 							"Text11",
 							"Text12",
 							"Text13",
-							"cop1"
+							"cop1",
+							"Text14",
+							"end"
 						],
 						"subfolders": [],
 						"name": "story"
@@ -374,7 +382,8 @@
 					"Road",
 					"buildingPlat",
 					"Sprite14",
-					"FakePlatform"
+					"FakePlatform",
+					"playerkill"
 				],
 				"subfolders": [
 					{
@@ -435,6 +444,19 @@
 					}
 				],
 				"name": "Enemies"
+			},
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"TiledBackground7"
+						],
+						"subfolders": [],
+						"name": "New folder"
+					}
+				],
+				"name": "Finale"
 			}
 		]
 	},
@@ -450,7 +472,6 @@
 	},
 	"layouts": {
 		"items": [
-			"s6",
 			"Game Level",
 			"LevelbyAnthony",
 			"JoeDevRoom"
@@ -468,6 +489,8 @@
 					"Game level 4",
 					"s4",
 					"Game level 5",
+					"s6",
+					"Game level 6",
 					"End"
 				],
 				"subfolders": [],
@@ -476,7 +499,8 @@
 			{
 				"items": [
 					"GameOver",
-					"boss"
+					"boss",
+					"end1"
 				],
 				"subfolders": [],
 				"name": "Story slides"
