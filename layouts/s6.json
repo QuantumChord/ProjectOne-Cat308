@@ -156,7 +156,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 28,
-						"y": 552,
+						"y": 571,
 						"width": 850.3035669494661,
 						"height": 73.43268752719601,
 						"originX": 0,
@@ -174,7 +174,7 @@
 				{
 					"type": "Text15",
 					"properties": {
-						"text": "Eric Philip bunkin Jones was once a simple man. Trying to find his way in life in the best way he can; consuming Hallucinogens pills that looked like eggs.",
+						"text": "Eric fell to his death. Eric Philip bunkin Jones was once a simple man. Trying to find his way in life in the best way he can; consuming Hallucinogens pills that looked like eggs.",
 						"enable-bbcode": true,
 						"font": "Times New Roman",
 						"size": 18,
@@ -200,7 +200,7 @@
 						"x": 28,
 						"y": 490,
 						"width": 850.3035669494661,
-						"height": 75.40044140202517,
+						"height": 86.40444932595774,
 						"originX": 0,
 						"originY": 0,
 						"color": [
